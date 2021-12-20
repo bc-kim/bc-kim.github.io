@@ -1,12 +1,12 @@
 ---
 permalink: /publications/
-title: "Publications"
+title: ""
+classes: wide
 ---
 Journal Papers
-Byungchul Kim, Useok Jeong, Brian Byunghyun Kang, Kyu-Jin Cho, "Slider-Tendon Linear Actuator with Under-actuation and Fast-connection for Soft Wearable Robots ", in IEEE/ASME Transactions on Mechatronics (I.F 5.673, Top 10%). [[pdf]][Tmech_pdf] [[site]][Tmech_link]
+---
 
-[Tmech_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Slider-Tendon_Linear_Actuator_With_Under-Actuation_and_Fast-Connection_for_Soft_Wearable_Robots.pdf
-[Tmech_link]: https://ieeexplore.ieee.org/document/9314058 "Go google"
+Byungchul Kim, Useok Jeong, Brian Byunghyun Kang, Kyu-Jin Cho, "Slider-Tendon Linear Actuator with Under-actuation and Fast-connection for Soft Wearable Robots ", in IEEE/ASME Transactions on Mechatronics (I.F 5.673, Top 10%). [[pdf]][Tmech_pdf] [[site]][Tmech_link]
 
 Byungchul Kim, Jiwon Ryu, Kyu-Jin Cho, "Joint Angle Estimation of a Tendon-Driven Soft Wearable Robot through a Tension and Stroke Measurement," in Sensors (I.F 3.275, Top 25%), 20.10 (2020): 2852. [pdf] [site]
 
@@ -35,8 +35,5 @@ Byungchul Kim, Hyunki In, Kyu-Jin Cho, Strap driven system for hand soft exoskel
 
 Byungchul Kim, Daeyoung Lee, Jisuk Kim, Hyunki In, Kyu-Jin Cho, Usability assessment of a glove type writing assistive device for people with spinal cord injury, Rehabilitation Engineering and Assistive Technology Society of Korea, Jeonju, Korea, April 2012.
 
-
-[![Video Label](http://img.youtube.com/vi/uLR1RNqJ1Mw/0.jpg)](https://youtu.be/uLR1RNqJ1Mw?t=0s)
-CV can be downloaded [Here][CV]
-
-[CV]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV-2021-01-07.pdf "Go google"
+[Tmech_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Slider-Tendon_Linear_Actuator_With_Under-Actuation_and_Fast-Connection_for_Soft_Wearable_Robots.pdf
+[Tmech_link]: https://ieeexplore.ieee.org/document/9314058 "Go google"
