@@ -1,5 +1,5 @@
 ---
-permalink: /home/
+permalink: /
 title: "Online CV of BC-Kim"
 layout : single
 header: 
