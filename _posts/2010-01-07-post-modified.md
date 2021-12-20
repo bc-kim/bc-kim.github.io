@@ -7,7 +7,7 @@ tags:
   - Post Formats
   - readability
   - standard
-toc: "true"
+toc: "false"
 header: 
   image: /assets/images/Slider_TendonLinearActuator.png
 ---
