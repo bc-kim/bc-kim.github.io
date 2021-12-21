@@ -30,8 +30,6 @@ docs:
         url: /researches/uatdsystem
 
 abouts:
-  - title: "Home"
-    url: / 
   - title: "Research Interests"
     url: /about/#research-interests
   - title: "Experience"
