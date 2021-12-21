@@ -14,6 +14,15 @@ header:
     - label: "Download CV"
       url: "https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV-2021-01-07.pdf"
 ---
+
+Research Interests
+---
+- Soft wearable robotic system
+- Hand wearable robot
+- Tendon-driven actuator
+- Prosthetic hand
+- Simulation and control
+
 Research experiences 
 ---
 
@@ -28,12 +37,20 @@ I have been an intern at Aerow in Paris, as a Software Engineer and integrator. 
 
 Education
 ---
+Mar. 2014 - Aug. 2020
+```
+Ph.D. in Mechanical Engineering
+Seoul National University, Seoul, Korea
+Dissertation: Tendon-Driven Hand Wearable Robot using Slider-Tendon Linear Actuator Advisor: Prof. Kyu-Jin Cho|
+```
 
-Graduate Exchange Program - Daejeon (South-Korea):
-I studied abroad for a year in the top university of KAIST in South-Korea, where I specialized in Machine-Learning. I completed my initial background with skills in Deep-Learning, NLP, Computer Vision as well as Search-Based Algorithms.
+Mar. 2012 - Feb. 2014 | M.S. in Mechanical and Aerospace Engineering
+Seoul National University, Seoul, Korea
+Thesis: A user-friendly assistive glove for SCI people performing natural writing posture Advisor: Prof. Kyu-Jin Cho
 
-Master Of Engineering - Rouen (France):
-I graduated from INSA Rouen Normandy with a Master of Engineering in April 2018, majoring in Applied Mathematics and Computer Science.
+Mar. 2008 - Feb. 2012 | B.S. in Mechanical and Aerospace Engineering
+Seoul National University, Seoul, Korea
+Advisor: Prof. Minsu Kim
 
 ---
 Technical Skills

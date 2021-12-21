@@ -32,7 +32,9 @@ docs:
 abouts:
   - title: "Home"
     url: / 
+  - title: "Research Interests"
+    url: /about/#research-interests
   - title: "Research experiences"
     url: /about/#research-experiences
-  - title: "Educations"
+  - title: "Education"
     url: /about/#education

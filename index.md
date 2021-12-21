@@ -5,7 +5,7 @@ layout : single
 classes: wide
 
 author_profile: true
-excerpt: "Online portfolio of Byungchul Kim."
+excerpt: "Postdoctoral Research Fellow at SNU"
 header:
   overlay_image: /assets/images/Slider_TendonLinearActuator.png
   actions:
@@ -14,17 +14,18 @@ header:
 ---
 About me
 ---
+I am a Postdoctoral Research Fellow at the Seoul National University, Seoul, Korea, working with [Professor Kyu-jin Cho][Lab_link] in department of Mechanical engineering, since September 2020. I am currently working on tendon-driven soft wearable robot and tendon transmissions in [Soft Robotic Research Center (SRRC)][SRRC_link].
 
-I’m currently working at [Soft Robotic Research Center (SRRC)][SRRC_link] in Seoul National University, as a senior researcher, since September 2020.
->As a problem-solving enthusiast, I have always been eager to meet new technical challenges, where I can learn some new things and feed my curiosity.   I got myself into Data Science early in my education and had the chance to get my hands on all kinds of data, from sequential to spatial, images, audio signals, BI data etc.
-As an R&D Engineer, I love to put forward my technical and analytical skills, tackle original problems and learn every day.
+>I have been researching the enabling technologies necessary for robots to be used in real life, not in a laboratory. More specifically, I aimed to solve the trade-off issue between the robot performance and the robot compexity. This is because the high price and complexity of the robot elememts (e.g., sensors, actuators, controllers) are the main reasons that makes robots difficult to use in real life. As a robotic researcher, -- since I believe that the convergence of multi-disciplines is the most important key for successful robot that can be used in real life -- I am looking forward to collaborating with researchers in various fields.
 
-You can check my detail informations on my [about][about_link] page. Also, details of my researches and publications are described on my [research][Research_link] page and [publication][publication_link] page, respectively. 
+You can check my detail informations on my [about][about_link] page. Also, details of my researches and publications are described on my [research][Research_link] page and [publication][publication_link] page, respectively. For any inquires, you can reach me via email: [kbc1990@snu.ac.kr][email] 
 
-CV can be downloaded from [here][cv_link].
+CV can be downloaded from [here][cv_link]. 
 
 [SRRC_link]: https://www.srrc.snu.ac.kr
 [Research_link]: /researches/
 [publication_link]: /publications/
+[Lab_link]: https://biorobotics.snu.ac.kr
 [about_link]: /about/
 [cv_link]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV-2021-01-07.pdf
+[email]: mailto:kbc1990@snu.ac.kr
