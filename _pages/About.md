@@ -73,7 +73,7 @@ header:
 |Controller design <br>and simulation|  <span>&#8226;</span>  MATLAB<br> <span>&#8226;</span>  Labiew<br> <span>&#8226;</span>  QTcreator|
 |Control system <br>prototyping|  <span>&#8226;</span>  ROS<br>  <span>&#8226;</span>  CompactRIO<br>  <span>&#8226;</span>  FPGA<br>  <span>&#8226;</span>  STM<br>  <span>&#8226;</span>  Arduino|
 |Analysis|  <span>&#8226;</span>  MATLAB<br>  <span>&#8226;</span>  Working model 2D|
-|CAD design|  <span>&#8226;</span>  SOLIDWORKS<br>  <span>&#8226;</span>  CARTIA|
+|CAD design|  <span>&#8226;</span>  SOLIDWORKS<br>  <span>&#8226;</span>  CATIA|
 |Manufacturing|  <span>&#8226;</span>  CNC milling<br>  <span>&#8226;</span>  laser cutter<br>  <span>&#8226;</span>  3D printing|
 |Circuitdesign <br> and Artworks|  <span>&#8226;</span>  KiCAD<br>  <span>&#8226;</span>  Eagle CAD|
 
