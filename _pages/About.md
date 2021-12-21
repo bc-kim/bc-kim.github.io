@@ -73,7 +73,7 @@ header:
 - Analysis (MATLAB, Working model 2D, etc.)
 - CAD design (SOLIDWORKS, CARTIA, etc.)
 - Manufacturing (CNC milling, laser cutter, 3D printing, etc.)
-- Circuitdesign,Artworks
+- Circuitdesign,Artworks (KiCAD, Eagle CAD)
 
 >Scholarship
 ---
