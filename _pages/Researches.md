@@ -7,6 +7,8 @@ sidebar:
   nav: "docs"
 ---
 
+<iframe width="950" height="534" src="https://www.youtube.com/embed/fLd5IRjUdt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Journal Papers
 Byungchul Kim, Useok Jeong, Brian Byunghyun Kang, Kyu-Jin Cho, "Slider-Tendon Linear Actuator with Under-actuation and Fast-connection for Soft Wearable Robots ", in IEEE/ASME Transactions on Mechatronics (I.F 5.673, Top 10%). [[pdf]][Tmech_pdf] [[site]][Tmech_link]
 

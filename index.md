@@ -16,7 +16,7 @@ header:
 
 About me
 
-I’m currently working at [Soft Robotic Research Center (SRRC)][SRRC_link] in Seoul, as a post doc researcher, since September 2020.
+I’m currently working at [Soft Robotic Research Center (SRRC)][SRRC_link] in Seoul National University, as a senior researcher, since September 2020.
 
 ---
 As a problem-solving enthusiast, I have always been eager to meet new technical challenges, where I can learn some new things and feed my curiosity.

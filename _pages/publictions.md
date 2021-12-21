@@ -3,15 +3,33 @@ permalink: /publications/
 title: ""
 classes: wide
 ---
-Journal Papers
+International Journals
 ---
 
-Byungchul Kim, Useok Jeong, Brian Byunghyun Kang, Kyu-Jin Cho, "Slider-Tendon Linear Actuator with Under-actuation and Fast-connection for Soft Wearable Robots ", in IEEE/ASME Transactions on Mechatronics (I.F 5.673, Top 10%). [[pdf]][Tmech_pdf] [[site]][Tmech_link]
+1| **Byungchul Kim**, Useok Jeong, Brian Byunghyun Kang, Kyu-Jin Cho, "Slider-Tendon Linear Actuator with Under-actuation and Fast-connection for Soft Wearable Robots ", in **IEEE/ASME Transactions on Mechatronics (I.F 5.673, Top 10%)**. [[pdf]][Tmech_pdf] [[site]][Tmech_link] 
 
-Byungchul Kim, Jiwon Ryu, Kyu-Jin Cho, "Joint Angle Estimation of a Tendon-Driven Soft Wearable Robot through a Tension and Stroke Measurement," in Sensors (I.F 3.275, Top 25%), 20.10 (2020): 2852. [pdf] [site]
+2| **Byungchul Kim**, Jiwon Ryu, Kyu-Jin Cho, "Joint Angle Estimation of a Tendon-Driven Soft Wearable Robot through a Tension and Stroke Measurement," in **Sensors (I.F 3.275, Top 25%)**, 20.10 (2020): 2852. [[pdf]][Sensors_pdf] [[site]][Sensors_link]
 
-Byungchul Kim, Hyunki In, Daeyoung Lee, Kyu-Jin Cho, "Development and assessment of a hand assist device: GRIPIT", in Journal of NeuroEngineering and Rehabilitation (I.F 3.519, Top 10%), 14.1 (2017): 15. [pdf] [site]
+3| **Byungchul Kim**, Hyunki In, Daeyoung Lee, Kyu-Jin Cho, "Development and assessment of a hand assist device: GRIPIT", in **Journal of NeuroEngineering and Rehabilitation (I.F 3.519, Top 10%)**, 14.1 (2017): 15. [[pdf]][JNER_pdf] [site][JNER_link]
 
+Journals Under Review / in Preparation
+---
+
+4| **Byungchul Kim**, Kyubum Kim, Kyu-Jin Cho, "Exo-Glove Thumb: A Hybrid Wearable Robot for the Thumb Assistance via Under-actuation Mechanism," in preparation.
+
+5| **Byungchul Kim**, Useok Jeong, Kyu-Jin Cho, "Design Framework for the Optimal Tendon Routing in the Under- actuated Tendon Driven Robot", in preparation
+
+Patent
+---
+
+6| Kyu-Jin Cho, **Byungchul Kim**, Daeyoung Lee, “PEN HOLDER”, US 9522562, US.   
+
+7| Kyu-Jin Cho, Hyunki In, Kyuhan Cho, **Byungchul Kim**, “PASSIVE VARIABLE TRANSMISSION FOR WIRE DRIVEN JOINT MECHANISM”, 10-11600270-0000, KR. <font color="#F7FE2E">**Technology transfer** </font>   
+
+8| Kyu-Jin Cho, **Byungchul Kim**, Hyungmin Choi, “SLIDER TYPE TENDON DRIVEN ACTUATOR FOR UNDER-ACTUATION AND GLOVE TYPE WEARABLE ROBOT HAVING THE SAME ACTUATOR”, 2020/005275, Patent pending (PCT/KR).
+
+Books
+---
 Myungjoon Lim, Jiyoung Park, Kuem Ju Lee, Hyosun Kweon, Byungchul Kim, Kyu-Jin Cho, Hyun Choi, "Usability of a New Writing Assistive Device for Persons with Cervical Spinal Cord Injury," in Studies in health technology and informatics, 217 (2015): 710-717.
 
 Conference Papers
