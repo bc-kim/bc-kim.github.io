@@ -34,7 +34,19 @@ abouts:
     url: / 
   - title: "Research Interests"
     url: /about/#research-interests
-  - title: "Research experiences"
-    url: /about/#research-experiences
+  - title: "Experience"
+    url: /about/#experience
   - title: "Education"
     url: /about/#education
+  - title: "Research experience"
+    url: /about/#research-experience
+  - title: "Technical Skills"
+    url: /about/#technical-skills
+  - title: "Scholarship"
+    url: /about/#scholarship
+  - title: "Awards"
+    url: /about/#awards
+  - title: "Teaching Experience"
+    url: /about/#teaching-experience
+  - title: "Contact & CV"
+    url: /about/#contact--cv

@@ -7,7 +7,7 @@ classes: wide
 author_profile: false
 sidebar:
   nav: "abouts"
-excerpt: "Online portfolio of Byungchul Kim."
+excerpt: "Postdoctoral Research Fellow at SNU"
 header:
   overlay_image: /assets/images/Slider_TendonLinearActuator.png
   actions:
@@ -15,15 +15,33 @@ header:
       url: "https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV-2021-01-07.pdf"
 ---
 
-Research Interests
+>Research Interests
 ---
+
 - Soft wearable robotic system
 - Hand wearable robot
+- Under-actuated system
 - Tendon-driven actuator
 - Prosthetic hand
 - Simulation and control
 
-Research experiences 
+>Experience
+---
+
+|Preiod|Experience|
+|:---:|:---|
+|Sep.2020  <br>-<br> Present|<b><font color="#F7FE2E">Senior researcher</font></b><br> Soft Robotics Research Center (SRRC), Biorobotics Lab, Seoul National University <br> Project: Soft wearable robots <br> Advisor: Prof. Kyu-Jin Cho|
+
+>Education
+---
+
+|Preiod|Education|
+|:---:|:---|
+|Mar.2014  <br>-<br> Aug.2020|<b><font color="#F7FE2E">Ph.D. in Mechanical Engineering</font></b><br> Seoul National University, Seoul, Korea <br>  Dissertation: Tendon-Driven Hand Wearable Robot using Slider-Tendon Linear Actuator <br> Advisor: Prof. Kyu-Jin Cho|
+|Mar.2012 <br>-<br> Feb.2014|<b><font color="#F7FE2E">M.S. in Mechanical and Aerospace Engineering</font></b><br> Seoul National University, Seoul, Korea <br>  Dissertation: A user-friendly assistive glove for SCI people performing natural writing posture <br> Advisor: Prof. Kyu-Jin Cho|
+|Mar.2008 <br>-<br> Feb.2012|<b><font color="#F7FE2E">B.S. in Mechanical and Aerospace Engineering</font></b><br> Seoul National University, Seoul, Korea <br> Advisor: Prof. Minsu Kim|
+
+>Research experience
 ---
 
 Machine Learning R&D Engineer - Shanghai:
@@ -35,102 +53,57 @@ I have been a volunteer in a Research Laboratory dedicated to Artificial Intelli
 Software Engineer Intern - Paris:
 I have been an intern at Aerow in Paris, as a Software Engineer and integrator. I have been developing a simple OCR for bankcheques CMC7 code, using simple Machine-Learning techniques.
 
-Education
 ---
-Mar. 2014 - Aug. 2020
-```
-Ph.D. in Mechanical Engineering
-Seoul National University, Seoul, Korea
-Dissertation: Tendon-Driven Hand Wearable Robot using Slider-Tendon Linear Actuator Advisor: Prof. Kyu-Jin Cho|
-```
 
-Mar. 2012 - Feb. 2014 | M.S. in Mechanical and Aerospace Engineering
-Seoul National University, Seoul, Korea
-Thesis: A user-friendly assistive glove for SCI people performing natural writing posture Advisor: Prof. Kyu-Jin Cho
+>Technical Skills
+---
 
-Mar. 2008 - Feb. 2012 | B.S. in Mechanical and Aerospace Engineering
-Seoul National University, Seoul, Korea
-Advisor: Prof. Minsu Kim
+- Various prototyping experiences (Exo-Glove, Bionic arm, GRIPIT, embedded control module for rehabilitation devices, experimental setups)
+- Actuator design and control (Tendon-driven actuators for the soft wearable robots, low-level control, CAN open communication)
+- Clinical test experiences (Clinical test of Exo-Glove, GRIPIT, Bionic arm, rehabilitation devices for the stroke patient, etc.)
+- Controllerdesignandsimulation(MATLAB,Labiew,QTcreator,etc.)
+- Control system prototyping (ROS, CompactRIO, FPGA, STM, Arduino, etc.)
+- Analysis (MATLAB, Working model 2D, etc.)
+- CAD design (SOLIDWORKS, CARTIA, etc.)
+- Manufacturing (CNC milling, laser cutter, 3D printing, etc.)
+- Circuitdesign,Artworks
 
+>Scholarship
 ---
-Technical Skills
----
-Proficient with: Python, C/C++, Tensorflow, Apache Spark, Torch7, Scikit-Learn, Matlab, MongoDB, SQL, bash, Git.
-Familiar with: Java
 
+|Preiod|Scholarship|
+|:---:|:---|
+|Mar.2014  <br>-<br> Aug.2020|<b><font color="#F7FE2E">Ph.D. in Mechanical Engineering</font></b><br> Seoul National University, Seoul, Korea <br>  Dissertation: Tendon-Driven Hand Wearable Robot using Slider-Tendon Linear Actuator <br> Advisor: Prof. Kyu-Jin Cho|
+|Mar.2012 <br>-<br> Feb.2014|<b><font color="#F7FE2E">M.S. in Mechanical and Aerospace Engineering</font></b><br> Seoul National University, Seoul, Korea <br>  Dissertation: A user-friendly assistive glove for SCI people performing natural writing posture <br> Advisor: Prof. Kyu-Jin Cho|
+|Mar.2008 <br>-<br> Feb.2012|<b><font color="#F7FE2E">B.S. in Mechanical and Aerospace Engineering</font></b><br> Seoul National University, Seoul, Korea <br> Advisor: Prof. Minsu Kim|
+
+
+>Awards
 ---
-CV
+
+|Preiod|Awards|
+|:---:|:---|
+|Dec.2016|Excellence award, Government 3.0 National Participation and Collaboration Contest, Ministry of Health and Welfare|
+|Nov.2012|Excellence award, Creative design competition, Seoul National University|
+|Nov.2012|Bronze prize, International Co-Creative Design Competition, Bronze prize|
+
+>Teaching Experience
 ---
-Find attached the PDF version of my CVs:
-English version: CV
-French version: CV
+
+|Preiod|Teaching Experience|
+|:---:|:---|
+|Mar. 2017 - Jun. 2017|<b><font color="#F7FE2E">Teaching Assistant</font></b><br> Introduction for soft robotics (Prof. Kyu-Jin Cho) <br>Seoul National University|
+|Mar. 2012 - Jun. 2012|<b><font color="#F7FE2E">Teaching Assistant</font></b><br>Mechanical System Modeling and Control (Prof. Kyu-Jin Cho)<br>Seoul National University|
+|Mar. 2020 - Dec. 2020 <br> Mar. 2019 - Jun. 2019 <br> Mar. 2018 - Dec. 2018 <br> Mar. 2017 - Dec. 2017 <br> Mar. 2012 - Dec. 2012|<b><font color="#F7FE2E">B.S Thesis/UROP Tutoring</font></b><br>Led the B.S. Thesis of three undergraduate students (Prof. Kyu-Jin Cho)<br>Led four students for the Undergraduate Research Opportunities (Prof. Kyu-Jin Cho)<br> Seoul National University|
+
+>Contact & CV
+---
+
+For any inquires, you can reach me via email: [kbc1990@snu.ac.kr][email].
+
+CV can be downloaded from [here][cv_link]. 
 
 Update: 2020/01/13
 
----
-
-Scholar ship
----
-
-
-Awards
----
-
-Teaching Experience
----
-
-Contact me
----
-For any inquires, you can reach me via email: rafael.cartenet@gmail.com
-
----
-2020 - Present
-Postdoctoral Research Fellow of Soft Robotics Research Center (SRRC), Biorobotics Lab, Seoul National University
-Advisors: Prof. Kyu-Jin Cho (homepage)
-Project: Soft wearable robots, Tendon-driven actuator for rehabilitation
-
-2014 - 2020
-Ph.D. in Mechanical Engineering, Seoul National University (SNU), Seoul, Korea.
- Major: Tendon-driven soft wearable robot / Minor: Under-actuation mechanism
- Thesis: Tendon-Driven Hand Wearable Robot using Slider-Tendon Linear Actuator
- Advisor: Professor Kyu-jin Cho (homepage)
-
-2012 - 2014
-M.S. in Mechanical Engineering, Seoul National University (SNU), Seoul, Korea.
-
-2008 - 2012
-B.S. in Mechanical and Aerospace Engineering, Seoul National University (SNU), Seoul, South Korea.
-
----
-
-Lectures
-서울대학교 기계 시스템 해석 수업 조교 (2012.03. - 2012.06. )
-QoLT(Quality of Life Technology)산업기술기반 지원센터 조교 ( 2014.03. - 2014.11. )
-장애인 산업 기술 인력 양성 온라인 강좌 개발조교 (2014.06. - 2015.05. )
-'FUN-MOOC: 기계는 영원하다' 온라인 강좌 개발 강의 조교 (2016.08. - 2017.01. )
-서울대학교 소프트 로봇 입문 수업 조교 (2017.03. - 2017.06)
-북일고등학교, 진로 교육 (2020. 06. - 2020.12)
-
----
-Prizes 
-International Co-Creative Design Competition, Bronze Prize
-창의적 종합설계 경진대회 우수상
-함께하는 기술 발표회 최우수상
-정부3.0 국민 참여 및 협업 우수사례 경진대회 우수상
-
----
-Prizes 
-International Co-Creative Design Competition, Bronze Prize
-창의적 종합설계 경진대회 우수상
-함께하는 기술 발표회 최우수상
-정부3.0 국민 참여 및 협업 우수사례 경진대회 우수상
-
----
-Research Projects
-2017.03. – 2018.02. 인간중심 소프트 로봇 기술 연구 센터 과제
-2015.09. – 2017.07. 생체모사 바이오닉 손 메커니즘 개발 과제
-2013.10. – 2014.11. 유연한 착용형 손재활 로봇 개발 과제
-2013.10. – 2014.08. 원격 능동촉감 감지 가능한 under-actuated 엄지-검지 시스템 개발
-2013.01. – 2014.10. 재활보조용 임베디드 제어 모듈 및 적용절차 개발과 상지근력 보조기구에 대한 적용 과제 
-
-Links
+[cv_link]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV-2021-01-07.pdf
+[email]: mailto:kbc1990@snu.ac.kr
