@@ -6,8 +6,6 @@ main:
     url: /publications/
   - title: "Researches"
     url: /researches/
-  - title: "Tags"
-    url: /tags/
     
 docs:
   - title: Overview
