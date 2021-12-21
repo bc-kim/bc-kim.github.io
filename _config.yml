@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Byungchul Kim"
 description              : "Online CV of bckim."
-url                      : "https://bc-kim.github.io/home"
+url                      : "https://bc-kim.github.io"
 baseurl                  : #"/bc-kim"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"

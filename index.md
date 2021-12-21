@@ -5,7 +5,7 @@ layout : single
 classes: wide
 
 author_profile: true
-excerpt: "On-line portfolio of Byungchul Kim."
+excerpt: "Online portfolio of Byungchul Kim."
 header:
   overlay_image: /assets/images/Slider_TendonLinearActuator.png
   actions:
@@ -16,14 +16,14 @@ header:
 
 About me
 
-I’m currently working at Openfield in Paris, as a full-time Machine-Learning R&D Engineer, since June 2018.
+I’m currently working at [Soft Robotic Research Center (SRRC)][SRRC_link] in Seoul, as a post doc researcher, since September 2020.
 
 ---
 As a problem-solving enthusiast, I have always been eager to meet new technical challenges, where I can learn some new things and feed my curiosity.
 I got myself into Data Science early in my education and had the chance to get my hands on all kinds of data, from sequential to spatial, images, audio signals, BI data etc.
 As an R&D Engineer, I love to put forward my technical and analytical skills, tackle original problems and learn every day.
 
-You can check about my different projects on my research page
+You can check about my different projects on my [research][Research_link] page
 
 --- 
 
@@ -111,3 +111,8 @@ Research Projects
 2013.10. – 2014.11. 유연한 착용형 손재활 로봇 개발 과제
 2013.10. – 2014.08. 원격 능동촉감 감지 가능한 under-actuated 엄지-검지 시스템 개발
 2013.01. – 2014.10. 재활보조용 임베디드 제어 모듈 및 적용절차 개발과 상지근력 보조기구에 대한 적용 과제 
+
+Links
+
+[SRRC_link]: https://www.srrc.snu.ac.kr
+[Research_link]: /researches/
