@@ -10,46 +10,21 @@ main:
     url: /tags/
     
 docs:
-  - title: Getting Started
-    children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
+  - title: Overview
+    url: /researches
 
-  - title: Customization
+  - title: Wearable Robots
     children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
+      - title: "Exo-Glove Shell"
+        url: /researches/exogloveshell
+      - title: "Exo-Glove Index"
+        url: /researches/exogloveindex
+      - title: "GRIPIT"
+        url: /researches/gripit
 
-  - title: Content
+  - title: Tendon transmission
     children:
-      - title: "Working with Posts"
-        url: /docs/posts/
-      - title: "Working with Pages"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
-
-  - title: Extras
-    children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
+      - title: "Tendon Driven Actuator"
+        url: /researches/actuator
+      - title: "Tendon Driven System"
+        url: /researches/uatdsystem
