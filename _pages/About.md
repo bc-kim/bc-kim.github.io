@@ -65,15 +65,17 @@ header:
 >Technical Skills
 ---
 
-- Various prototyping experiences (Exo-Glove, Bionic arm, GRIPIT, embedded control module for rehabilitation devices, experimental setups)
-- Actuator design and control (Tendon-driven actuators for the soft wearable robots, low-level control, CAN open communication)
-- Clinical test experiences (Clinical test of Exo-Glove, GRIPIT, Bionic arm, rehabilitation devices for the stroke patient, etc.)
-- Controllerdesignandsimulation(MATLAB,Labiew,QTcreator,etc.)
-- Control system prototyping (ROS, CompactRIO, FPGA, STM, Arduino, etc.)
-- Analysis (MATLAB, Working model 2D, etc.)
-- CAD design (SOLIDWORKS, CARTIA, etc.)
-- Manufacturing (CNC milling, laser cutter, 3D printing, etc.)
-- Circuitdesign,Artworks (KiCAD, Eagle CAD)
+|Categories|Technical Skills|
+|:---:|:---|
+|Various <br>prototyping <br> experiences|  <span>&#8226;</span>  Exo-Glove<br>  <span>&#8226;</span>  Bionic arm<br>  <span>&#8226;</span>  GRIPIT<br>  <span>&#8226;</span>  Embedded control module for rehabilitation devices<br>  <span>&#8226;</span>  Experimental setups|
+|Actuator design <br> and control|  <span>&#8226;</span>  Tendon-driven actuators for the soft wearable robots<br>  <span>&#8226;</span>  Low-level control<br>  <span>&#8226;</span>  CAN open communication|
+|Clinical test<br> experiences |  <span>&#8226;</span>  Clinical test of Exo-Glove<br>  <span>&#8226;</span>  GRIPIT<br>  <span>&#8226;</span>  Bionic arm<br>  <span>&#8226;</span>  Rehabilitation devices for the stroke patient|
+|Controller design <br>and simulation|  <span>&#8226;</span>  MATLAB<br> <span>&#8226;</span>  Labiew<br> <span>&#8226;</span>  QTcreator|
+|Control system <br>prototyping|  <span>&#8226;</span>  ROS<br>  <span>&#8226;</span>  CompactRIO<br>  <span>&#8226;</span>  FPGA<br>  <span>&#8226;</span>  STM<br>  <span>&#8226;</span>  Arduino|
+|Analysis|  <span>&#8226;</span>  MATLAB<br>  <span>&#8226;</span>  Working model 2D|
+|CAD design|  <span>&#8226;</span>  SOLIDWORKS<br>  <span>&#8226;</span>  CARTIA|
+|Manufacturing|  <span>&#8226;</span>  CNC milling<br>  <span>&#8226;</span>  laser cutter<br>  <span>&#8226;</span>  3D printing|
+|Circuitdesign <br> and Artworks|  <span>&#8226;</span>  KiCAD<br>  <span>&#8226;</span>  Eagle CAD|
 
 >Scholarship
 ---
