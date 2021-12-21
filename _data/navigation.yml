@@ -28,3 +28,11 @@ docs:
         url: /researches/actuator
       - title: "Tendon Driven System"
         url: /researches/uatdsystem
+
+abouts:
+  - title: "Home"
+    url: / 
+  - title: "Research experiences"
+    url: /about/#research-experiences
+  - title: "Educations"
+    url: /about/#education

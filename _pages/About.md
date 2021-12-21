@@ -4,7 +4,9 @@ title: "Byungchul Kim"
 layout : single
 classes: wide
 
-author_profile: true
+author_profile: false
+sidebar:
+  nav: "abouts"
 excerpt: "Online portfolio of Byungchul Kim."
 header:
   overlay_image: /assets/images/Slider_TendonLinearActuator.png
@@ -12,22 +14,9 @@ header:
     - label: "Download CV"
       url: "https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV-2021-01-07.pdf"
 ---
-
-
-About me
-
-I’m currently working at [Soft Robotic Research Center (SRRC)][SRRC_link] in Seoul National University, as a senior researcher, since September 2020.
-
+Research experiences 
 ---
-As a problem-solving enthusiast, I have always been eager to meet new technical challenges, where I can learn some new things and feed my curiosity.
-I got myself into Data Science early in my education and had the chance to get my hands on all kinds of data, from sequential to spatial, images, audio signals, BI data etc.
-As an R&D Engineer, I love to put forward my technical and analytical skills, tackle original problems and learn every day.
 
-You can check about my different projects on my [research][Research_link] page
-
---- 
-
-Previous work experiences
 Machine Learning R&D Engineer - Shanghai:
 I completed my end-of-study internship in Shanghai as a Machine Learning R&D Engineer for a sino-french startup called Mediasia-Labs. I have been working on Deep-Learning and Advanced Algorithms applied to Pronunciation Evaluation for language learners.
 
@@ -37,8 +26,9 @@ I have been a volunteer in a Research Laboratory dedicated to Artificial Intelli
 Software Engineer Intern - Paris:
 I have been an intern at Aerow in Paris, as a Software Engineer and integrator. I have been developing a simple OCR for bankcheques CMC7 code, using simple Machine-Learning techniques.
 
----
 Education
+---
+
 Graduate Exchange Program - Daejeon (South-Korea):
 I studied abroad for a year in the top university of KAIST in South-Korea, where I specialized in Machine-Learning. I completed my initial background with skills in Deep-Learning, NLP, Computer Vision as well as Search-Based Algorithms.
 
@@ -46,12 +36,14 @@ Master Of Engineering - Rouen (France):
 I graduated from INSA Rouen Normandy with a Master of Engineering in April 2018, majoring in Applied Mathematics and Computer Science.
 
 ---
-Programming Skills
+Technical Skills
+---
 Proficient with: Python, C/C++, Tensorflow, Apache Spark, Torch7, Scikit-Learn, Matlab, MongoDB, SQL, bash, Git.
 Familiar with: Java
 
 ---
 CV
+---
 Find attached the PDF version of my CVs:
 English version: CV
 French version: CV
@@ -59,7 +51,19 @@ French version: CV
 Update: 2020/01/13
 
 ---
+
+Scholar ship
+---
+
+
+Awards
+---
+
+Teaching Experience
+---
+
 Contact me
+---
 For any inquires, you can reach me via email: rafael.cartenet@gmail.com
 
 ---
@@ -113,6 +117,3 @@ Research Projects
 2013.01. – 2014.10. 재활보조용 임베디드 제어 모듈 및 적용절차 개발과 상지근력 보조기구에 대한 적용 과제 
 
 Links
-
-[SRRC_link]: https://www.srrc.snu.ac.kr
-[Research_link]: /researches/
