@@ -1,6 +1,6 @@
 ---
 permalink: /researches/uatdsystem
-title: "Byungchul Kim"
+title: "Under-Actuated Tendon Driven System"
 layout : single
 
 author_profile: false
