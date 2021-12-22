@@ -9,7 +9,7 @@ sidebar:
   nav: "abouts"
 excerpt: "Postdoctoral Research Fellow at SNU"
 header:
-  overlay_image: /assets/images/Slider_TendonLinearActuator.png
+  overlay_image: /assets/images/Main.png
   actions:
     - label: "Download CV"
       url: "https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV-2021-01-07.pdf"
@@ -43,6 +43,9 @@ header:
 
 >Research experience
 ---
+
+ - Detail explanstions are described in the [research][Research_link] page.
+
 
 |Preiod|Research experience|
 |:---:|:---|
@@ -116,3 +119,4 @@ Update: 2020/01/13
 
 [cv_link]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV-2021-01-07.pdf
 [email]: mailto:kbc1990@snu.ac.kr
+[Research_link]: /researches/
