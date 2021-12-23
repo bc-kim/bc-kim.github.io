@@ -15,9 +15,9 @@ International Journals
 Journals Under Review / in Preparation
 ---
 
-4| <font color="#F7FE2E"><b>Byungchul Kim</b></font>, Kyubum Kim, Kyu-Jin Cho, "Exo-Glove Thumb: A Hybrid Wearable Robot for the Thumb Assistance via Under-actuation Mechanism," in preparation.
+4| <font color="#F7FE2E"><b>Byungchul Kim</b></font>, Useok Jeong, Kyu-Jin Cho, "Analysis and Design of Dual Tendon Routing for the Under-actuated Tendon-Driven Robotic Systems", IEEE Transactions on Robotics, submitted.
 
-5| <font color="#F7FE2E"><b>Byungchul Kim</b></font>, Useok Jeong, Kyu-Jin Cho, "Design Framework for the Optimal Tendon Routing in the Under- actuated Tendon Driven Robot", in preparation
+5| <font color="#F7FE2E"><b>Byungchul Kim</b></font>, Kyubum Kim, Sejin Jeong, Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," in preparation.
 
 Patents
 ---

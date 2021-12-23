@@ -9,4 +9,8 @@ sidebar:
   nav: "docs"
 
 ---
-Underactuation
+- **Byungchul Kim**, Useok Jeong, Kyu-Jin Cho, "Analysis and Design of Dual Tendon Routing for the Under-actuated Tendon-Driven Robotic Systems", IEEE Transactions on Robotics, submitted.
+
+
+---
+

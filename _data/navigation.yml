@@ -24,7 +24,7 @@ docs:
     children:
       - title: "Tendon Driven Actuator"
         url: /researches/actuator
-      - title: "Tendon Driven System"
+      - title: "Tendon Driven Mechanism"
         url: /researches/tdm
 
 abouts:
