@@ -1,5 +1,5 @@
 ---
-permalink: /researches/uatdsystem
+permalink: /researches/tdm
 title: "Under-Actuated Tendon Driven System"
 layout : single
 

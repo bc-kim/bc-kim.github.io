@@ -7,7 +7,9 @@ sidebar:
   nav: "docs"
 ---
 
-## Introduction
+**Introduction**
+---
+
 Due to significant improvements in robot components in terms of size and performance, technologies for wearable devices have received great attention and have been developed for various purposes. In the wearable device development process, it is required to satisfy two different kinds of performance factors:
 
 - Robot usability
@@ -24,37 +26,35 @@ For this reason, I aimed to solve the this trade-off issue, with the hope that w
 
 * An overview of my researches is explained in my [presentation video][video_link].
 
-## Aim of my researches
+**Aim of my researches**
+---
 Aim of my researches during the doctoral course can be described as 
 
  > Researches for the trade-off issue between the performance and the complexity of the wearable robots.
 
 Here are some studies I`ve done or currently working on to solve this trade-off issue:
 
-- Actuator Design 
+- Tendon Driven Actuator for the soft robots [[Link]][TendonDrivenActuator] 
 - Mechanism Studies
-- State estimation with limited sensors
-- A Hybrid Rigid-Soft robots
+  - Under-actuated Tendon-driven mechanism [[Link]][UATDM]
+  - Assist Device using high-force transmission ratio [[Link]][GRIPIT]
+- State Estimation with Limited Sensors [[Link]][EXOIndex]
+- A Hybrid Rigid-Soft hand wearable robot [[Link]][EXOShell]
 
+Please look for each individual research pages for the details of reseach contents.
 
-There exists several approaches to deal with this trade-off issues in the wearable robots.
-
-As the first approach to solve this trade off issue, our lab has used a <i>tendon transmission</i>. It is because this transmission makes the robot end-effector compact, simple, and safe by locating heavy/bulky components -- such as the actuator, controller, and battery -- far from the end-effector using simple Bowden cable as shown in Fig. 1.
-
-- Hand wearable robots and assist devices
-  - Exo-Glove Shell
-  - Exo-Glove Index
-  - GRIPIT
-- Tendon Driven Actuators and Tendon Driven Mechanism
-  - Tendon Driven Actuator
-  - Tendon Driven Mechanism
-
-
-**Overview presentation of my researches**
+**Overview Presentation Video**
 ---
+
 An overview of my researches is explained in my presentation video (long version) below. Short version of the videos, divided by each study, are located at each research pages.
 
 <iframe width="950" height="534" src="https://www.youtube.com/embed/fLd5IRjUdt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
 [publication]: /publications/
-[video_link]: /researches/#overview-presentation-of-my-researches/
+[video_link]: /researches/#overview-presentation-video
+[TendonDrivenActuator]: /researches/actuator
+[UATDM]: /researches/tdm
+[GRIPIT]: /researches/gripit
+[EXOIndex]: /researches/exogloveindex
+[EXOShell]: /researches/exogloveshell
