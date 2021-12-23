@@ -17,7 +17,8 @@ sidebar:
 
 ---
 
-Exo-GloveIndex
+The 
+
 
 [Sensors_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Kim%2C%20Ryu%2C%20Cho%20-%202020%20-%20Joint%20Angle%20Estimation%20of%20a%20Tendon-driven%20Soft%20Wearable%20Robot%20through%20a%20Tension%20and%20Stroke%20Measurement.pdf
 [Sensors_link]: https://www.mdpi.com/718524 
