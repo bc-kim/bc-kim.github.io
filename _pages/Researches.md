@@ -7,6 +7,13 @@ sidebar:
   nav: "docs"
 ---
 
+**Overview Presentation Video**
+---
+
+An overview of my researches is explained in my presentation video (long version) below. Short version of the videos, divided by each study, are located at each research pages.
+
+<iframe width="950" height="534" src="https://www.youtube.com/embed/fLd5IRjUdt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Introduction**
 ---
 
@@ -41,15 +48,7 @@ Here are some studies I`ve done or currently working on to solve this trade-off 
 - State Estimation with Limited Sensors [[Link]][EXOIndex]
 - A Hybrid Rigid-Soft hand wearable robot [[Link]][EXOShell]
 
-Please look for each individual research pages for the details of reseach contents. Presentation video related to my overall research can be found below as well.
-
-**Overview Presentation Video**
----
-
-An overview of my researches is explained in my presentation video (long version) below. Short version of the videos, divided by each study, are located at each research pages.
-
-<iframe width="950" height="534" src="https://www.youtube.com/embed/fLd5IRjUdt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+Please look for each individual research pages for the details of reseach contents. 
 
 [publication]: /publications/
 [video_link]: /researches/#overview-presentation-video

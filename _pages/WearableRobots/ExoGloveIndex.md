@@ -17,7 +17,7 @@ sidebar:
 
 ---
 
-The number of actuators
+The number of actuators 
 
 {% capture fig_img %}
 ![Foo]({{ "/assets/images/Researches/ExoIndex/ExoIndex.png" | relative_url }})
