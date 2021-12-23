@@ -1,6 +1,6 @@
 ---
-permalink: /researches/tdm
-title: "Under-Actuated Tendon Driven System"
+permalink: /reseraches/stateestimation
+title: "State Estimation"
 layout : single
 
 author_profile: false

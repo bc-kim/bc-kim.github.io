@@ -41,7 +41,7 @@ Here are some studies I`ve done or currently working on to solve this trade-off 
 - State Estimation with Limited Sensors [[Link]][EXOIndex]
 - A Hybrid Rigid-Soft hand wearable robot [[Link]][EXOShell]
 
-Please look for each individual research pages for the details of reseach contents.
+Please look for each individual research pages for the details of reseach contents. Presentation video related to my overall research can be found below as well.
 
 **Overview Presentation Video**
 ---

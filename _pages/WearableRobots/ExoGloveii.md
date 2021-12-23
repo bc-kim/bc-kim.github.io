@@ -1,5 +1,5 @@
 ---
-permalink: /researches/exogloveindex
+permalink: /researches/exogloveii
 title: "Exo-Glove Index"
 layout : single
 
@@ -16,18 +16,6 @@ sidebar:
 
 
 ---
-
-The number of actuators
-
-{% capture fig_img %}
-![Foo]({{ "/assets/images/Researches/ExoIndex/ExoIndex.png" | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption> <b> Fig. 1  Overall view of Exo-Index </b> <br> (a) shows two flexors (yellow line means All Flexor (A.F.) while the white line shows MCP Flexor (M.F.)) in a hand-open position, (b) shows an extensor named as All Extensor (blue line) in a hand-held position. In addition, the method of attaching vicon markers is shown in (c). Three markers attached on the back side of the hand are considered as the base frame.</figcaption>
-</figure>
-
 
 The number of actuator is important 
 

@@ -17,16 +17,20 @@ docs:
         url: /researches/exogloveshell
       - title: "Exo-Glove Index"
         url: /researches/exogloveindex
+      - title: "Exo-Glove II"
+        url: /researches/exogloveii
       - title: "GRIPIT"
         url: /researches/gripit
 
-  - title: Tendon transmission
+  - title: Others
     children:
       - title: "Tendon Driven Actuator"
         url: /researches/actuator
       - title: "Tendon Driven Mechanism"
         url: /researches/tdm
-
+      - title: "Human State Estimation"
+        url: /reseraches/stateestimation
+        
 abouts:
   - title: "Research Interests"
     url: /about/#research-interests
