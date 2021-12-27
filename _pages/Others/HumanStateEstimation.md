@@ -13,6 +13,27 @@ sidebar:
 
 
 ---
+When controlling a soft wearable robot, it is necessary to estimate not only the robot state, but also the human state. However, since it is difficult to attach sufficient number of sensors at the hand, estimating the human state is quite difficult in the hand wearable robot. In addition, if the robot is developed using the under-actuation mechanism, it becomes more difficult to estimate the human state. This is because the joint angle of the finger is not determined even the motor stroke is determined; there exist null space in the joint angle space. Therefore I have tried to estimate the human state using the Gaussian Progress Regression (GPR) rather than using the model-based method.
+
+{% capture fig_img %}
+![Foo]({{ "/assets/images/Researches/ExoIndex/Result.png" | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>Fig. 1. Results of estimation that shows relationship between joint angle and wire tension. (a) shows comparison of the ground truth angle with the estimated angle from data-driven method and the estimated angle from model-driven method; (b) and (c) each show response plot of the data-driven method and model-driven method respectively.</figcaption>
+</figure>
+
+
+This is because the angle of the finger joint is not determined even if the position of the motor is determined.
+
+robot can be 
+
+
+it is required to estimate the human 
+
+it is important to estimate the state of the human (joint )
+
 
 The complexity of the robot system is highly affected by the number of actuators. For this reason, several researchers have tried to use less number of actuators than the robot actual degree of freedoms (DoF); these robots and mechanism were named as <i> under-actuated robots </i> and <i>under-actuation mechanism</i>, respectively.
 
