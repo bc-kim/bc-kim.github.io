@@ -16,10 +16,14 @@ sidebar:
 
 ---
 
+**Definition of the Under-actuation mechanism**
+---
 The complexity of the robot system is highly affected by the number of actuators. For this reason, several researchers have tried to use less number of actuators than the robot actual degree of freedoms (DoF); these robots and mechanism were named as <i> under-actuated robots </i> and <i>under-actuation mechanism</i>, respectively.
 
 Among various transmissions used in the under-actuated robots, the tendon transmission 
 
+**Stratedgy to reduce the number of actuator**
+---
 Among various transmissions used for the under-actuated robots \cite{Birglen2006}, the under-actuated tendon transmission has shown advantages in making the robot compact and light. It is because the tendon is compliant with a small cross-section area, so it can pass through the joints without restrictions. In some researches, Bowden cable has been used to enhance these advantages by locating heavy and bulky components such as the actuators, controllers, and battery far from the robot 
 
 The number of actuator is 
