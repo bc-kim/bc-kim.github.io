@@ -14,9 +14,9 @@ sidebar:
 
 ---
 
-The number of actuators highly affects the robot complexity. Although the under-actuation mechanism (detail explanation is described [here][uatd_page_link]) can reduce the actuator number, we can not guarantee the robot controllability when this mechanism is used.
+The number of actuators highly affects the robot complexity. Although the under-actuation mechanism (detail explanation is described [here][uatd_page_link]) can reduce the actuator number, we can not guarantee the robot controllability when this mechanism is used. 
 
-For this reason, I have designed <i><b>Exo-Index</b></i> that only assists the index finger using three tendon-driven actuators. Since the thumb is fixed by 
+As an alternative method to reduce the number of actuators, I have designed a robot that assists only one finger with limited number of actuators. I have designed <i><b>Exo-Index</b></i> that only assists the index finger using three tendons as shown in Fig. 1; in this robot, two flexors (1. tendon that flexes all joints of the index finger; and 2. tendon that only flexes MCP joint) and one extensor that extends all joints of the index finger. 
 
 {% capture fig_img %}
 ![Foo]({{ "/assets/images/Researches/ExoIndex/ExoIndex.png" | relative_url }})
@@ -27,13 +27,7 @@ For this reason, I have designed <i><b>Exo-Index</b></i> that only assists the i
   <figcaption> <b> Fig. 1  Overall view of Exo-Index </b> <br> (a) shows two flexors (yellow line means All Flexor (A.F.) while the white line shows MCP Flexor (M.F.)) in a hand-open position, (b) shows an extensor named as All Extensor (blue line) in a hand-held position. In addition, the method of attaching vicon markers is shown in (c). Three markers attached on the back side of the hand are considered as the base frame.</figcaption>
 </figure>
 
-
-A way to reduce the number of actuators is to use a mechanism, but this does not secure control for each joint.
-
-
-The number of actuators greatly influences the complexity of the robot.
-
-
+In this robot, since the thumb is fixed by the passive structure, it was possible to grasp various objects even the robot assists a single finger as shown in Fig. 2. 
 
 {% capture fig_img %}
 ![Foo]({{ "/assets/images/Researches/ExoIndex/GraspExoIndex.png" | relative_url }})
@@ -45,9 +39,9 @@ The number of actuators greatly influences the complexity of the robot.
 </figcaption>
 </figure>
 
-The number of actuator is important 
+Although the robot was desgined with three tendons(actuators) to make various postures of the index finger, we need a robot system modeling to control the motion. However, the robot system modelling was remained difficult issue due to the numerous uncertainties in the robot system - e.g., it is difficult to figure out the joint stiffness because it changes as the human posture changes; it is also hard to know the exact tendon configuration which affects the tendon jacobian; and it is also difficult to know the center of rotation of the human joint. For instance, if we estimate the angle of the finger joints using tendon kinematics, the estiamted result can be differ a lot with its real value as shown in Fig. 3.
 
-When controlling the robot
+For this reason, I also studied to find the center of rotation and the angle of the human joints using the Gaussian Process Regression (GPR). Details are described in [here][state_page_link].
 
 {% capture fig_img %}
 ![Foo]({{ "/assets/images/Researches/ExoIndex/Result.png" | relative_url }})
@@ -55,13 +49,9 @@ When controlling the robot
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Fig. 1 Soft wearable robot application using the Slider-Tendon Linear Actuator. The proposed actuator provides adaptability and usability to the soft wearable robot by including functions such as fast-connection, under-actuation mechanism, and stroke amplification.</figcaption>
+  <figcaption>Fig. 3 Results of estimation that shows relationship between joint angle and wire tension. (a) shows comparison of the ground truth angle with the estimated angle from data-driven method and the estimated angle from model-driven method; (b) and (c) each show response plot of the data-driven method and model-driven method respectively.</figcaption>
 </figure>
 ---
-
-Using the Exo-Index developed here, I also studied to find the joint center of rotation and the state estimation.
-Details of state estimation is described in [here][state_page_link].
-
 
 [Sensors_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Kim%2C%20Ryu%2C%20Cho%20-%202020%20-%20Joint%20Angle%20Estimation%20of%20a%20Tendon-driven%20Soft%20Wearable%20Robot%20through%20a%20Tension%20and%20Stroke%20Measurement.pdf
 [Sensors_link]: https://www.mdpi.com/718524 
