@@ -13,7 +13,31 @@ sidebar:
 
 
 ---
-When controlling a soft wearable robot, it is necessary to estimate not only the robot state, but also the human state. However, since it is difficult to attach sufficient number of sensors at the hand, estimating the human state is quite difficult in the hand wearable robot. In addition, if the robot is developed using the under-actuation mechanism, it becomes more difficult to estimate the human state. This is because the joint angle of the finger is not determined even the motor stroke is determined; there exist null space in the joint angle space. Therefore I have tried to estimate the human state using the Gaussian Progress Regression (GPR) rather than using the model-based method.
+
+**Necessity and difficulties of human state estimation**
+---
+
+When controlling a soft wearable robot, it is necessary to estimate not only the robot state, but also the human state. However, estimating the human/robot state is quite difficult in the soft hand wearable robot due to several reasons as below:
+
+1. It is difficult to attach sufficient number of sensors at the hand due to the size issue. As I explained in the [Research Overview][overview] page, we wanted to develop the wearble robot that considers both usability and functionality. Therefore we didn`t wanted to use sensors at the wearing part.
+
+2. Some of human state variables are not constant. For instance, the stiffness of human joint is a function of wrist position. Therefore it is hard to figure out using the model-based method.
+
+3. When the robot is under-actuated robot (since we designed the robot using the under-actuation mechanism to consider both usability and functionality), the joint angle of the finger is not determined even the motor stroke is determined; there exist null space in the joint angle space. 
+
+4. The elongation of the soft material makes difficult to estimate the kinematic relationship between the transmission and the human joint. For instance, if the robot is actuated using tendon transmission, the distance between the tendon and the joint is important in calculating the moment arm of the tendon. However, when the glove part elongate, it is difficult to estimate the moment arm of the tendon.
+
+In this research, to consider the above uncertainties, I used a data-driven method that identifies both kinematic and stiffness parameters using tension and wire stroke of the actuators. Through [kinematic identification][kmID], a method is proposed to find the exact joint position as a function of the joint angle. Through [stiffness identification][knID], the relationship between the actuation force and the joint angle is obtained using Gaussian Process Regression (GPR).
+
+This identification methods 
+
+ As a result, by applying the proposed method to a specific robot, this research verifies how the proposed method can be used in wearable robot applications. 
+ 
+ This work examines a novel wearable robot named Exo-Index, which assists a human's index finger through the use of three actuators. The proposed identification methods enable control of the wearable robot to result in appropriate postures for grasping objects of different shapes and sizes.
+
+Therefore I have tried to estimate the human state using the Gaussian Progress Regression (GPR) rather than using the model-based method. The Fig.1 shows that the estimation result using GPR shows better accuracy compared to the result drived from the model-based method. In this research, as the first step, I estimated the position of the finger joints using motion capture camera. Then I estimated 
+
+
 
 {% capture fig_img %}
 ![Foo]({{ "/assets/images/Researches/ExoIndex/Result.png" | relative_url }})
@@ -25,6 +49,12 @@ When controlling a soft wearable robot, it is necessary to estimate not only the
 </figure>
 
 
+**Estimation of the joint position**
+--
+
+
+**Estimation of the joint angle using the motor data**
+--
 This is because the angle of the finger joint is not determined even if the position of the motor is determined.
 
 robot can be 
@@ -47,3 +77,6 @@ Under-actuated tendon-driven (UATD) robots have advantages in terms of 1) lightw
 
 [Sensors_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Kim%2C%20Ryu%2C%20Cho%20-%202020%20-%20Joint%20Angle%20Estimation%20of%20a%20Tendon-driven%20Soft%20Wearable%20Robot%20through%20a%20Tension%20and%20Stroke%20Measurement.pdf
 [Sensors_link]: https://www.mdpi.com/718524 
+[overview]: /researches
+[knID]: /reseraches/stateestimation#estimation-of-the-joint-angle-using-the-motor-data
+[kmID]: /reseraches/stateestimation#estimation-of-the-joint-position

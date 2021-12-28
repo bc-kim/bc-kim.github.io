@@ -1,6 +1,6 @@
 ---
 permalink: /researches/hbwr
-title: "Under-Actuated Tendon Driven System"
+title: "Hybrid Wearable Robot Design"
 layout : single
 
 author_profile: false
