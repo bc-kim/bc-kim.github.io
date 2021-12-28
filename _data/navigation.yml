@@ -13,22 +13,24 @@ docs:
 
   - title: Wearable Robots
     children:
-      - title: "GRIPIT"
+      - title: "1. GRIPIT"
         url: /researches/gripit
-      - title: "Exo-Glove Shell"
+      - title: "2. Exo-Glove Shell"
         url: /researches/exogloveshell
-      - title: "Exo-Index"
+      - title: "3. Exo-Index"
         url: /researches/exogloveindex
-      - title: "Exo-Glove II"
+      - title: "4. Exo-Glove II"
         url: /researches/exogloveii
 
-  - title: Others
+  - title: Enabling Technologies
     children:
-      - title: "Tendon Driven Actuator"
+      - title: "1. Hybrid Wearable Robot Design"
+        url: /researches/hbwr
+      - title: "2. Tendon Driven Actuator"
         url: /researches/actuator
-      - title: "Under-actuated Tendon Driven Mechanism"
+      - title: "3. Under-actuated Tendon Driven Mechanism"
         url: /researches/tdm
-      - title: "Human State Estimation"
+      - title: "4. Human State Estimation"
         url: /reseraches/stateestimation
         
 abouts:
