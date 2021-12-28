@@ -1,6 +1,6 @@
 ---
 permalink: /reseraches/stateestimation
-title: "State Estimation"
+title: "Human State Estimation"
 layout : single
 
 author_profile: false
@@ -29,15 +29,7 @@ When controlling a soft wearable robot, it is necessary to estimate not only the
 
 In this research, to consider the above uncertainties, I used a data-driven method that identifies both kinematic and stiffness parameters using tension and wire stroke of the actuators. Through [kinematic identification][kmID], a method is proposed to find the exact joint position as a function of the joint angle. Through [stiffness identification][knID], the relationship between the actuation force and the joint angle is obtained using Gaussian Process Regression (GPR).
 
-This identification methods 
-
- As a result, by applying the proposed method to a specific robot, this research verifies how the proposed method can be used in wearable robot applications. 
- 
- This work examines a novel wearable robot named Exo-Index, which assists a human's index finger through the use of three actuators. The proposed identification methods enable control of the wearable robot to result in appropriate postures for grasping objects of different shapes and sizes.
-
-Therefore I have tried to estimate the human state using the Gaussian Progress Regression (GPR) rather than using the model-based method. The Fig.1 shows that the estimation result using GPR shows better accuracy compared to the result drived from the model-based method. In this research, as the first step, I estimated the position of the finger joints using motion capture camera. Then I estimated 
-
-
+This identification methods have been validated using a specific robot named [Exo-Index][ExoIndex]. The result shown in Fig.1 shows that the estimation result using GPR shows better accuracy compared to the result drived from the model-based method. Details of human state estimation is described in the following sections.
 
 {% capture fig_img %}
 ![Foo]({{ "/assets/images/Researches/ExoIndex/Result.png" | relative_url }})
@@ -80,3 +72,4 @@ Under-actuated tendon-driven (UATD) robots have advantages in terms of 1) lightw
 [overview]: /researches
 [knID]: /reseraches/stateestimation#estimation-of-the-joint-angle-using-the-motor-data
 [kmID]: /reseraches/stateestimation#estimation-of-the-joint-position
+[ExoIndex]: /researches/exogloveindex
