@@ -15,6 +15,13 @@ header:
       url: "https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV-2021-01-07.pdf"
 ---
 
+>About me
+---
+
+I am a Postdoctoral Research Fellow at the Seoul National University, Seoul, Korea, working with [Professor Kyu-jin Cho][Lab_link] in department of Mechanical engineering. I am currently working on tendon-driven soft wearable robot and tendon transmissions in [Soft Robotic Research Center (SRRC)][SRRC_link], since september 2020. For any inquires, you can reach me via email: [kbc1990@snu.ac.kr][email] 
+
+CV can be downloaded from [here][cv_link]. 
+
 >Research Interests
 ---
 
@@ -120,3 +127,6 @@ Update: 2020/01/13
 [cv_link]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV-2021-01-07.pdf
 [email]: mailto:kbc1990@snu.ac.kr
 [Research_link]: /researches/
+[SRRC_link]: https://www.srrc.snu.ac.kr
+[Lab_link]: https://biorobotics.snu.ac.kr
+[email]: mailto:kbc1990@snu.ac.kr

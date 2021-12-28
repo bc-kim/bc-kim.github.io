@@ -32,6 +32,8 @@ docs:
         url: /reseraches/stateestimation
         
 abouts:
+  - title: "About Me"
+    url: /about/#about-me
   - title: "Research Interests"
     url: /about/#research-interests
   - title: "Experience"
