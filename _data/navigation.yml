@@ -32,6 +32,8 @@ docs:
         url: /researches/tdm
       - title: "4. Human State Estimation"
         url: /reseraches/stateestimation
+      - title: "5. Robot System Design"
+        url: /researches/robotsystem
         
 abouts:
   - title: "About Me"

@@ -16,7 +16,23 @@ sidebar:
 
 ---
 
-The robot compliance is well-known factor that affects the robot functionality and usability. It is because the 
+**Trade-off issue **
+The compliance of robot is also a well-known factor that affects the robot functionality and usability. In general, the wearable robot can be categorized into 1) rigid wearable robot; and 2) soft wearable robot. The characteristics of these robots are as below:
+
+1. The rigid wearable robots usually have a well-defined kinematic structure. It means that the robots have their own joints. When using the rigid wearable robots, the user can feel uncomfortable or in sever cases, may be injured if the robot joint does not match with the human joint. Therefore it is important to design a joint alignment mechanism that aligns the robot joints with human joints. However, in most of cases, the joint alignment mechanism occupies large volume and harms the robot usability. Although the rigid wearable robot is more complicated and less usable, this kind of robots have advantages in accurate force transmission. Since the kinematic relationship between the robot and the human body is well-defined, we can calculate posture or force applied to the user easily when these robots are used. For this reason, rigid wearable robots are being used well for rehabilitation purposes rather than assisting purposes.
+
+2. The soft wearable robots does not have any kinematic structure. Therefore, the joint alignment mechanism which is used in the rigid wearable robot is not required. For this reason, the soft wearable robots
+
+It is because the robot structure should be well fitted to the human body. 
+
+
+When the robot is 
+
+When the robot is designed using the soft material such as garment or silicone, the robot can be designed in a more 
+
+a joint alginment mechanism which is used to match the center of rotation of the robot and the human. 
+
+It is because the 
 
 
 
