@@ -11,17 +11,6 @@ docs:
   - title: Overview
     url: /researches
 
-  - title: Wearable Robots
-    children:
-      - title: "1. GRIPIT"
-        url: /researches/gripit
-      - title: "2. Exo-Glove Shell"
-        url: /researches/exogloveshell
-      - title: "3. Exo-Index"
-        url: /researches/exogloveindex
-      - title: "4. Exo-Glove II"
-        url: /researches/exogloveii
-
   - title: Enabling Technologies
     children:
       - title: "1. Hybrid Wearable Robot Design"
@@ -34,6 +23,17 @@ docs:
         url: /reseraches/stateestimation
       - title: "5. Robot System Design"
         url: /researches/robotsystem
+        
+  - title: Wearable Robots
+    children:
+      - title: "1. GRIPIT"
+        url: /researches/gripit
+      - title: "2. Exo-Glove Shell"
+        url: /researches/exogloveshell
+      - title: "3. Exo-Index"
+        url: /researches/exogloveindex
+      - title: "4. Exo-Glove II"
+        url: /researches/exogloveii
         
 abouts:
   - title: "About Me"
