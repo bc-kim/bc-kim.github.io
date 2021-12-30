@@ -13,16 +13,16 @@ docs:
 
   - title: Enabling Technologies
     children:
-      - title: "1. Hybrid Wearable Robot Design"
-        url: /researches/hbwr
-      - title: "2. Tendon Driven Actuator"
-        url: /researches/actuator
-      - title: "3. Under-actuated Tendon Driven Mechanism"
-        url: /researches/tdm
-      - title: "4. Human State Estimation"
-        url: /reseraches/stateestimation
-      - title: "5. Robot System Design"
+      - title: "1. Robot System Design"
         url: /researches/robotsystem
+      - title: "2. Hybrid Wearable Robot Design"
+        url: /researches/hbwr
+      - title: "3. Tendon Driven Actuator"
+        url: /researches/actuator
+      - title: "4. Under-actuated Tendon Driven Mechanism"
+        url: /researches/tdm
+      - title: "5. Human State Estimation"
+        url: /reseraches/stateestimation
         
   - title: Wearable Robots
     children:
