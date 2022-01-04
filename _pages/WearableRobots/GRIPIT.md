@@ -54,28 +54,36 @@ Since I wanted to develop robots that can be used in real life, not in a laborat
 In order to solve the above problems that makes the robot difficult to use in the real-life, I designed a hand assist device GRIPIT as shown in Fig. 1. The design approaches of the GRIPIT are as below (each design approach has a one-to-one correspondence to the four reasons explained in the [*'Reason why hand wearable orbot is difficult to use in real-life'*][reason_link] section):
 
 #### 1. Focusing on a single posture
-Even if the researcher develop a hand wearable device that can make various postures, it is difficult to understand human intensiond well. For this reason, I developed the device that assist a single posture; in this way it was possible to maximize the robot simplicity. In GRIPIT design, we focused on a tripod grasp because it is one of well used posture in daily living. I also hoped that GRIPIT could help SCI people hold a pen (which is also a tripod grasp) so they could continue their studies. Details of experimental result are described in the [result section][result_link].
+Even if the researcher develop a hand wearable device that can make various postures, it is difficult to understand human intensiond well. For this reason, I developed the device that assists a single posture; in this way it was possible to maximize the robot simplicity. In GRIPIT design, we focused on a tripod grasp because it is one of well used posture in daily living. I also hoped that GRIPIT could help SCI people hold a pen (which is also conducted by the tripod grasp) so they could continue their studies. Details of experimental result are described in the [paper][JNER_pdf].
 
 #### 2. Manual operation for simple use
-Since the 
+In order to make the device compact, I aimed to develop the device that can be operated manually. It is because the actuator is large and requires the controller and battery that is also large and heavy. Also, to make the device functional even with manual operation, I designed the device with under-actuation mechanism. Using this mechanism, it was possible to make the device actuate multiple joints (e.g., nine joints are required to make the tripod grasp) with a single tendon. Details of under-actuated tendon routing is discribed [below][uatd_internal_link]. Also, to make sufficient grasping force even with a small tension, the under-actuated tendon routing with high force transmission ratio was selected; it is also explained below.
 
 #### 3. Under-actuated tendon routing
-Since the use of actuators and sensors complicates the system, I aimed to assist the motions without any actuators and sensors. GRIPIT is operated using a single tendon and the 
+The GRIPIT was developed to be operated by a single tendon for the easy use; since the device is operated manualy, the number of tendons are important in device usability. Therefore the GRIPIT makes tripod grasp (which requires 9 joints to move) using only a single tendon. It can be thought as the under-actuated tendon routing which is explained [here][uatd_external_link] in detail. 
+
+Since the under-actuated tendon routing also provides adaptability (which is ), the use of under-actuated tendon routing was a
 
 
+ Therefore an under-actuated tendon routing is used in this device because this tendon routing also increases the adaptability of the device; details of under-actuated tendon routing is explained [here][uatd_extenral_link].) 
+ 
+ However, when the under-actuation mechanism is used, the device performance can be highly affected by the human characteristics. For this reason I designed a specific tendon routing that does not depend on the human characteristics as explained below.
 
 #### 4. Specific tendon routing that does not depend on the human characteristics
 When the wearable robot is under-actuated, the robot function can be changed as the wearer changes. For instance, when a single tendon pulls serially connected joints (e.g., when a single tendon pulls three joints in a single finger), torque applied to these joints will be affected by tension of a single tendon; we can not control torque applied at three joints individually. Therefore the motions of three joints will depend on their impedance. 
 
-To make the robot that does not depend on the human characteristics, I have designed the device with closed-tendon routing. The closed-tendon routing has a simple principle; the routing can be found in Fig.1. The tendon routing of GRIPIT 
+{% capture fig_img %}
+![Foo]({{ "/assets/images/Researches/GRIPIT/ClosedTendonRouting.png" | relative_url }})
+{% endcapture %}
 
-As shown in Fig. 1, the tendon routing of GRIPIT starts at point A
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>Fig. 1 GRIPIT overview</figcaption>
+</figure>
 
-## Validation of the GRIPIT
-
+To make the robot that does not depend on the human characteristics, I have designed the device with closed-tendon routing. The closed-tendon routing has a simple principle; the routing can be found in Fig.1. The tendon routing of GRIPIT operates similar to the lasso as it passes the thumb, index and middle fingers simultaneously. One end side of the tendon is fixed at the middle finger (A in Fig.1) and it passes through in the order of B(index finger), C(thumb), D(middle finger), and E(wrist). Since this tendon routing makes the fingertips come together to one point regardless of the joint properties, performance of the GRIPIT does not depend on the human properties. To validate whether 
 
 ## Social funding (Kakao Story funding in korea)
-
 
 Since I wanted GRIPIT to be used in real-life, I promoted the device through social funding. The videos introduced in this social funding are as below:
 
@@ -93,3 +101,5 @@ Since I wanted GRIPIT to be used in real-life, I promoted the device through soc
 [home_link]: /#about-me
 [reason_link]: gripit#reason-why-hand-wearable-robot-is-difficult-to-use-in-real-life
 [result_link]: /researches/gripit#validation-of-the-gripit
+[uatd_internal_link]: /researches/gripit#3-under-actuated-tendon-routing
+[uatd_extenral_link]: /researches/tdm
