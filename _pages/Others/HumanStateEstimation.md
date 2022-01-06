@@ -41,12 +41,29 @@ This identification methods have been validated using a specific robot named [Ex
 </figure>
 
 
-**Estimation of the joint position**
+**Human State Estimation**
 --
+In this research, I aimed to find joint angle and 
+
+{% capture fig_img %}
+![Foo]({{ "/assets/images/Researches/ExoIndex/Fig2_3_All5.png" | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>Fig. 1. Experimental results about the position of the finger joints found using a vicon motion capture system. (a) The marker position used to measure the joint position. With this marker setup, the position of the MCP, PIP, and DIP joint are measured, as shown in (b), (c), and (d). Since the joints move as the joint angle changes, the positions of the joints are expressed in terms of the angle of the joints.</figcaption>
+</figure>
 
 
-**Estimation of the joint angle using the motor data**
---
+{% capture fig_img %}
+![Foo]({{ "/assets/images/Researches/ExoIndex/Fig_knid.png" | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>Fig. 1. Experimental results of the stiffness parameter estimation that shows a relationship between the joint angle and the wire tension. (a,c,e) are plots of the ground truth angles measured by Vicon cameras and estimated angles using the wire tension and wire stroke. (b,d,f) are comparisons between the estimation and the ground truth. The RMS error indicates the disparity from the y = x relationship.</figcaption>
+</figure>
+
 This is because the angle of the finger joint is not determined even if the position of the motor is determined.
 
 robot can be 

@@ -15,14 +15,14 @@ docs:
     children:
       - title: "1. Robot System Design"
         url: /researches/robotsystem
-      - title: "2. Hybrid Wearable Robot Design"
-        url: /researches/hbwr
-      - title: "3. Tendon Driven Actuator"
+      - title: "2. Tendon Driven Actuator"
         url: /researches/actuator
-      - title: "4. Under-actuated Tendon Driven Mechanism"
+      - title: "3. Under-actuated Tendon Driven Mechanism"
         url: /researches/tdm
-      - title: "5. Human State Estimation"
+      - title: "4. Human State Estimation"
         url: /reseraches/stateestimation
+      - title: "5. Hybrid Wearable Robot Design"
+        url: /researches/hbwr
         
   - title: Wearable Robots
     children:

@@ -15,7 +15,7 @@ sidebar:
 ---
 - **Byungchul Kim**, Useok Jeong, Brian Byunghyun Kang, Kyu-Jin Cho, "Slider-Tendon Linear Actuator with Under-actuation and Fast-connection for Soft Wearable Robots ", in **IEEE/ASME Transactions on Mechatronics (I.F 5.673, Top 10%)**. [[pdf]][Tmech_pdf] [[site]][Tmech_link] 
 
-- Funded by National Research Foundation of Korea, Ministry of Science, ICT and Future Planning.
+- Funded by National Research Foundation of Korea, Ministry of Trade, Industry and Energy of Korea.
 
 - Exhibited in 2020 CES / 2019 RoboSoft.
 
@@ -29,8 +29,9 @@ As introduced in the [research overview][overview], I aimed to develop the weara
 
 3. It is useful to use in soft robot application. This transmission -- which is also compliant -- does not spoil the soft robot`s advantages (which originates from the robot softness). Since the robot softness is also a good factor that 
 
+
 {% capture fig_img %}
-![Foo]({{ "/assets/images/Researches/Overview/TendonTransmission.png" | relative_url }})
+![Foo]({{ "/assets/images/Researches/SliderTendonLinearActuator/Fig1.png" | relative_url }})
 {% endcapture %}
 
 <figure>
