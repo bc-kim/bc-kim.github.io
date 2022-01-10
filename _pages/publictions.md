@@ -22,9 +22,9 @@ Journals Under Review / in Preparation
 Patents
 ---
 
-6| Kyu-Jin Cho, <font color="#F7FE2E"><b>Byungchul Kim</b></font>, Daeyoung Lee, “PEN HOLDER”, US 9522562, US.   
+6| Kyu-Jin Cho, <font color="#F7FE2E"><b>Byungchul Kim</b></font>, Daeyoung Lee, “PEN HOLDER”, US 9522562, US.    [[site]][penholder_patent_link]
 
-7| Kyu-Jin Cho, Hyunki In, Kyuhan Cho, <font color="#F7FE2E"><b>Byungchul Kim</b></font>, “PASSIVE VARIABLE TRANSMISSION FOR WIRE DRIVEN JOINT MECHANISM”, 10-11600270-0000, KR. <font color="#FE2E2E">**Technology transfer** </font>   
+7| Kyu-Jin Cho, Hyunki In, Kyuhan Cho, <font color="#F7FE2E"><b>Byungchul Kim</b></font>, “PASSIVE VARIABLE TRANSMISSION FOR WIRE DRIVEN JOINT MECHANISM”, 10-11600270-0000, KR. <font color="#FE2E2E">**Technology transfer** </font> [[site]][pvt_patent_link]
 
 8| Kyu-Jin Cho, <font color="#F7FE2E"><b>Byungchul Kim</b></font>, Hyungmin Choi, “SLIDER TYPE TENDON DRIVEN ACTUATOR FOR UNDER-ACTUATION AND GLOVE TYPE WEARABLE ROBOT HAVING THE SAME ACTUATOR”, 2020/005275, Patent pending (PCT/KR).
 
@@ -75,3 +75,6 @@ Theses and Dissertations
 
 [JNER_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Kim%20et%20al.%20-%202017%20-%20Development%20and%20assessment%20of%20a%20hand%20assist%20device%20GRIPIT.pdf
 [JNER_link]: https://jneuroengrehab.biomedcentral.com/articles/10.1186/s12984-017-0223-4
+
+[penholder_patent_link]: https://www.google.co.kr/patents/US9522562?dq=US+9,522,562+B2&hl=ko&sa=X&ved=0ahUKEwinpdrHyuzVAhVHXrwKHZx4B9cQ6AEIJDAA
+[pvt_patent_link]: https://patents.google.com/patent/KR101600270B1/ko
