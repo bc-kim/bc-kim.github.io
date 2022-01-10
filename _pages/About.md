@@ -125,7 +125,7 @@ CV can be downloaded from [here][cv_link].
 
 Update: 2020/01/13
 
-[cv_link]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV-2021-01-07.pdf
+[cv_link]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV.pdf
 [email]: mailto:kbc1990@snu.ac.kr
 [Research_link]: /researches/
 [SRRC_link]: https://www.srrc.snu.ac.kr

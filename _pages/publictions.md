@@ -6,7 +6,7 @@ classes: wide
 International Journals
 ---
 
-1| <font color="#F7FE2E"><b>Byungchul Kim</b></font>, Useok Jeong, Brian Byunghyun Kang, Kyu-Jin Cho, "Slider-Tendon Linear Actuator with Under-actuation and Fast-connection for Soft Wearable Robots ", in **IEEE/ASME Transactions on Mechatronics (I.F 5.673, Top 10%)**. [[pdf]][Tmech_pdf] [[site]][Tmech_link] 
+1| <font color="#F7FE2E"><b>Byungchul Kim</b></font>, Useok Jeong, Brian Byunghyun Kang, Kyu-Jin Cho, "Slider-Tendon Linear Actuator with Under-actuation and Fast-connection for Soft Wearable Robots ", in **IEEE/ASME Transactions on Mechatronics (I.F 5.673, Top 10%)**, vol. 26, no. 6, pp. 2932-2943, Dec. 2021. [[pdf]][Tmech_pdf] [[site]][Tmech_link] 
 
 2| <font color="#F7FE2E"><b>Byungchul Kim</b></font>, Jiwon Ryu, Kyu-Jin Cho, "Joint Angle Estimation of a Tendon-Driven Soft Wearable Robot through a Tension and Stroke Measurement," in **Sensors (I.F 3.275, Top 25%)**, 20.10 (2020): 2852. [[pdf]][Sensors_pdf] [[site]][Sensors_link]
 

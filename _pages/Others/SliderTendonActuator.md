@@ -25,10 +25,9 @@ As introduced in the [research overview][overview], I aimed to develop the weara
 
 1. It enables to locate large, complicated, and heavy components (e.g., controller, battery, and actuator) far from the wearing part by using the Bowden cable as shown in Fig. 1.
 
-2. It easily actuates multiple joints using a single tendon. It is because the tendon is compliant with a small cross-section area and therefore the tendon can passes multiple joints.
+2. It easily actuates multiple joints using a single tendon. It is because the tendon is compliant with a small cross-section area and therefore the tendon can passes multiple joints. Therefore the robot can be simplified by actuating multiple joints with less actuators.
 
-3. It is useful to use in soft robot application. This transmission -- which is also compliant -- does not spoil the soft robot`s advantages (which originates from the robot softness). Since the robot softness is also a good factor that 
-
+3. It is useful to use in soft robot application. This transmission --which is also compliant-- does not spoil the soft robot`s advantages (which originates from the robot softness as described in [here][hybrid_link]) in the wearable robot studies. For this reason, it can be argued that the tendon transmission has strengths in the wearable robot studies.
 
 {% capture fig_img %}
 ![Foo]({{ "/assets/images/Researches/SliderTendonLinearActuator/Fig1.png" | relative_url }})
@@ -41,13 +40,21 @@ As introduced in the [research overview][overview], I aimed to develop the weara
 
 Although the tendon trasnmission has advantages in solving the trade-off issue of usability and functionlaity, there also exists several side-effects as below:
 
-1. Friction at the tendon is not negligible. In addition, this friction force accumulates as the tendon passes 
+1. Friction at the tendon is not negligible. In addition, this friction force accumulates as the tendon passes multiple joints; therefore it is difficult to estimate the friction force. Also, the friction force makes difficult to control the robot.
 
 2. The tendon can get tangled or get stucked in a narrow gap somewhere.
 
-3. The tendon elongates when the tension is applied. The tendon elongation makes difficult to estimate the pulled length. 
+3. The tendon elongates when the tension is applied. The tendon elongation makes difficult to estimate the pulled length and difficult to control the robot.
 
-The side-effect 1 (which is related to the ) 
+In general, the side-effect 1 has been solved by using the bearings to reduce the friction. The side-effects 2 and 3 can be easily solved by tensioning the tendon; rigid robots have solved these two problems by applying the pretension at the tendon. However, in the soft robots, it is difficult to maintain the tension all the time. It is because the tension of the tendon will 
+
+For this reason 
+
+it is well used in other rigid robots 
+
+The side-effect 1
+
+(which is related to the ) 
 The side-effect 2 and 3, on the other hand, can be easily solved by appling pretension at the tendon. 
 
 I solved three side-effects explained above by developing the 
@@ -91,3 +98,4 @@ Tendon-driven soft wearable robots should be simple, compact, and safe because t
 [Tmech_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Slider-Tendon_Linear_Actuator_With_Under-Actuation_and_Fast-Connection_for_Soft_Wearable_Robots.pdf
 [Tmech_link]: https://ieeexplore.ieee.org/document/9314058 
 [overview]: /researches
+[hybrid_link]: /researches/hbwr
