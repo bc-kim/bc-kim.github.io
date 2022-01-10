@@ -46,11 +46,11 @@ Since I wanted to develop robots that can be used in real life, not in a laborat
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Fig. 1 GRIPIT overview</figcaption>
+  <figcaption>Fig. 1 GRIPIT overview. A single tendon passes the thumb, middle finger and index finger to make a single posture. This under-actuated tendon routing enables the user to make a tripod grasp regardeless of their human properties.</figcaption>
 </figure>
 
 
-In order to solve the above problems that makes the robot difficult to use in the real-life, I designed a hand assist device GRIPIT as shown in Fig. 1. The design approaches of the GRIPIT are as below (each design approach has a one-to-one correspondence to the four reasons explained in the [*'Reason why hand wearable orbot is difficult to use in real-life'*][reason_link] section):
+In order to solve the above problems that makes the robot difficult to use in the real-life, I designed a hand assist device GRIPIT as shown in Fig. 1. The design approaches of the GRIPIT are as below (each design approach has a one-to-one correspondence to the four reasons explained in the [*'Reason why hand wearable robot is difficult to use in real-life'*][reason_link] section):
 
 #### 1. Focusing on a single posture
 Even if the researcher develop a hand wearable device that can make various postures, it is difficult to understand human intensiond well. For this reason, I developed the device that assists a single posture; in this way it was possible to maximize the robot simplicity. In GRIPIT design, we focused on a tripod grasp because it is one of well used posture in daily living. I also hoped that GRIPIT could help SCI people hold a pen (which is also conducted by the tripod grasp) so they could continue their studies. Details of experimental result are described in the [paper][JNER_pdf].

@@ -41,11 +41,37 @@ As introduced in the [research overview][overview], I aimed to develop the weara
 
 Although the tendon trasnmission has advantages in solving the trade-off issue of usability and functionlaity, there also exists several side-effects as below:
 
-1. The tendon can get tangled or get stucked in a narrow gap somewhere.
+1. Friction at the tendon is not negligible. In addition, this friction force accumulates as the tendon passes 
 
-2. The tendon elongates when the tension is applied. The tendon elongation makes difficult to estimate the pulled length. 
+2. The tendon can get tangled or get stucked in a narrow gap somewhere.
 
-The wire may get tangled or get caught in a narrow gap somewhere.
+3. The tendon elongates when the tension is applied. The tendon elongation makes difficult to estimate the pulled length. 
+
+The side-effect 1 (which is related to the ) 
+The side-effect 2 and 3, on the other hand, can be easily solved by appling pretension at the tendon. 
+
+I solved three side-effects explained above by developing the 
+
+{% capture fig_img %}
+![Foo]({{ "/assets/images/Researches/SliderTendonLinearActuator/Slider_TendonLinearActuator.png" | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>Fig. 1 Soft wearable robot application using the Slider-Tendon Linear Actuator. The proposed actuator provides adaptability and usability to the soft wearable robot by including functions such as fast-connection, under-actuation mechanism, and stroke amplification.</figcaption>
+</figure>
+
+Details of the design process and 
+
+T
+always 
+
+When designing the tendon-driven soft wearable robots, 
+
+the force is difficult to estimate. 
+
+For this reason, 
+
 
 Indeed, the use of tendon transmission provides strong advantages in 
 

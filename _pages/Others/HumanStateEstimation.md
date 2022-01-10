@@ -27,7 +27,7 @@ When controlling a soft wearable robot, it is necessary to estimate not only the
 
 4. The elongation of the soft material makes difficult to estimate the kinematic relationship between the transmission and the human joint. For instance, if the robot is actuated using tendon transmission, the distance between the tendon and the joint is important in calculating the moment arm of the tendon. However, when the glove part elongate, it is difficult to estimate the moment arm of the tendon.
 
-In this research, to consider the above uncertainties, I used a data-driven method that identifies both kinematic and stiffness parameters using tension and wire stroke of the actuators. Through [kinematic identification][kmID], a method is proposed to find the exact joint position as a function of the joint angle. Through [stiffness identification][knID], the relationship between the actuation force and the joint angle is obtained using Gaussian Process Regression (GPR).
+In this research, to consider the above uncertainties, I used a data-driven method that identifies both kinematic and stiffness parameters using tension and wire stroke of the actuators. Through kinematic identification, a method is proposed to find the exact joint position as a function of the joint angle. Through stiffness identification, the relationship between the actuation force and the joint angle is obtained using Gaussian Process Regression (GPR).
 
 This identification methods have been validated using a specific robot named [Exo-Index][ExoIndex]. The result shown in Fig.1 shows that the estimation result using GPR shows better accuracy compared to the result drived from the model-based method. Details of human state estimation is described in the following sections.
 
@@ -43,7 +43,7 @@ This identification methods have been validated using a specific robot named [Ex
 
 **Human State Estimation**
 --
-In this research, I aimed to find joint angle and 
+The first result examines kinematic system identification, which is designed to find the joint position. The overall experimental setup is depicted in Figure 2.a. Here, three markers are attached to each phalange. In addition, three markers are attached to the back of the hand, resulting in a total of 12 markers attached. Using this experimental setup and a vicon motion capture system, each joint position is obtained as shown in Figure 2 (b)–(d). Here, the position of the joints is described in terms of joint angle because human joints move when the joint angle changes. This is because human joints are not pin joints; human joints are usually called rolling contact joints. In these joints, the bone rotates along the surface, while sustaining the contact with other bones. Here, the position of the joint is expressed with respect to the marker frame, which is attached to the bone in the proximal part of the joint. For example, the position of the DIP joint is expressed with respect to the proximal phalanx.
 
 {% capture fig_img %}
 ![Foo]({{ "/assets/images/Researches/ExoIndex/Fig2_3_All5.png" | relative_url }})
@@ -51,9 +51,15 @@ In this research, I aimed to find joint angle and
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Fig. 1. Experimental results about the position of the finger joints found using a vicon motion capture system. (a) The marker position used to measure the joint position. With this marker setup, the position of the MCP, PIP, and DIP joint are measured, as shown in (b), (c), and (d). Since the joints move as the joint angle changes, the positions of the joints are expressed in terms of the angle of the joints.</figcaption>
+  <figcaption>Fig. 2. Experimental results about the position of the finger joints found using a vicon motion capture system. (a) The marker position used to measure the joint position. With this marker setup, the position of the MCP, PIP, and DIP joint are measured, as shown in (b), (c), and (d). Since the joints move as the joint angle changes, the positions of the joints are expressed in terms of the angle of the joints.</figcaption>
 </figure>
 
+In order to use the measured data in other analysis, linear regression between the joint rotation
+and the joint position was performed. Table 1 is the result of the linear regression with the data shown in Figure 9. The parameters in the table indicate the gradient and the y-intercept of X, Y, and Z position of each joint with respect to the rotation angles. For example, X value of MCP joint position can be expressed as −6.05 × (joint angle) + 48.78. Here, the X, Y, and Z position of MCP, PIP, and DIP joints are expressed in the Base, MCP, and PIP frame respectively (Figure 9a). Since the joint positions have a linear relationship with the rotation angles, we can easily estimate the X, Y, and Z values by using the parameters offered in Table 1. From these joint positions, we can also estimate the length of each phalange, which is the size of the vector pointing from one joint to another, by converting all X, Y, and Z values with respect to the Base frame coordinates.
+Table
+
+For the stiffness parameter estimation, we performed experiments to obtain the relationship
+between wire tension, wire stroke and joint angle. In order to determine the relationship, motor encoder, motion data, and loadcell data was measured simultaneously. The relationship was obtained using Gaussian Process Regression; the results are shown in Figure 3. In this figure, (a), (c) and (e) show the tendency of the joint angle along with the regression results. Here, the x axis of the graphs means the number of data; the number of data in x axis means that i-th row of the x axis is i-th data in the data set. In order to show the accuracy of estimation, the relationship between estimated angle and ground truth angle is compared as shown in Figure 3 (b),(d) and (f). As the root mean square error (RMSE) in the figures show, the proposed estimation fits well in the ground truth angle. 
 
 {% capture fig_img %}
 ![Foo]({{ "/assets/images/Researches/ExoIndex/Fig_knid.png" | relative_url }})
@@ -61,28 +67,8 @@ In this research, I aimed to find joint angle and
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Fig. 1. Experimental results of the stiffness parameter estimation that shows a relationship between the joint angle and the wire tension. (a,c,e) are plots of the ground truth angles measured by Vicon cameras and estimated angles using the wire tension and wire stroke. (b,d,f) are comparisons between the estimation and the ground truth. The RMS error indicates the disparity from the y = x relationship.</figcaption>
+  <figcaption>Fig. 3. Experimental results of the stiffness parameter estimation that shows a relationship between the joint angle and the wire tension. (a,c,e) are plots of the ground truth angles measured by Vicon cameras and estimated angles using the wire tension and wire stroke. (b,d,f) are comparisons between the estimation and the ground truth. The RMS error indicates the disparity from the y = x relationship.</figcaption>
 </figure>
-
-This is because the angle of the finger joint is not determined even if the position of the motor is determined.
-
-robot can be 
-
-
-it is required to estimate the human 
-
-it is important to estimate the state of the human (joint )
-
-
-The complexity of the robot system is highly affected by the number of actuators. For this reason, several researchers have tried to use less number of actuators than the robot actual degree of freedoms (DoF); these robots and mechanism were named as <i> under-actuated robots </i> and <i>under-actuation mechanism</i>, respectively.
-
-Among various transmissions used in the under-actuated robots, the tendon transmission 
-
-Among various transmissions used for the under-actuated robots \cite{Birglen2006}, the under-actuated tendon transmission has shown advantages in making the robot compact and light. It is because the tendon is compliant with a small cross-section area, so it can pass through the joints without restrictions. In some researches, Bowden cable has been used to enhance these advantages by locating heavy and bulky components such as the actuators, controllers, and battery far from the robot 
-
-The number of actuator is 
-
-Under-actuated tendon-driven (UATD) robots have advantages in terms of 1) lightweight; 2) compact size; and 3) ability to make adaptive motions against the external environment. However, in UATD robots, friction at the tendons accumulates as they pass through many joints, causing hysteresis and detrimental to tension distribution, reliability and efficiency. For this issue, this paper presents a method to find possible under-actuated tendon routings for the robot that has $n$ fingers; it derives $2^{n+1}-1$ routings for the robot that has $n$ parallel links. This paper also shows validation of the routings with four performance factors (i.e., adaptability, torsional balance, reliability, and efficiency) that are determined by friction. By applying the proposed framework to a specific robot application, a soft hand wearable robot that assists the SCI people, we proved that the proposed framework works effectively improving the performance of the tendon-driven robots as follow: 1) it improves under-actuation performance (the difference in fingertip force reduced from 3.1N  to  1.3N); 2) it reduces hysteresis (the hysteresis in joint angle domain reduced from  81.8\%  to  46.9\%) at the flexor; 3) it enables to use passive tendon; and 4) it enables to attach tension sensor at the end-effector in a compact size. These improvements verify the efficacy of the proposed framework for improving the robot performance. 
 
 [Sensors_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Kim%2C%20Ryu%2C%20Cho%20-%202020%20-%20Joint%20Angle%20Estimation%20of%20a%20Tendon-driven%20Soft%20Wearable%20Robot%20through%20a%20Tension%20and%20Stroke%20Measurement.pdf
 [Sensors_link]: https://www.mdpi.com/718524 
