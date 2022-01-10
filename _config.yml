@@ -113,7 +113,7 @@ author:
       url: "https://biorobotics.snu.ac.kr"
     - label: " Download CV"
       icon: "far fa-file-pdf"
-      url: "https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV-2021-01-07.pdf"
+      url: "https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV.pdf"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
