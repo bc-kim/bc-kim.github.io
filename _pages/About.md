@@ -12,7 +12,7 @@ header:
   overlay_image: /assets/images/Main.png
   actions:
     - label: "Download CV"
-      url: "https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV-2021-01-07.pdf"
+      url: "https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV.pdf"
 ---
 
 >About me
