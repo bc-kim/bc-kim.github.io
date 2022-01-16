@@ -21,7 +21,7 @@ sidebar:
 
 
 ---
-As introduced in the [research overview][overview], I aimed to develop the wearable robot considering the trade-off issue between the robot functionality and the robot usability. In terms of this trade-off issue, the tendon transmission is approprate transmission for the wearable robot because it provides several strong advantages as below:
+As introduced in the [research overview][overview], I aimed to develop the wearable robot considering the trade-off between the robot functionality and the robot usability. In terms of this trade-off issue, the tendon transmission is approprate transmission for the wearable robot because it provides several strong advantages as below:
 
 1. It enables to locate large, complicated, and heavy components (e.g., controller, battery, and actuator) far from the wearing part by using the Bowden cable as shown in Fig. 1.
 
@@ -38,7 +38,7 @@ As introduced in the [research overview][overview], I aimed to develop the weara
   <figcaption>Fig. 1 Soft wearable robot application using the Slider-Tendon Linear Actuator. The proposed actuator provides adaptability and usability to the soft wearable robot by including functions such as fast-connection, under-actuation mechanism, and stroke amplification.</figcaption>
 </figure>
 
-Although the tendon trasnmission has advantages in solving the trade-off issue of usability and functionlaity, there also exists several side-effects as below:
+Although the tendon trasnmission has advantages in solving the trade-off between usability and functionlaity, there also exists several side-effects as below:
 
 1. Friction at the tendon is not negligible. In addition, this friction force accumulates as the tendon passes multiple joints; therefore it is difficult to estimate the friction force. Also, the friction force makes difficult to control the robot.
 

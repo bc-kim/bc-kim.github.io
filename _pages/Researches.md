@@ -10,7 +10,7 @@ sidebar:
 **Overview Presentation Video**
 ---
 
-An overview of my researches is explained in my presentation video (long version) below. Short version of the videos, divided by each study, are located at each research pages.
+An overview of my researches is explained in my presentation video below. Details research contets, divided by each study, are located at each research pages.
 
 <iframe width="950" height="534" src="https://www.youtube.com/embed/fLd5IRjUdt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -37,7 +37,7 @@ For this reason, I aimed to solve the this trade-off issue, with the hope that w
 ---
 Aim of my researches during the doctoral course can be described as 
 
- > Researches for the trade-off issue between the performance and the complexity of the wearable robots.
+ > Researches to solve the trade-off between the performance and the complexity of the wearable robots.
 
 Here are some studies I`ve done or currently working on to solve this trade-off issue:
 
