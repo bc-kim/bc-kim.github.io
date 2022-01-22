@@ -14,7 +14,7 @@ Designing the robot system requires These are
 
 - [3D CAD design & Fabrication (3D printer, laser printer, CNC, molding, etc.)][3D CAD design]
 
-- CAN Open communication for real-time motor control (multiple motors)
+- [CAN Open communication for real-time motor control (multiple motors)][CANOpen]
 
 - PCB design
 
@@ -32,9 +32,11 @@ Designing the robot system requires These are
 </figure>
 
 ---
-## 3D CAD design
+## 3D CAD design & Fabrication
 
-As a mechanical engineer, I have designed lots of mechanisms and robot structures using Solidworks. Mainly, I developed the actuator that pulls the tendon stable in tendon-driven soft robots. The soft robot requires a specified actuator because the tension of tendon should be removed when the robot is not operating; when the tendon tension is zero, the tendon starts to tangle causing numerous problems (details are explained in [actuator session][Actuator]). 
+As a mechanical engineer, I have designed lots of mechanisms and robot structures using Solidworks. I developed the actuator that pulls the tendon stable in tendon-driven soft robots. 
+
+The soft robot requires a specified actuator because the tension of tendon should be removed when the robot is not operating; when the tendon tension is zero, the tendon starts to tangle causing numerous problems (details are explained in [actuator session][Actuator]). 
 
 Unlike rigid robots, the situation where tension of all tendons exist is not suitable to 
 the tendon-driven soft robots requi 
@@ -50,16 +52,11 @@ When designing the robot system with multiple motors (multi-axis), CAN Open comm
 
 One difficult thing in developing the robot system is that 
 
-As the first approach to solve this trade off issue, our lab has used a <i>tendon transmission</i>. It is because this transmission makes the robot end-effector compact, simple, and safe by locating heavy/bulky components -- such as the actuator, controller, and battery -- far from the end-effector using simple Bowden cable as shown in Fig. 1.
+## CAN Open communication for real-time motor control (multiple motors)
 
-- Hand wearable robots and assist devices
-  - Exo-Glove Shell
-  - Exo-Glove Index
-  - GRIPIT
-- Tendon Driven Actuators and Tendon Driven Mechanism
-  - Tendon Driven Actuator
-  - Tendon Driven Mechanism
+Controlling the motor requires in-depth understanding of the working principle of the motor. We have to design complicated circuit that uses high power. 
 
+ One way to solve this issue is to use 
 
 {% capture fig_img %}
 ![Foo]({{ "/assets/images/Researches/Overview/TendonTransmission.png" | relative_url }})
@@ -72,7 +69,7 @@ As the first approach to solve this trade off issue, our lab has used a <i>tendo
 
 [Tmech_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Slider-Tendon_Linear_Actuator_With_Under-Actuation_and_Fast-Connection_for_Soft_Wearable_Robots.pdf
 [Tmech_link]: https://ieeexplore.ieee.org/document/9314058 
-[3D CAD design]: /researches/robotsystem#3d-cad-design
+[3D CAD design]: /researches/robotsystem#3d-cad-design--fabrication
 [up]: /researches/robotsystem
 [Actuator]: /researches/actuator
-
+[CANOpen]: /researches/robotsystem#can-open-communication-for-real-time-motor-control-multiple-motors
