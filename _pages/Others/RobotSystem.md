@@ -10,7 +10,7 @@ sidebar:
 
 ---
 
-Designing the robot system requires various skills. I am confident in constructing the robot systems using following skills.
+Designing the robot system requires various skills. We have to design and fabricate the robot structure; we also have to design the electric circuit for the robot system; further, we have to construct the control system that contains high-level controller (that generates the control input related to the overall target goal of the robot) and the low-level controller (that collects sensing data and provides motor control input under fast control loop with punctuality). Since I have constructed couple of robot systems, I am confident in constructing the robot systems using following skills.
 
 - [3D CAD design & Fabrication (3D printer, laser printer, CNC, molding, etc.)][3D CAD design]
 
@@ -47,6 +47,11 @@ When controlling the motor using the motor driver, it is important to follow the
 
 ## High-level & Low-level control
 
+When designing the robot system, it is required to 
+
+When controlling the robot, we have to construct numerous 
+
+
 {% capture fig_img %}
 ![Foo]({{ "/assets/images/Researches/Overview/TendonTransmission.png" | relative_url }})
 {% endcapture %}
@@ -58,8 +63,19 @@ When controlling the motor using the motor driver, it is important to follow the
 
 
 ## PCB design
+To control the robot system using the above element techniques (CANOpen, low-level controller, and high level controller), designing the electric circuit is also important. The reliability of the robotic system highly depends on the electric circuit design. Therefore, using the universal board to connect all the IC chips is an inappropriate manufacturing method when we consider the roboustness of the robot system.
+
+Alternatively, we can use a printed circuit board (PCB) for more reliable electric. For this reason, I have designed numerous PCBs using [KiCAD][KiCAD_link]. Among various PCBs I have designed, the PCB shown in Fig.1 shows the recent .
+
+Using the PCB shown in Fig.1, It was possible to obtain 3 loadcells ~~.
+
+
 
 ## Human state measuring devices
+Since I have developed numerous hand wearable devices and robots, I have used lots of experimental devices that measures human states. With motion capture system called [Vicon][vicon_link], 
+
+
+
 
 [Tmech_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Slider-Tendon_Linear_Actuator_With_Under-Actuation_and_Fast-Connection_for_Soft_Wearable_Robots.pdf
 [Tmech_link]: https://ieeexplore.ieee.org/document/9314058 
@@ -71,5 +87,5 @@ When controlling the motor using the motor driver, it is important to follow the
 [Control]: /researches/robotsystem#high-level--low-level-control
 [State measuring]: /researches/robotsystem#human-state-measuring-devices
 [cia_link]: https://www.can-cia.org/canopen/
-
-We have to design and fabricate the robot structure; we also have to design the electric circuit for the robot system; further, we have to construct the control system that contains high-level controller (that generates the control input related to the overall target goal of the robot) and the low-level controller (that collects sensing data and provides motor control input under fast control loop with punctuality). 
+[vicon_link]: https://www.vicon.com
+[KiCAD_link]: https://kicad.org
