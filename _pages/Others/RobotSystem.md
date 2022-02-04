@@ -63,12 +63,9 @@ When controlling the robot, we have to construct numerous
 
 
 ## PCB design
-To control the robot system using the above element techniques (CANOpen, low-level controller, and high level controller), designing the electric circuit is also important. The reliability of the robotic system highly depends on the electric circuit design. Therefore, using the universal board to connect all the IC chips is an inappropriate manufacturing method when we consider the roboustness of the robot system.
+To control the robot system using the above element techniques (CANOpen, low-level controller, and high level controller), designing the electric circuit is also important. It is because the reliability of the robotic system highly depends on the electric circuit design. Therefore, using the universal board to connect all the IC chips is an inappropriate manufacturing method when we consider the roboustness of the robot system.
 
-Alternatively, we can use a printed circuit board (PCB) for more reliable electric. For this reason, I have designed numerous PCBs using [KiCAD][KiCAD_link]. Among various PCBs I have designed, the PCB shown in Fig.1 shows the recent .
-
-Using the PCB shown in Fig.1, It was possible to obtain 3 loadcells ~~.
-
+Alternatively, we can use a printed circuit board (PCB) for more reliable electric. For this reason, I have designed numerous PCBs using [KiCAD][KiCAD_link]. The Electric system in Fig.1 shows the PCB that I designed to control the motor using CANOpen protocol, low-level controller, and high-level controller. Using this PCB unit, it was possible to controll total four actuators measuring the tension of the tendon; it was used to control the [Exo-Glove Shell][Exo-Glove_shell] that assists the thumb opposition/reposition and flexion/extension of the index/middle finger.
 
 
 ## Human state measuring devices
@@ -89,3 +86,4 @@ Since I have developed numerous hand wearable devices and robots, I have used lo
 [cia_link]: https://www.can-cia.org/canopen/
 [vicon_link]: https://www.vicon.com
 [KiCAD_link]: https://kicad.org
+[Exo-Glove_shell]: /researches/exogloveshell
