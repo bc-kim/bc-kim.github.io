@@ -34,6 +34,8 @@ docs:
         url: /researches/exogloveindex
       - title: "4. Exo-Glove II"
         url: /researches/exogloveii
+  - title: "Back to main page"
+    url: /
         
 abouts:
   - title: "About Me"
@@ -56,3 +58,5 @@ abouts:
     url: /about/#teaching-experience
   - title: "Contact & CV"
     url: /about/#contact--cv
+  - title: "Back to main page"
+    url: /

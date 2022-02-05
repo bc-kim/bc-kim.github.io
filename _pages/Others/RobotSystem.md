@@ -67,12 +67,43 @@ To control the robot system using the above element techniques (CANOpen, low-lev
 
 Alternatively, we can use a printed circuit board (PCB) for more reliable electric. For this reason, I have designed numerous PCBs using [KiCAD][KiCAD_link]. The Electric system in Fig.1 shows the PCB that I designed to control the motor using CANOpen protocol, low-level controller, and high-level controller. Using this PCB unit, it was possible to controll total four actuators measuring the tension of the tendon; it was used to control the [Exo-Glove Shell][Exo-Glove_shell] that assists the thumb opposition/reposition and flexion/extension of the index/middle finger.
 
+{% capture fig_img %}
+![Foo]({{ "/assets/images/Researches/GRIPIT/Figure 13.png" | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption><b>Fig. 2 (a)</b> Total system construction to measure force and position of the pen simultaneously, <b>(b)</b> experimental setup to measure the writing force and the position of markers, and <b>(c)</b> marker attachment points to measure the position of pen from a hand frame view.</figcaption>
+</figure>
+
 
 ## Human state measuring devices
-Since I have developed numerous hand wearable devices and robots, I have used lots of experimental devices that measures human states. With motion capture system called [Vicon][vicon_link], 
+Since I have developed numerous hand wearable devices and robots, I have used lots of experimental devices that measures human states. Mostly, I have used motion capture system from [Vicon][vicon_link] to validate the performance of the wearable robot. 
+In addition, I have an experience measuring the EMG signal using [Delsys][Delsys] EMG sensors to control the hand wearable robot. 
 
+For instance, as the experimental setup (Fig.2) shows, by measuring the force applied at the object (using the 6-axis loadcell called [mini40][mini40]) and the position/orientation of object (using Vicon motion capture cameras), I measured the grasp stability when the wearable robot assists the disabled people; details are explained [here][JNER_pdf]. Here, since syncing the force data with position data is important, additional trigger signal was used as shown in the Fig.2 (a).
 
+{% capture fig_img %}
+![Foo]({{ "/assets/images/Researches/GRIPIT/Figure 13.png" | relative_url }})
+{% endcapture %}
 
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption><b>Fig. 3 (a)</b> Total system construction to measure force and position of the pen simultaneously, <b>(b)</b> experimental setup to measure the writing force and the position of markers, and <b>(c)</b> marker attachment points to measure the position of pen from a hand frame view.</figcaption>
+</figure>
+
+I have also conducted experiments (Fig.2) that figure out how the motor torque/position of the developed wearable robot ([ExoIndex][ExoIndex]) affects the joint angle of the user. 
+
+{% capture fig_img %}
+![Foo]({{ "/assets/images/Researches/ExoIndex/Fig4_1.png" | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption><b>Fig. 3</b> Schematic view of the experimental protocol to validate Exo-Index system; (a) shows an external device for synchronizing load cell data measured in the MCU and posture data measured by the Vicon; (b) shows overall control and actuation system for the robot; (c) provides a brief look at how the three tendons of the actuator are connected to the glove.
+Figure
+</figcaption>
+</figure>
 
 [Tmech_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Slider-Tendon_Linear_Actuator_With_Under-Actuation_and_Fast-Connection_for_Soft_Wearable_Robots.pdf
 [Tmech_link]: https://ieeexplore.ieee.org/document/9314058 
@@ -87,3 +118,7 @@ Since I have developed numerous hand wearable devices and robots, I have used lo
 [vicon_link]: https://www.vicon.com
 [KiCAD_link]: https://kicad.org
 [Exo-Glove_shell]: /researches/exogloveshell
+[ExoIndex]: /researches/exogloveindex
+[Delsys]: https://delsys.com
+[mini40]: https://www.ati-ia.com/products/ft/ft_models.aspx?id=mini40
+[JNER_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Kim%20et%20al.%20-%202017%20-%20Development%20and%20assessment%20of%20a%20hand%20assist%20device%20GRIPIT.pdf
