@@ -55,7 +55,7 @@ To control the robot system using the above element techniques (CANOpen, low-lev
 Alternatively, we can use a printed circuit board (PCB) for more reliable electric. For this reason, I have designed numerous PCBs using [KiCAD][KiCAD_link]. The Electric system in Fig.1 shows the PCB that I designed to control the motor using CANOpen protocol, low-level controller, and high-level controller. Using this PCB unit, it was possible to controll total four actuators measuring the tension of the tendon; it was used to control the [Exo-Glove Shell][Exo-Glove_shell] that assists the thumb opposition/reposition and flexion/extension of the index/middle finger.
 
 {% capture fig_img %}
-![Foo]({{ "/assets/images/Researches/GRIPIT/Figure 13.png" | relative_url }})
+![Foo]({{ "/assets/images/Researches/Overview/PCB.png" | relative_url }})
 {% endcapture %}
 
 <figure>
