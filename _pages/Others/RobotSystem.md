@@ -47,20 +47,7 @@ When controlling the motor using the motor driver, it is important to follow the
 
 ## High-level & Low-level control
 
-When designing the robot system, it is required to 
-
-When controlling the robot, we have to construct numerous 
-
-
-{% capture fig_img %}
-![Foo]({{ "/assets/images/Researches/Overview/TendonTransmission.png" | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Fig. 1 Soft wearable robot application using the Slider-Tendon Linear Actuator. The proposed actuator provides adaptability and usability to the soft wearable robot by including functions such as fast-connection, under-actuation mechanism, and stroke amplification.</figcaption>
-</figure>
-
+When designing the robot system, constructing an appropriate control is also important. A computer using a general operating system (linux, windows) can perform various functions, but it may not appropriate to collect sensing data or to control motors because it is not suitable for the real-time control. For this reason, I have constructed high-level controller using [ROS][ROS] (Robot Operating System) and low-level controller using [STM][STM] (which is one of micro controller unit) to control the robot more appropriately. Since CANOpen protocol is bus-driven communication, it was also possble to simply exchange the data between high-level controller, low-level controller, and motor drivers. 
 
 ## PCB design
 To control the robot system using the above element techniques (CANOpen, low-level controller, and high level controller), designing the electric circuit is also important. It is because the reliability of the robotic system highly depends on the electric circuit design. Therefore, using the universal board to connect all the IC chips is an inappropriate manufacturing method when we consider the roboustness of the robot system.
@@ -73,9 +60,8 @@ Alternatively, we can use a printed circuit board (PCB) for more reliable electr
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption><b>Fig. 2 (a)</b> Total system construction to measure force and position of the pen simultaneously, <b>(b)</b> experimental setup to measure the writing force and the position of markers, and <b>(c)</b> marker attachment points to measure the position of pen from a hand frame view.</figcaption>
+  <figcaption><b>Fig. 2 </b> PCB design used to control the hand wearable robot system.</figcaption>
 </figure>
-
 
 ## Human state measuring devices
 Since I have developed numerous hand wearable devices and robots, I have used lots of experimental devices that measures human states. Mostly, I have used motion capture system from [Vicon][vicon_link] to validate the performance of the wearable robot. 
@@ -92,7 +78,7 @@ For instance, as the experimental setup (Fig.2) shows, by measuring the force ap
   <figcaption><b>Fig. 3 (a)</b> Total system construction to measure force and position of the pen simultaneously, <b>(b)</b> experimental setup to measure the writing force and the position of markers, and <b>(c)</b> marker attachment points to measure the position of pen from a hand frame view.</figcaption>
 </figure>
 
-I have also conducted experiments (Fig.2) that figure out how the motor torque/position of the developed wearable robot ([ExoIndex][ExoIndex]) affects the joint angle of the user. 
+I have also conducted experiments (Fig.2) that figure out how the motor torque/position of the developed wearable robot ([ExoIndex][ExoIndex]) affects the joint angle of the user; details can be found in [this paper][Sensors_pdf]. With this experiments, I first measured position of the finger joints accurately using product of exponential (POE) theory. After that, I measured the joint angle of index finger simultaneously with tendon stroke and tension (since the robot is tendon-driven robot). With this experiment, it was possible to figure out how the finger joints move when the robot is operated; it is true that the relationship between tendon motion and human movement could be modelled before, but it was not accurate due to many uncertanties in soft wearable robots. Therefore this experiment was condcuted to figure out the relationship between tendon motion and human movement in data-driven method.
 
 {% capture fig_img %}
 ![Foo]({{ "/assets/images/Researches/ExoIndex/Fig4_1.png" | relative_url }})
@@ -100,8 +86,7 @@ I have also conducted experiments (Fig.2) that figure out how the motor torque/p
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption><b>Fig. 3</b> Schematic view of the experimental protocol to validate Exo-Index system; (a) shows an external device for synchronizing load cell data measured in the MCU and posture data measured by the Vicon; (b) shows overall control and actuation system for the robot; (c) provides a brief look at how the three tendons of the actuator are connected to the glove.
-Figure
+  <figcaption><b>Fig. 4</b> Schematic view of the experimental protocol to validate Exo-Index system; <b>(a)</b> shows an external device for synchronizing load cell data measured in the MCU and posture data measured by the Vicon; <b>(b)</b> shows overall control and actuation system for the robot; <b>(c)</b> provides a brief look at how the three tendons of the actuator are connected to the glove.
 </figcaption>
 </figure>
 
@@ -122,3 +107,6 @@ Figure
 [Delsys]: https://delsys.com
 [mini40]: https://www.ati-ia.com/products/ft/ft_models.aspx?id=mini40
 [JNER_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Kim%20et%20al.%20-%202017%20-%20Development%20and%20assessment%20of%20a%20hand%20assist%20device%20GRIPIT.pdf
+[Sensors_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Kim%2C%20Ryu%2C%20Cho%20-%202020%20-%20Joint%20Angle%20Estimation%20of%20a%20Tendon-driven%20Soft%20Wearable%20Robot%20through%20a%20Tension%20and%20Stroke%20Measurement.pdf
+[ros]: https://www.ros.org
+[STM]: https://www.st.com/content/st_com/en.html
