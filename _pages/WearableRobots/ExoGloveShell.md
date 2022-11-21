@@ -1,5 +1,5 @@
 ---
-permalink: /researches/exogloveshell
+permalink: /research/exogloveshell
 title: "Exo-Glove Shell"
 layout : single
 classes: wide

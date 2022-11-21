@@ -35,6 +35,7 @@ Books
 
 Other conferences and Workshop Papers
 ---
+
 10|	<font color="#F7FE2E"><b>Byungchul Kim</b></font> and Kyu-Jin Cho, “Building Simple Yet Competent Soft-Rigid Hybrid Hand Wearable Robots”, IEEE RAS/EMBS International Conference on Biomedical Robotics & Biomechanics, Seoul, Korea, August 2022.
 
 11|	<font color="#F7FE2E"><b>Byungchul Kim</b></font> and Kyu-Jin Cho, “Slider-Tendon Linear Actuator to Simplify the Soft Wearable Robots”, IEEE International Conference on Robotics and Automation, Challenges and Opportunities of Bio-inspired Design, Actuation, and Locomotion, Philadelphia, USA, May 2021.

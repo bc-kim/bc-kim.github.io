@@ -87,9 +87,10 @@ CV can be downloaded from [here][cv_link].
 |Manufacturing|  <span>&#8226;</span>  CNC milling<br>  <span>&#8226;</span>  laser cutter<br>  <span>&#8226;</span>  3D printing|
 |Circuitdesign <br> and Artworks|  <span>&#8226;</span>  KiCAD<br>  <span>&#8226;</span>  Eagle CAD|
 
->Workshop Organization
 ---
 
+>Workshop Organization
+---
 |Conference|Information|
 |:---:|:---|
 |Biorob <br>2022|  <span>&#8226;</span> Organizing committee, “Advancing Hand Wearable Robotics through novel design, actuation, sensing, and control algorithm”, workshop, IEEE RAS/EMBS International Conference on Biomedical Robotics & Biomechanics, August 2022.|

@@ -1,5 +1,5 @@
 ---
-permalink: /researches/exogloveindex
+permalink: /research/exogloveindex
 title: "Exo-Index"
 layout : single
 
