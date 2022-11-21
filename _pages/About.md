@@ -92,7 +92,7 @@ CV can be downloaded from [here][cv_link].
 
 |Conference|Information|
 |:---:|:---|
-|Biorob <br>2022|  <span>&#8226;</span> Organizing committee, “Advancing Hand Wearable Robotics through novel design, actuation, sensing, and control algorithm”, workshop, IEEE RAS/EMBS International Conference on Biomedical Robotics & Biomechanics, August 2022. [[pdf]][Biorob_pdf]
+|Biorob <br>2022|  <span>&#8226;</span> Organizing committee, “Advancing Hand Wearable Robotics through novel design, actuation, sensing, and control algorithm”, workshop, IEEE RAS/EMBS International Conference on Biomedical Robotics & Biomechanics, August 2022. [[pdf]][Biorob_pdf][[site]][Biorob_link]
 
 >Scholarship
 ---
