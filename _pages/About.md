@@ -71,10 +71,9 @@ CV can be downloaded from [here][cv_link].
 |2013 <br>-<br> 2014|<b><font color="#F7FE2E">Development of an Embedded Control Module for Rehabilitation Devices</font></b><br> <i> Funded by National Rehabilitation Center of Korea</i><br> <span>&#8226;</span>   Rehabilitation devices for the stroke people. <br> Participated in clinical trials with muscular disease patients and SCI patients <br> Co-work with National Rehabilitation Center of Korea and NT Research Inc.|
 |2012 <br>-<br> 2015|<b><font color="#F7FE2E">Exo-Glove</font></b><br> <i>Funded by National Rehabilitation Center of Korea</i> <br> <i> Funded by National Research Foundation of Korea, Ministry of Education and Science Technology</i> <br><span>&#8226;</span>   Hand wearable robot for the spinal cord injury<br>Participated in clinical trials with muscular disease patients and SCI patients <br> Co-work with National Rehabilitation Center of Korea|
 
----
-
 >Technical Skills
 ---
+
 |Categories|Technical Skills|
 |:---:|:---|
 |Various <br>prototyping <br> experiences|  <span>&#8226;</span>  Exo-Glove<br>  <span>&#8226;</span>  Bionic arm<br>  <span>&#8226;</span>  GRIPIT<br>  <span>&#8226;</span>  Embedded control module for rehabilitation devices<br>  <span>&#8226;</span>  Experimental setups|
@@ -87,10 +86,10 @@ CV can be downloaded from [here][cv_link].
 |Manufacturing|  <span>&#8226;</span>  CNC milling<br>  <span>&#8226;</span>  laser cutter<br>  <span>&#8226;</span>  3D printing|
 |Circuitdesign <br> and Artworks|  <span>&#8226;</span>  KiCAD<br>  <span>&#8226;</span>  Eagle CAD|
 
----
 
 >Workshop Organization
 ---
+
 |Conference|Information|
 |:---:|:---|
 |Biorob <br>2022|  <span>&#8226;</span> Organizing committee, “Advancing Hand Wearable Robotics through novel design, actuation, sensing, and control algorithm”, workshop, IEEE RAS/EMBS International Conference on Biomedical Robotics & Biomechanics, August 2022.|
