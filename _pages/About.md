@@ -92,7 +92,7 @@ CV can be downloaded from [here][cv_link].
 
 |Conference|Information|
 |:---:|:---|
-|Biorob <br>2022|  <span>&#8226;</span> Organizing committee, “Advancing Hand Wearable Robotics through novel design, actuation, sensing, and control algorithm”, workshop, IEEE RAS/EMBS International Conference on Biomedical Robotics & Biomechanics, August 2022.|
+|Biorob <br>2022|  <span>&#8226;</span> Organizing committee, “Advancing Hand Wearable Robotics through novel design, actuation, sensing, and control algorithm”, workshop, IEEE RAS/EMBS International Conference on Biomedical Robotics & Biomechanics, August 2022. [[pdf]][Biorob_pdf]
 
 >Scholarship
 ---
@@ -137,3 +137,5 @@ Update: 2020/01/13
 [SRRC_link]: https://www.srrc.snu.ac.kr
 [Lab_link]: https://biorobotics.snu.ac.kr
 [email]: mailto:kbc1990@snu.ac.kr
+[Biorob_pdf]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/2022Biorob_Programbook.pdf
+[Biorob_link]: https://sites.google.com/view/biorob-2022-hand-wearable/
