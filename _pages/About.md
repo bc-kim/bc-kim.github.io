@@ -37,6 +37,7 @@ CV can be downloaded from [here][cv_link].
 
 |Preiod|Experience|
 |:---:|:---|
+|Jan.2023  <br>-<br> Present|<b><font color="#F7FE2E">Postdoctoral Research associate</font></b><br> Distributed Robotics Lab, Computer Science and Artificial Intelligence Lab (CSAIL), Massachusetts Institute of Technology (MIT) <br> Advisor: Prof. Daniela Rus|
 |Sep.2020  <br>-<br> Present|<b><font color="#F7FE2E">Senior researcher</font></b><br> Soft Robotics Research Center (SRRC), Biorobotics Lab, Seoul National University <br> Project: Soft wearable robots <br> Advisor: Prof. Kyu-Jin Cho|
 
 >Education
