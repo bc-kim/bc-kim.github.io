@@ -23,7 +23,7 @@ You can check my detail informations on my [about][about_link] page. Also, detai
 
 CV can be downloaded from [here][cv_link]. 
 
-[Lab_MIT_Link] : https://csail.mit.edu
+[Lab_MIT_Link]: https://csail.mit.edu
 [SRRC_link]: https://www.srrc.snu.ac.kr
 [Research_link]: /researches/
 [publication_link]: /publications/

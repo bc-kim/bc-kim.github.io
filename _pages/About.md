@@ -7,7 +7,7 @@ classes: wide
 author_profile: false
 sidebar:
   nav: "abouts"
-excerpt: "Postdoctoral Research Fellow at SNU"
+excerpt: "Postdoctoral Research Fellow at MIT"
 header:
   overlay_image: /assets/images/Main.png
   actions:
@@ -18,7 +18,7 @@ header:
 >About me
 ---
 
-I am a Postdoctoral Research Fellow at the Seoul National University, Seoul, Korea, working with [Professor Kyu-jin Cho][Lab_link] in department of Mechanical engineering. I am currently working on tendon-driven soft wearable robot and tendon transmissions in [Soft Robotic Research Center (SRRC)][SRRC_link], since september 2020. For any inquires, you can reach me via email: [kbc1990@snu.ac.kr][email] 
+I am a Postdoctoral Research Fellow at the MIT, Cambridge, USA, working with [Professor Daniela Rus][Lab_MIT_Link] in computer science and aritificial laboratory (CSAIL), since Jan 2023. I am currently working on tendon-driven robot in CSAIL. Before joining MIT, I was a Postdoctoral Research Fellow in [Soft Robotic Research Center (SRRC)][SRRC_link], working with [Professor Kyu-jin Cho][Lab_link] in department of Mechanical engineering, Seoul National University, Seoul, Korea. In SRRC, I have studied on tendon-driven soft wearable robot and tendon-driven actuators.
 
 CV can be downloaded from [here][cv_link]. 
 
@@ -131,7 +131,7 @@ For any inquires, you can reach me via email: [kbc1990@snu.ac.kr][email].
 CV can be downloaded from [here][cv_link]. 
 
 Update: 2020/01/13
-
+[Lab_MIT_Link]: https://csail.mit.edu
 [cv_link]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV.pdf
 [email]: mailto:kbc1990@snu.ac.kr
 [Research_link]: /researches/
