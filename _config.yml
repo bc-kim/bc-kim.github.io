@@ -104,13 +104,13 @@ analytics:
 author:
   name             : "Byungchul Kim"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "I am a Postdoctoral Research Fellow working with Professor Kyu-jin Cho in Mechanical engineering."
-  location         : "Seoul National University, Korea"
-  email            : "kbc1990@snu.ac.kr"
+  bio              : "I am a Postdoctoral Research Fellow working with Professor Daniela Rus in Computer Science and Artificial Intelligence Lab."
+  location         : "MIT, USA"
+  email            : "bckim@mit.edu"
   links:
-    - label: "Biorobotics Lab"
+    - label: "CSAIL"
       icon: "fas fa-fw fa-link"
-      url: "https://biorobotics.snu.ac.kr"
+      url: "https://csail.mit.edu"
     - label: " Download CV"
       icon: "far fa-file-pdf"
       url: "https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV.pdf"

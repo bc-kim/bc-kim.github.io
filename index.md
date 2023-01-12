@@ -5,7 +5,7 @@ layout : single
 classes: wide
 
 author_profile: true
-excerpt: "Postdoctoral Research Fellow at SNU"
+excerpt: "Postdoctoral Research Fellow at MIT"
 header:
   overlay_image: /assets/images/Main.png
   actions:
@@ -15,14 +15,15 @@ header:
 **About me**
 ---
 
-I am a Postdoctoral Research Fellow at the Seoul National University, Seoul, Korea, working with [Professor Kyu-jin Cho][Lab_link] in the department of Mechanical engineering. I am currently working on the tendon-driven soft wearable robots and tendon transmissions in [Soft Robotic Research Center (SRRC)][SRRC_link], since September 2020.
+I am a Postdoctoral Research Fellow at the MIT, Cambridge, USA, working with [Professor Daniela Rus][Lab_MIT_Link] in computer science and aritificial laboratory (CSAIL), since Jan 2023. I am currently working on tendon-driven robot in CSAIL. Before joining MIT, I was a Postdoctoral Research Fellow in [Soft Robotic Research Center (SRRC)][SRRC_link], working with [Professor Kyu-jin Cho][Lab_link] in department of Mechanical engineering, Seoul National University, Seoul, Korea. In SRRC, I have studied on tendon-driven soft wearable robot and tendon transmissions.
 
 >I have been researching the enabling technologies necessary for robots to be used in real life, not in a laboratory. More specifically, I aimed to solve the trade-off issue between the robot performance and the robot complexity. This is because the high price and complexity of the robot elements (e.g., sensors, actuators, controllers) are the main reasons that make robots difficult to use in real life. As a robotic researcher – since I believe that the convergence of multi-disciplines is the most important key for a successful robot that can be used in real life – I am looking forward to collaborating with researchers in various fields.
 
-You can check my detail informations on my [about][about_link] page. Also, details of my researches and publications are described on my [research][Research_link] page and [publication][publication_link] page, respectively. For any inquires, you can reach me via email: [kbc1990@snu.ac.kr][email] 
+You can check my detail informations on my [about][about_link] page. Also, details of my researches and publications are described on my [research][Research_link] page and [publication][publication_link] page, respectively. For any inquires, you can reach me via email: [bckim@mit.edu][email] 
 
 CV can be downloaded from [here][cv_link]. 
 
+[Lab_MIT_Link] : https://csail.mit.edu
 [SRRC_link]: https://www.srrc.snu.ac.kr
 [Research_link]: /researches/
 [publication_link]: /publications/
