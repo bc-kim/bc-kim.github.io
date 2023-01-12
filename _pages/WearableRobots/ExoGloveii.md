@@ -1,5 +1,5 @@
 ---
-permalink: /researches/exogloveii
+permalink: /research/exogloveii
 title: "Exo-Glove II"
 layout : single
 

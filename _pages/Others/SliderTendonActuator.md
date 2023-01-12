@@ -1,5 +1,5 @@
 ---
-permalink: /researches/actuator
+permalink: /research/actuator
 title: "Tendon Driven Actuator"
 layout : single
 

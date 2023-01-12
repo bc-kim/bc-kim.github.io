@@ -1,6 +1,6 @@
 ---
 title: "Research Overview"
-permalink: /researches/
+permalink: /research/
 author_profile: false
 classes: wide
 sidebar:

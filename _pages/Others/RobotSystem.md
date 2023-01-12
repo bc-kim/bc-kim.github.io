@@ -1,5 +1,5 @@
 ---
-permalink: /researches/robotsystem
+permalink: /research/robotsystem
 title: "Robot System Design"
 layout : single
 

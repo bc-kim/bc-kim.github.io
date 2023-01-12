@@ -4,36 +4,36 @@ main:
     url: /about/
   - title: "Publications"
     url: /publications/
-  - title: "Researches"
-    url: /researches/
+  - title: "Research"
+    url: /research/
     
 docs:
   - title: Reseach Overview
-    url: /researches
+    url: /research
 
   - title: Enabling Technologies
     children:
       - title: "1. Robot System Design"
-        url: /researches/robotsystem
+        url: /research/robotsystem
       - title: "2. Tendon Driven Actuator"
-        url: /researches/actuator
+        url: /research/actuator
       - title: "3. Under-actuated Tendon Driven Mechanism"
-        url: /researches/tdm
+        url: /research/tdm
       - title: "4. Human State Estimation"
         url: /reseraches/stateestimation
       - title: "5. Hybrid Wearable Robot Design"
-        url: /researches/hbwr
+        url: /research/hbwr
         
   - title: Wearable Robots
     children:
       - title: "1. GRIPIT"
-        url: /researches/gripit
+        url: /research/gripit
       - title: "2. Exo-Glove Shell"
-        url: /researches/exogloveshell
+        url: /research/exogloveshell
       - title: "3. Exo-Index"
-        url: /researches/exogloveindex
+        url: /research/exogloveindex
       - title: "4. Exo-Glove II"
-        url: /researches/exogloveii
+        url: /research/exogloveii
   - title: "Back to main page"
     url: /
         

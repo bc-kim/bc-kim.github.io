@@ -1,5 +1,5 @@
 ---
-permalink: /reseraches/stateestimation
+permalink: /reserach/stateestimation
 title: "Human State Estimation"
 layout : single
 

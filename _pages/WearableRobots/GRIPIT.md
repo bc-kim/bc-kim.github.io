@@ -1,5 +1,5 @@
 ---
-permalink: /researches/gripit
+permalink: /research/gripit
 title: "GRIPIT"
 layout : single
 

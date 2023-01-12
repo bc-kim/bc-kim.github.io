@@ -1,5 +1,5 @@
 ---
-permalink: /researches/hbwr
+permalink: /research/hbwr
 title: "Hybrid Wearable Robot Design"
 layout : single
 
