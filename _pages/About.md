@@ -18,7 +18,7 @@ header:
 >About me
 ---
 
-I am a Postdoctoral Research Fellow at the MIT, Cambridge, USA, working with [Professor Daniela Rus][Lab_MIT_Link] in computer science and aritificial laboratory (CSAIL), since Jan 2023. I am currently working on tendon-driven robot in CSAIL. Before joining MIT, I was a Postdoctoral Research Fellow in [Soft Robotic Research Center (SRRC)][SRRC_link], working with [Professor Kyu-jin Cho][Lab_link] in department of Mechanical engineering, Seoul National University, Seoul, Korea. In SRRC, I have studied on tendon-driven soft wearable robot and tendon-driven actuators.
+I am a Postdoctoral Research Fellow at the MIT, Cambridge, USA, working with [Professor Daniela Rus][Lab_MIT_Link] in computer science and aritificial laboratory (CSAIL), since Jan 2023. I am currently working on tendon-driven robot in CSAIL. Before joining MIT, I was a Postdoctoral Research Fellow in [Soft Robotic Research Center (SRRC)][SRRC_link], working with [Professor Kyu-jin Cho][Lab_link] in department of Mechanical engineering, Seoul National University, Seoul, Korea. 
 
 CV can be downloaded from [here][cv_link]. 
 
@@ -37,8 +37,8 @@ CV can be downloaded from [here][cv_link].
 
 |Preiod|Experience|
 |:---:|:---|
-|Jan.2023  <br>-<br> Present|<b><font color="#F7FE2E">Postdoctoral Research associate</font></b><br> Distributed Robotics Lab, Computer Science and Artificial Intelligence Lab (CSAIL), Massachusetts Institute of Technology (MIT) <br> Advisor: Prof. Daniela Rus|
-|Sep.2020  <br>-<br> Present|<b><font color="#F7FE2E">Senior researcher</font></b><br> Soft Robotics Research Center (SRRC), Biorobotics Lab, Seoul National University <br> Project: Soft wearable robots <br> Advisor: Prof. Kyu-Jin Cho|
+|Jan.2023  <br>-<br> Present|<b><font color="#F7FE2E">Postdoctoral Research Associate</font></b><br> Distributed Robotics Lab, Computer Science and Artificial Intelligence Lab (CSAIL), Massachusetts Institute of Technology (MIT) <br> Advisor: Prof. Daniela Rus|
+|Sep.2020  <br>-<br> Present|<b><font color="#F7FE2E">Postdoctoral Research Associate</font></b><br> Soft Robotics Research Center (SRRC), Biorobotics Lab, Seoul National University <br> Project: Soft wearable robots <br> Advisor: Prof. Kyu-Jin Cho|
 
 >Education
 ---
