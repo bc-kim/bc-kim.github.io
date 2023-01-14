@@ -15,7 +15,7 @@ header:
 **About me**
 ---
 
-I am a Postdoctoral Research Associate at the MIT, Cambridge, USA, working with [Professor Daniela Rus][Lab_MIT_Link] in computer science and aritificial laboratory (CSAIL), since Jan 2023. I am currently working on tendon-driven robot in CSAIL. Before joining MIT, I was a Postdoctoral Research Associate in [Soft Robotic Research Center (SRRC)][SRRC_link], working with [Professor Kyu-jin Cho][Lab_link] in department of Mechanical engineering, Seoul National University, Seoul, Korea. 
+I am a Postdoctoral Research Associate at the [MIT CSAIL][Lab_MIT_Link] working with Professor Daniela Rus, since Jan 2023. I am currently working on tendon-driven robot. Before joining MIT, I was a Postdoctoral Research Associate in [Soft Robotic Research Center (SRRC)][SRRC_link], working with [Professor Kyu-jin Cho][Lab_link] in department of Mechanical engineering, Seoul National University, Seoul, Korea. In SRRC, I was mainly working on soft wearable robots and tendon-driven actuators.
 
 >I have been researching the enabling technologies necessary for robots to be used in real life, not in a laboratory. More specifically, I aimed to solve the trade-off issue between the robot performance and the robot complexity. This is because the high price and complexity of the robot elements (e.g., sensors, actuators, controllers) are the main reasons that make robots difficult to use in real life. As a robotic researcher – since I believe that the convergence of multi-disciplines is the most important key for a successful robot that can be used in real life – I am looking forward to collaborating with researchers in various fields.
 
