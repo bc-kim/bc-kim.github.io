@@ -1,6 +1,6 @@
 ---
 permalink: /blog/
-title: "Blog main page"
+title: "Blog"
 layout : single
 
 author_profile: false
@@ -9,4 +9,8 @@ sidebar:
   nav: "blog"
 
 ---
-For the extra information I could share with researchers, I'm preparing the blog page.
+For the extra information I could share with researchers, I'm preparing the blog page. Contents in this paper is just written as I understood, so there may be mistakes. Please [email][email] me if any information in this page is incorrect. 
+
+
+[email]: mailto:kbc19901207@gmail.com
+

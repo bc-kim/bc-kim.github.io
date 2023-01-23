@@ -43,7 +43,7 @@ Representatively, I have designed and manufactured a tendon-driven actuator for 
 
 Controlling the motor requires in-depth understanding on the working principle of the motor. Also, the motor requires high electric power, therefore, additional circuit is required to operate the motor. For this reason, an electric circuit called `motor driver' has been dedicated to controlling the motor. In this way, we can control the motor in a real-time without burdening the main controller. 
 
-When controlling the motor using the motor driver, it is important to follow the communication protocol for the motor driver. [CANOpen][cia_link] protocol is one of the well used communication protocol for the motor control. It is because this protocol provides researchers a variety of features to reliably control the motor in real time. *I have experience controlling 4 motors with 1Khz control loop using CANOpen. I am also confident in constructing robot system using a high-level controller (ROS) and low-level controller(STM) with this CANOpen protocol.* Details of how I constructed the high-level and low-level controller is described in below.
+When controlling the motor using the motor driver, it is important to follow the communication protocol for the motor driver. [CANOpen][cia_link] protocol is one of the well used communication protocol for the motor control. It is because this protocol provides researchers a variety of features to reliably control the motor in real time. *I have experience controlling 4 motors with 1Khz control loop using CANOpen (Details are [here][mycanopen_link].). I am also confident in constructing robot system using a high-level controller (ROS) and low-level controller(STM) with this CANOpen protocol.* Details of how I constructed the high-level and low-level controller is described in below.
 
 ## High-level & Low-level control
 
@@ -110,3 +110,4 @@ I have also conducted experiments (Fig.2) that figure out how the motor torque/p
 [Sensors_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Kim%2C%20Ryu%2C%20Cho%20-%202020%20-%20Joint%20Angle%20Estimation%20of%20a%20Tendon-driven%20Soft%20Wearable%20Robot%20through%20a%20Tension%20and%20Stroke%20Measurement.pdf
 [ros]: https://www.ros.org
 [STM]: https://www.st.com/content/st_com/en.html
+[mycanopen_link]: /blog/canopen
