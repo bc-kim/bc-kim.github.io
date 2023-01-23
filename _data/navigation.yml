@@ -6,6 +6,8 @@ main:
     url: /publications/
   - title: "Research"
     url: /research/
+  - title: "Blog"
+    url: /blog/
     
 docs:
   - title: Reseach Overview
@@ -36,6 +38,9 @@ docs:
         url: /research/exogloveii
   - title: "Back to main page"
     url: /
+    
+  - title: test
+    url: /blog
         
 abouts:
   - title: "About Me"
