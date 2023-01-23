@@ -38,9 +38,12 @@ docs:
         url: /research/exogloveii
   - title: "Back to main page"
     url: /
-    
-  - title: test
+
+blog:
+  - title: home
     url: /blog
+  - title: "1. CANOpen communication"
+    url: /blog/canopen
         
 abouts:
   - title: "About Me"

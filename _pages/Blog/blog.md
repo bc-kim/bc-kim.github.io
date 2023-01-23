@@ -1,5 +1,5 @@
 ---
-permalink: /blog/canopen
+permalink: /blog
 title: "CANOpen Communication"
 layout : single
 
