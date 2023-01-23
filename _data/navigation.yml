@@ -41,7 +41,7 @@ docs:
 
 blog:
   - title: home
-    url: /blog
+    url: /blog/
   - title: "1. CANOpen communication"
     url: /blog/canopen
         
