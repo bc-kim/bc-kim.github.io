@@ -131,6 +131,8 @@ For any inquires, you can reach me via email: [kbc1990@snu.ac.kr][email].
 CV can be downloaded from [here][cv_link]. 
 
 Update: 2020/01/13
+
+
 [Lab_MIT_Link]: https://csail.mit.edu
 [cv_link]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV.pdf
 [email]: mailto:kbc1990@snu.ac.kr
