@@ -22,4 +22,4 @@ For this reason, I have tried to solve the disadvantages originated from the inh
 
 The main contribution of the Exo-Glove II is the under-actuated tendon path optimization and the details of the optimization process is described [here][TDUM]; details of optimization process is also not described sufficiently because the paper related to this content is not published yet.
 
-[TDUM]: /researches/tdm
+[TDUM]: /research/tdm

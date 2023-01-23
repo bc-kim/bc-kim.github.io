@@ -136,7 +136,7 @@ Update: 2020/01/13
 [Lab_MIT_Link]: https://csail.mit.edu
 [cv_link]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV.pdf
 [email]: mailto:kbc1990@snu.ac.kr
-[Research_link]: /researches/
+[Research_link]: /research/
 [SRRC_link]: https://www.srrc.snu.ac.kr
 [Lab_link]: https://biorobotics.snu.ac.kr
 [email]: mailto:kbc1990@snu.ac.kr

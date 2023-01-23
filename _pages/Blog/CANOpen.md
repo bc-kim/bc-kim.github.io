@@ -1,6 +1,6 @@
 ---
 permalink: /blog/canopen
-title: "CANOpen Communication"
+title: "Motor control using STM board and CANOpen"
 layout : single
 
 author_profile: false
@@ -20,5 +20,11 @@ CANOpen communication is one of
 
 Among several rules 
 ###1.1 NMT
+
+###1.2 SDO
+
+###1.3 PDO
+
+
 
 [email]: mailto:kbc19901207@gmail.com

@@ -92,18 +92,18 @@ I have also conducted experiments (Fig.2) that figure out how the motor torque/p
 
 [Tmech_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Slider-Tendon_Linear_Actuator_With_Under-Actuation_and_Fast-Connection_for_Soft_Wearable_Robots.pdf
 [Tmech_link]: https://ieeexplore.ieee.org/document/9314058 
-[3D CAD design]: /researches/robotsystem#3d-cad-design--fabrication
-[up]: /researches/robotsystem
-[Actuator]: /researches/actuator
-[CANOpen]: /researches/robotsystem#can-open-communication-for-real-time-motor-control-multiple-motors
-[PCB design]: /researches/robotsystem#pcb-design
-[Control]: /researches/robotsystem#high-level--low-level-control
-[State measuring]: /researches/robotsystem#human-state-measuring-devices
+[3D CAD design]: /research/robotsystem#3d-cad-design--fabrication
+[up]: /research/robotsystem
+[Actuator]: /research/actuator
+[CANOpen]: /research/robotsystem#can-open-communication-for-real-time-motor-control-multiple-motors
+[PCB design]: /research/robotsystem#pcb-design
+[Control]: /research/robotsystem#high-level--low-level-control
+[State measuring]: /research/robotsystem#human-state-measuring-devices
 [cia_link]: https://www.can-cia.org/canopen/
 [vicon_link]: https://www.vicon.com
 [KiCAD_link]: https://kicad.org
-[Exo-Glove_shell]: /researches/exogloveshell
-[ExoIndex]: /researches/exogloveindex
+[Exo-Glove_shell]: /research/exogloveshell
+[ExoIndex]: /research/exogloveindex
 [Delsys]: https://delsys.com
 [mini40]: https://www.ati-ia.com/products/ft/ft_models.aspx?id=mini40
 [JNER_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Kim%20et%20al.%20-%202017%20-%20Development%20and%20assessment%20of%20a%20hand%20assist%20device%20GRIPIT.pdf

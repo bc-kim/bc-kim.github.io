@@ -61,5 +61,5 @@ For this reason, I have developed an actuator that can pull the tendon without i
 
 [Tmech_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Slider-Tendon_Linear_Actuator_With_Under-Actuation_and_Fast-Connection_for_Soft_Wearable_Robots.pdf
 [Tmech_link]: https://ieeexplore.ieee.org/document/9314058 
-[overview]: /researches
-[hybrid_link]: /researches/hbwr
+[overview]: /research
+[hybrid_link]: /research/hbwr

@@ -51,9 +51,9 @@ Here are some studies I`ve done or currently working on to solve this trade-off 
 Please look for each individual research pages for the details of reseach contents. 
 
 [publication]: /publications/
-[video_link]: /researches/#overview-presentation-video
-[TendonDrivenActuator]: /researches/actuator
-[UATDM]: /researches/tdm
-[GRIPIT]: /researches/gripit
-[EXOIndex]: /researches/exogloveindex
-[EXOShell]: /researches/exogloveshell
+[video_link]: /research/#overview-presentation-video
+[TendonDrivenActuator]: /research/actuator
+[UATDM]: /research/tdm
+[GRIPIT]: /research/gripit
+[EXOIndex]: /research/exogloveindex
+[EXOShell]: /research/exogloveshell

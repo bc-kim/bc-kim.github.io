@@ -85,7 +85,7 @@ GRIPIT was promoted through social funding called 'Kakao Story funding' in korea
 [JNER_link]: https://jneuroengrehab.biomedcentral.com/articles/10.1186/s12984-017-0223-4
 [home_link]: /#about-me
 [reason_link]: gripit#reason-why-hand-wearable-robot-is-difficult-to-use-in-real-life
-[result_link]: /researches/gripit#validation-of-the-gripit
-[uatd_internal_link]: /researches/gripit#3-under-actuated-tendon-routing
-[uatd_external_link]: /researches/tdm
+[result_link]: /research/gripit#validation-of-the-gripit
+[uatd_internal_link]: /research/gripit#3-under-actuated-tendon-routing
+[uatd_external_link]: /research/tdm
 [StoryFundingLink]: gripit#social-funding-kakao-story-funding-in-korea

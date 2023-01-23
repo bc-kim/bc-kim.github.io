@@ -27,4 +27,4 @@ The compliance of robot is also a well-known factor that affects the robot funct
 
 Smmarizing the above robot characteristics, it can be seen that the rigid wearable robot has high functions but low usability, whereas the software wearable robot shows the opposite. For this reason, I have tried to use both rigid and soft components in designing the wearable robot. Since the rigid part of the robot seems similar to the shell, I named this robot design as Exo-Glove Shell; the detail information can be found in the [Exo-Glove Shell page][EGS_link].
 
-[EGS_link]: /researches/exogloveshell
+[EGS_link]: /research/exogloveshell
