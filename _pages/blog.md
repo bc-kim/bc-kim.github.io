@@ -1,5 +1,5 @@
 ---
-permalink: /blog
+permalink: /blog/
 title: "Blog main page"
 layout : single
 
@@ -9,4 +9,4 @@ sidebar:
   nav: "blog"
 
 ---
-# STM-Motor control
+For the extra information I could share with researchers, I'm preparing the blog page.
