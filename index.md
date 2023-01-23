@@ -30,4 +30,4 @@ CV can be downloaded from [here][cv_link].
 [Lab_link]: https://biorobotics.snu.ac.kr
 [about_link]: /about/
 [cv_link]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV.pdf
-[email]: mailto:kbc1990@snu.ac.kr
+[email]: mailto:kbc19901207@gmail.com
