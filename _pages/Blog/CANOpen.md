@@ -9,10 +9,16 @@ sidebar:
   nav: "blog"
 
 ---
-This page introduces brief information about a method to control the motors using CANopen communication and STM board (Nucleo F-446 RE board). The contents written here refers following sites and contents [1-7].
+This page introduces brief information about a method to control the motors using CANopen communication and STM board (Nucleo F-446 RE board). For the motor driver, I have used MC5004P and MCDC3002P model from Faulhaber. The contents written here refers following sites and contents [1-7]. For more details please see the references. 
 
 ## CAN vs CANOpen communication
-Before explaning the CANopen protocol, we should distinguish CANopen protocol from Controller Area Network (CAN) protocol - CANOpen protocol is a high-level protocol that communicates with other CANOpen device using low-level protocol called (CAN protocol).
+Before explaning the CANopen protocol, we should distinguish CANopen protocol from Controller Area Network (CAN) protocol - CANOpen protocol is a high-level protocol that communicates with other CANOpen device while CAN protocol is a lower level protocol related to physical and data link layer. A concept of physical layer or data link layer comes from OSI communication systems model (which defines 7 layers in communication). 
+
+Practically, CANprotocol can be thought a protocol that defines how to send a message physically while CANOpen protocol can be thougt a protocol 
+
+For instance, if we send a message 0x6040, CAN protocol defines how to send this message. On the other hand, CANOpen protocol focus on what a message 0x6040 actually means.
+
+In practical, CANprotocl could be thought as a 
 
 CAN protocol is a lower-layer protocol used for . Since CANOpen communication is based on CAN protocol (which is obvious), we would first walk through the CAN communication here. CANOpen Communication follows in the next section.
 
@@ -156,11 +162,23 @@ defines all the information
 ```
 
 ### 2.3 PDO
-Lastly, I use PDO to control the motor in real-time. 
+Since SDO can only deal with one object dictionary per single message frame, a communication using SDO may be seem inefficient. Alternative way to deal with this issue is to use PDO - it is used for real-time data transfer (e.g., motor position, velocity, torque).
+
+PDO can be categorized into TxPDO and RxPDO. 
+For PDO communication, we have to first map object to PDO entry. When using Faulhaber motor driver, PDO mapping can be done by using motion manager. (It can be downloaded here)
+
+For example, if we mapped "current position" to PDO-1, the 
 
 ```c
 
 ```
+
+Also, if we mapped "target velocity" to PDO-1, we can change the motor velocity by sending PDO message as 
+
+```c
+
+```
+
 
 [1] [Overal view of CAN & CANOpen][CAN_cia] 
 [2] [CAN description from NI][CAN_NI] 
