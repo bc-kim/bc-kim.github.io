@@ -20,20 +20,22 @@ Before explaning the CANopen protocol, we should distinguish CANopen protocol fr
 
 Practically, CANprotocol can be thought as a protocol that defines how to send a message physically (i.e., electrically) while CANOpen protocol can be thougt a protocol 
 
-For instance, if we send a message 0x6040, CAN protocol defines how to send this message. On the other hand, CANOpen protocol focus on what a message 0x6040 actually means.
-
-In practical, CANprotocl could be thought as a 
-
-CAN protocol is a lower-layer protocol used for . Since CANOpen communication is based on CAN protocol (which is obvious), we would first walk through the CAN communication here. CANOpen Communication follows in the next section.
+For instance, if we send a message 0x6040, CAN protocol defines how to send this message. On the other hand, CANOpen protocol focus on an actual meaning of 0x6040.
+ 
+Since CANOpen communication is based on CAN protocol, we would first walk through the CAN communication in section 1. CANOpen Communication follows in the next section.
 
 ## 1. CAN communication
 
 ### 1.1 Basic structure of CAN message
+In standard CAN frame, 
 
+When sending a CAN message, 
 Since 
 To send or receive CAN message, we have to understand the basic structure of CAN message.  consists of 
 
 ### 1.2 CAN settings at cubeMx
+
+Since we are using STM boards, we first have to use cubeMx in order to configure basic settings for the CAN communication.
 
 ### 1.3 Wiring for CAN communication
 
@@ -74,6 +76,18 @@ After
 ## 2. CANOpen Communication
 
 ###2.1 CANOpen message basic structure
+
+To send CANOpen message, we first need to know the structure of the message. CANOpen message consists of 
+
+1. COB-ID ()
+2. Data length
+3. Data (0~8bytes)
+
+For the COB-ID, it 
+
+CANOpen message consists of 
+
+
 With given setup for CAN protocol as explained in Chapter 1, we can now send or receive CANOpen messages. The structure consists of CANOpen message has following 
 
 ### 2.2 Send CANOpen message
@@ -204,7 +218,10 @@ Also, if we mapped "target velocity" to PDO-1, we can change the motor velocity 
 
 [3] [CANOpen description from NI][CANOpen_NI]
 
+[4] [CAN and CANOpen intro from CSS][CANOpen_CSS]
+
 [CAN_cia]: https://www.can-cia.org
 [CAN_NI]: https://www.ni.com/en-us/innovations/white-papers/06/controller-area-network--can--overview.html
 [CANOpen_NI]: https://www.ni.com/en-us/innovations/white-papers/13/the-basics-of-canopen.html
 [osi_layer]: https://en.wikipedia.org/wiki/OSI_model
+[CANOpen_CSS]: https://www.csselectronics.com/pages/can-bus-intros-tutorials
