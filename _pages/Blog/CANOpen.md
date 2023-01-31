@@ -45,7 +45,7 @@ To establish CAN communication, we should first initialize the CAN configuration
 After 
 ### 1.2 Send CAN message
 
-### 1.3 Receive CAN message
+### 1.3 Receive CAN
 
 ## 2. CANOpen Communication
 
@@ -62,13 +62,4 @@ CAN communication is one of well used protocol used to communicate between the e
 
 Controlling the motor requires in-depth understanding on the working principle of the motor. Also, the motor requires high electric power, therefore, additional circuit is required to operate the motor. For this reason, an electric circuit called `motor driver' has been dedicated to controlling the motor. In this way, we can control the motor in a real-time without burdening the main controller. 
 
-When controlling the motor using the motor driver, it is important to follow the communication protocol for the motor driver. [CANOpen][cia_link] protocol is one of the well used communication protocol for the motor control. It is because this protocol provides researchers a variety of features to reliably control the motor in real time. *I have experience controlling 4 motors with 1Khz control loop using CANOpen (Details are [here][mycanopen_link].). I am also confident in constructing robot system using a high-level controller (ROS) and low-level controller(STM) with this CANOpen protocol.* Details of how I constructed the high-level and low-level controller is described in below.
-
-
-Among several rules 
-###1.1 NMT
-
-###1.2 SDO
-
-###1.3 PDO
-
+When controlling the motor using the motor driver, it is important to follow the communication protocol for the motor driver. CANOpen protocol is one of the well used communication protocol for the motor control. It is because this protocol provides researchers a variety of features to reliably control the motor in real time. *I have experience controlling 4 motors with 1Khz control loop using CANOpen (Details are here.). I am also confident in constructing robot system using a high-level controller (ROS) and low-level controller(STM) with this CANOpen protocol.* Details of how I constructed the high-level and low-level controller is described in below.
