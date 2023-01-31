@@ -43,18 +43,45 @@ To establish CAN communication, we should first initialize the CAN configuration
 ```
 
 After 
-### 1.2 Send CAN message
+### 1.2 Basic structure of CAN message
 
-If we are sending a message constructed as 
-0x00 | 0x00 | , 
+To send or receive CAN message, we have to understand the basic structure of CAN message.  consists of 
+
+### 1.3 Send CAN message
+To send CAN message, we have to define two variables: 1) TxHeader and 2) data. TxHeader contains basic information about the CAN message while data contains a specific CAN message. 
+
 
 ```c
+// [Example 1.2.1 Send CAN message]
+TxHeader.StdId = cobID;
+TxHeader.RTR = rtr == 0;
+TxHeader.IDE = CAN_ID_STD;
+TxHeader.DLC = len;
+data[0] = 0x00;
+data[1] = 0x01;
+data[2] = 0x02;
 while(HAL_CAN_GetTxMailboxesFreeLevel(&hcan1) == 0);
   HAL_CAN_AddTxMessage(&hcan1, &TxHeader, data, &TxMailbox);
 while(HAL_CAN_IsTxMessagePending(&hcan1, TxMailbox) == 1);
 ```
 
 ### 1.3 Receive CAN
+
+To receive CAN message, I ususally use two different methods. First method is pulling method. 
+
+When we want to receive the CAN message using interrupt method, we should define interrupt function as below. Here, received data is saved in *RxHeader* and *RxData*. 
+
+```c
+// [Example 1.3.1 Receive CAN message using interrupt]
+void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) // HAL_Can interrupt
+{
+  if (hcan->Instance == CAN1)
+  {
+    HAL_CAN_GetRxMessage(&hcan1, CAN_RX_FIFO0, &RxHeader, RxData);
+  }
+}
+```
+
 
 ## 2. CANOpen Communication
 
@@ -66,7 +93,13 @@ Since we can now send and receive CAN messages, now we can build higher level co
 In this blog, I would briefly explain above three protocols and how to implement them in actual STM codes. 
 
 ### 2.1 NMT
-When we aim to communicate with motor driver, we first have to know about NMT. 
+When we aim to communicate with motor driver, we first have to know about NMT. Briefly, NMT defines the network state of the device - the CANOpen device 
+
+- Initilization
+- Pre-operational
+- 
+
+For this reason, when we first want to 
 
 {% capture fig_img %}
 ![Foo]({{ "/assets/images/Researches/SliderTendonLinearActuator/Fig1.png" | relative_url }})
