@@ -9,12 +9,16 @@ sidebar:
   nav: "blog"
 
 ---
-This page introduces brief information about a method to control the motors using CANopen communication and STM board (Nucleo F-446 RE board). For the motor driver, I have used MC5004P and MCDC3002P model from Faulhaber. The contents written here refers following sites and contents [1-7]. For more details please see the references. 
+This page introduces brief information about a method to control the motors using CANopen communication and STM board. In addition, this page briefly explains basic information about CAN and CANOpen communication. The contents written here refers following sites and contents [1-7]. For more details please see the references. The practical demonstration is done using:
+
+- Nucleo F-446 Re board
+- MC5004P from Faulhaber
+- MCDC3002P from Faulhaber
 
 ## CAN vs CANOpen communication
-Before explaning the CANopen protocol, we should distinguish CANopen protocol from Controller Area Network (CAN) protocol - CANOpen protocol is a high-level protocol that communicates with other CANOpen device while CAN protocol is a lower level protocol related to physical and data link layer. A concept of physical layer or data link layer comes from OSI communication systems model (which defines 7 layers in communication). 
+Before explaning the CANopen protocol, we should distinguish CANopen protocol from Controller Area Network (CAN) protocol - CANOpen protocol is a high-level protocol that communicates with other CANOpen device while CAN protocol is a lower level protocol related how to send the message electrically. In terms of [OSI communication  model][osi_layer], that defines 7 distinct layers in communication, the CAN protocol deals with lower layers (physical and data link layer) of OSI model while the CANOpen protocol deals with other five layers of the OSI model. 
 
-Practically, CANprotocol can be thought a protocol that defines how to send a message physically while CANOpen protocol can be thougt a protocol 
+Practically, CANprotocol can be thought as a protocol that defines how to send a message physically (i.e., electrically) while CANOpen protocol can be thougt a protocol 
 
 For instance, if we send a message 0x6040, CAN protocol defines how to send this message. On the other hand, CANOpen protocol focus on what a message 0x6040 actually means.
 
@@ -23,8 +27,18 @@ In practical, CANprotocl could be thought as a
 CAN protocol is a lower-layer protocol used for . Since CANOpen communication is based on CAN protocol (which is obvious), we would first walk through the CAN communication here. CANOpen Communication follows in the next section.
 
 ## 1. CAN communication
-### 1.1 Initialization of CAN communication
-To establish CAN communication, in STM controllers, we should first initialize the CAN configuration. In this state, we configure the 
+
+### 1.1 Basic structure of CAN message
+
+Since 
+To send or receive CAN message, we have to understand the basic structure of CAN message.  consists of 
+
+### 1.2 CAN settings at cubeMx
+
+### 1.3 Wiring for CAN communication
+
+### 1.4 Initialization of CAN communication
+In STM controllers, we first have to initialize the configuration of the CAN. In this state, the code determines which messages the device listens to and which messages it doesn't listen to.
 
 configuration as below. Since our goal is to develop master node rather than slave node, I usually don't make any filter for the CAN communication. So the initialization code is quite simple as below. 
 
@@ -54,11 +68,15 @@ configuration as below. Since our goal is to develop master node rather than sla
 ```
 
 After 
-### 1.2 Basic structure of CAN message
 
-To send or receive CAN message, we have to understand the basic structure of CAN message.  consists of 
 
-### 1.3 Send CAN message
+
+## 2. CANOpen Communication
+
+###2.1 CANOpen message basic structure
+With given setup for CAN protocol as explained in Chapter 1, we can now send or receive CANOpen messages. The structure consists of CANOpen message has following 
+
+### 2.2 Send CANOpen message
 To send CAN message, we have to define two variables: 1) TxHeader and 2) data. TxHeader contains basic information about the CAN message while data contains a specific CAN message. 
 
 
@@ -76,7 +94,7 @@ while(HAL_CAN_GetTxMailboxesFreeLevel(&hcan1) == 0);
 while(HAL_CAN_IsTxMessagePending(&hcan1, TxMailbox) == 1);
 ```
 
-### 1.3 Receive CAN
+### 2.3 Receive CANOpen message
 
 To receive CAN message, I ususally use two different methods. First method is pulling method. 
 
@@ -93,15 +111,13 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) // HAL_Can inter
 }
 ```
 
-
-## 2. CANOpen Communication
-
 Since we can now send and receive CAN messages, we can use CANOpen to communicate with other CANOpen devices (e.g. motor driver). Among many functions in CANOpen protocol, I have used following three protocols:
  - Network Management (NMT)
  - Service Data Object (SDO)
  - Process Data Object (PDO)
 
 In this blog, I would briefly explain above three protocols and how to implement them in actual STM codes. For more details on NMT, SDO, and PDO, please see reference listed below.
+
 
 ### 2.1 NMT
 When we aim to communicate with motor driver, we first have to know about NMT. Briefly, NMT defines the network state of the device - the CANOpen device 
@@ -162,7 +178,9 @@ defines all the information
 ```
 
 ### 2.3 PDO
-Since SDO can only deal with one object dictionary per single message frame, a communication using SDO may be seem inefficient. Alternative way to deal with this issue is to use PDO - it is used for real-time data transfer (e.g., motor position, velocity, torque).
+Since SDO deals with a single object dictionary per single message frame, a communication using SDO may be seem inefficient - because we need some overhead when using SDO (such as index and subindex). 
+
+Alternative way to deal with this issue is a method of using PDO - in most of cases, PDO is used to transfer desired/current motor values (e.g., motor position, velocity, torque) in a real-time manner.
 
 PDO can be categorized into TxPDO and RxPDO. 
 For PDO communication, we have to first map object to PDO entry. When using Faulhaber motor driver, PDO mapping can be done by using motion manager. (It can be downloaded here)
@@ -181,9 +199,12 @@ Also, if we mapped "target velocity" to PDO-1, we can change the motor velocity 
 
 
 [1] [Overal view of CAN & CANOpen][CAN_cia] 
+
 [2] [CAN description from NI][CAN_NI] 
+
 [3] [CANOpen description from NI][CANOpen_NI]
 
 [CAN_cia]: https://www.can-cia.org
-[CAN_NI]: https://www.ni.com/en-us/innovations/white-papers/06/
+[CAN_NI]: https://www.ni.com/en-us/innovations/white-papers/06/controller-area-network--can--overview.html
 [CANOpen_NI]: https://www.ni.com/en-us/innovations/white-papers/13/the-basics-of-canopen.html
+[osi_layer]: https://en.wikipedia.org/wiki/OSI_model
