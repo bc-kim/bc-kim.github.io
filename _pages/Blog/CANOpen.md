@@ -9,13 +9,18 @@ sidebar:
   nav: "blog"
 
 ---
-This page introduces brief information about a method to control the motor using CANopen communication and Nucleo F-446 RE board. For the practical use, you can download the code from here. The contents written here refers following sites and contents [1-7].
+This page introduces brief information about a method to control the motors using CANopen communication and STM board (Nucleo F-446 RE board). The contents written here refers following sites and contents [1-7].
 
-## 1. CAN Communication
-Before explaning the CANopen protocol, we should distinguish CANopen protocol from Controller Area Network (CAN) protocol. CAN protocol is a lower-layer protocol used for . Since CANOpen communication is based on CAN protocol (which is obvious), we would first walk through the CAN communication here. CANOpen Communication follows in the next section.
+## CAN vs CANOpen communication
+Before explaning the CANopen protocol, we should distinguish CANopen protocol from Controller Area Network (CAN) protocol - CANOpen protocol is a high-level protocol that communicates with other CANOpen device using low-level protocol called (CAN protocol).
 
+CAN protocol is a lower-layer protocol used for . Since CANOpen communication is based on CAN protocol (which is obvious), we would first walk through the CAN communication here. CANOpen Communication follows in the next section.
+
+## 1. CAN communication
 ### 1.1 Initialization of CAN communication
-To establish CAN communication, we should first initialize the CAN configuration as below. Since our goal is to develop master node rather than slave node, I usually don't make any filter for the CAN communication. So the initialization code is quite simple as below. 
+To establish CAN communication, in STM controllers, we should first initialize the CAN configuration. In this state, we configure the 
+
+configuration as below. Since our goal is to develop master node rather than slave node, I usually don't make any filter for the CAN communication. So the initialization code is quite simple as below. 
 
 ```c
   // [[ 1. Init CAN ]]
@@ -85,12 +90,12 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) // HAL_Can inter
 
 ## 2. CANOpen Communication
 
-Since we can now send and receive CAN messages, now we can build higher level communication using CANOpen rules. Among many functions related to CANOpen protocol, following three protocol should be considered in practical cases. 
+Since we can now send and receive CAN messages, we can use CANOpen to communicate with other CANOpen devices (e.g. motor driver). Among many functions in CANOpen protocol, I have used following three protocols:
  - Network Management (NMT)
- - SDO
- - PDO
+ - Service Data Object (SDO)
+ - Process Data Object (PDO)
 
-In this blog, I would briefly explain above three protocols and how to implement them in actual STM codes. 
+In this blog, I would briefly explain above three protocols and how to implement them in actual STM codes. For more details on NMT, SDO, and PDO, please see reference listed below.
 
 ### 2.1 NMT
 When we aim to communicate with motor driver, we first have to know about NMT. Briefly, NMT defines the network state of the device - the CANOpen device 
@@ -110,7 +115,26 @@ For this reason, when we first want to
   <figcaption>Fig. 1 Soft wearable robot application using the Slider-Tendon Linear Actuator. The proposed actuator provides adaptability and usability to the soft wearable robot by including functions such as fast-connection, under-actuation mechanism, and stroke amplification.</figcaption>
 </figure>
 
+```c
+// Start_Remote_node //
 
+// Enter_Pre_operation // 
+
+// Stop_Remote_node //
+
+// Reset_node //
+
+// Reset_Communication //
+if (CAN_NMT(Start_Remote_node, Node[i], Delay) == Operational)
+{
+  CAN_Device_Control(Shut_down, Node[i]);
+  HAL_Delay(Delay);
+  CAN_Device_Control(Switch_on, Node[i]);
+  HAL_Delay(Delay);
+  CAN_Device_Control(Enable_operation, Node[i]);
+}
+
+```
 
 CAN communication is one of well used protocol used to communicate between the electric devices. 
 
@@ -118,5 +142,30 @@ Controlling the motor requires in-depth understanding on the working principle o
 
 When controlling the motor using the motor driver, it is important to follow the communication protocol for the motor driver. CANOpen protocol is one of the well used communication protocol for the motor control. It is because this protocol provides researchers a variety of features to reliably control the motor in real time. *I have experience controlling 4 motors with 1Khz control loop using CANOpen (Details are here.). I am also confident in constructing robot system using a high-level controller (ROS) and low-level controller(STM) with this CANOpen protocol.* Details of how I constructed the high-level and low-level controller is described in below.
 
-[1]
-[2]
+### 2.2 SDO
+CANopen devices have their object dictionary 
+
+defines all the information 
+
+```c 
+  CAN_Device_Control(Shut_down, Node[i]);
+  HAL_Delay(Delay);
+  CAN_Device_Control(Switch_on, Node[i]);
+  HAL_Delay(Delay);
+  CAN_Device_Control(Enable_operation, Node[i]);
+```
+
+### 2.3 PDO
+Lastly, I use PDO to control the motor in real-time. 
+
+```c
+
+```
+
+[1] [Overal view of CAN & CANOpen][CAN_cia] 
+[2] [CAN description from NI][CAN_NI] 
+[3] [CANOpen description from NI][CANOpen_NI]
+
+[CAN_cia]: https://www.can-cia.org
+[CAN_NI]: https://www.ni.com/en-us/innovations/white-papers/06/
+[CANOpen_NI]: https://www.ni.com/en-us/innovations/white-papers/13/the-basics-of-canopen.html
