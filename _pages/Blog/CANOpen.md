@@ -18,9 +18,7 @@ This page introduces brief information about a method to control the motors usin
 ## CAN vs CANOpen communication
 Before explaning the CANopen protocol, we should distinguish CANopen protocol from Controller Area Network (CAN) protocol - CANOpen protocol is a high-level protocol that communicates with other CANOpen device while CAN protocol is a lower level protocol related how to send the message electrically. In terms of [OSI communication  model][osi_layer], that defines 7 distinct layers in communication, the CAN protocol deals with lower layers (physical and data link layer) of OSI model while the CANOpen protocol deals with other five layers of the OSI model. 
 
-Practically, CANprotocol can be thought as a protocol that defines how to send a message physically (i.e., electrically) while CANOpen protocol can be thougt a protocol 
-
-For instance, if we send a message 0x6040, CAN protocol defines how to send this message. On the other hand, CANOpen protocol focus on an actual meaning of 0x6040.
+Practically, CAN is related to a method of sending/receivng bit messages physically (i.e., electrically). On the other hand, CANOpen can be thought as a protocol that defines meaning of each messages. For instance, if we send a message 0x6040, CAN defines how to send this message. On the other hand, CANOpen protocol focus on an actual meaning of 0x6040.
  
 Since CANOpen communication is based on CAN protocol, we would first walk through the CAN communication in section 1. CANOpen Communication follows in the next section.
 
@@ -33,13 +31,14 @@ When sending a CAN message,
 Since 
 To send or receive CAN message, we have to understand the basic structure of CAN message.  consists of 
 
-### 1.2 CAN settings at cubeMx
+### 1.2 Wiring for CAN communication
+
+### 1.3 CAN settings at cubeMx
 
 Since we are using STM boards, we first have to use cubeMx in order to configure basic settings for the CAN communication.
 
-### 1.3 Wiring for CAN communication
 
-### 1.4 Initialization of CAN communication
+### 1.4 Initialization of CAN communication (in STM codes)
 In STM controllers, we first have to initialize the configuration of the CAN. In this state, the code determines which messages the device listens to and which messages it doesn't listen to.
 
 configuration as below. Since our goal is to develop master node rather than slave node, I usually don't make any filter for the CAN communication. So the initialization code is quite simple as below. 
