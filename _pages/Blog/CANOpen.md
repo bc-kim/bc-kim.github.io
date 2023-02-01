@@ -160,14 +160,7 @@ For this reason, when we first want to
 // Reset_node //
 
 // Reset_Communication //
-if (CAN_NMT(Start_Remote_node, Node[i], Delay) == Operational)
-{
-  CAN_Device_Control(Shut_down, Node[i]);
-  HAL_Delay(Delay);
-  CAN_Device_Control(Switch_on, Node[i]);
-  HAL_Delay(Delay);
-  CAN_Device_Control(Enable_operation, Node[i]);
-}
+
 
 ```
 
@@ -183,11 +176,7 @@ CANopen devices have their object dictionary
 defines all the information 
 
 ```c 
-  CAN_Device_Control(Shut_down, Node[i]);
-  HAL_Delay(Delay);
-  CAN_Device_Control(Switch_on, Node[i]);
-  HAL_Delay(Delay);
-  CAN_Device_Control(Enable_operation, Node[i]);
+
 ```
 
 ### 2.3 PDO
