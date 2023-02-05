@@ -9,7 +9,9 @@ sidebar:
   nav: "blog"
 
 ---
-This page introduces brief information about a method to control the motors using CANopen communication and STM board. In addition, this page briefly explains basic information about CAN and CANOpen communication. The contents written here refers following sites and contents [1-7]. For more details please see the references. The practical demonstration is conducted using:
+CAN communication is one of well used protocol used to communicate between the electric devices. When we want to control the motor, it requires in-depth understanding on the working principle of the motor. Also, the motor requires high electric power, therefore, additional circuit is required to operate the motor. For this reason, an electric circuit called `motor driver' has been dedicated to controlling the motor. In this way, we can control the motor in a real-time without burdening the main controller. 
+
+For more effecient way to control the motor in a real-time, motor drivers were designed using several communication protocols. CANOpen protocol is one of the well used communication protocol for the motor control. It is because this protocol provides researchers a variety of features to reliably control the motor in real time. This page introduces brief information about a method to control the motors using CANopen communication and STM board. In addition, this page briefly explains basic information about CAN and CANOpen communication. The contents written here refers following sites and contents [1-7]. For more details please see the references. The practical demonstration is conducted using:
 
 - Nucleo F-446 Re board
 - MC5004P from Faulhaber
@@ -31,10 +33,12 @@ Since the CAN message structure is complex (but it is important for reliable com
 
 Instead of considering 8 message fields, we have to know about
 
+
 1) Communication Object Identifier (COB-ID)
 2) Remote Transmission Request (RTR)
 3) Data length
 4) Data
+
  
 when writing a code for CAN communication - i.e., the hardwares automatically translate them to CAN message. So we would focus on COB-ID, Data length, and Data, when we write a code for CANOpen.
 
@@ -56,7 +60,6 @@ NMT stands for Network managements.
 In this blog, I would briefly explain above three protocols and how to implement them in actual STM codes. For more details on NMT, SDO, and PDO, please see reference listed below.
 
 
-### 2.1 NMT
 When we aim to communicate with motor driver, we first have to know about NMT. Briefly, NMT defines the network state of the device - the CANOpen device 
 
 - Initilization
@@ -74,25 +77,6 @@ For this reason, when we first want to
   <figcaption>Fig. 1 Soft wearable robot application using the Slider-Tendon Linear Actuator. The proposed actuator provides adaptability and usability to the soft wearable robot by including functions such as fast-connection, under-actuation mechanism, and stroke amplification.</figcaption>
 </figure>
 
-```c
-// Start_Remote_node //
-
-// Enter_Pre_operation // 
-
-// Stop_Remote_node //
-
-// Reset_node //
-
-// Reset_Communication //
-
-
-```
-
-CAN communication is one of well used protocol used to communicate between the electric devices. 
-
-Controlling the motor requires in-depth understanding on the working principle of the motor. Also, the motor requires high electric power, therefore, additional circuit is required to operate the motor. For this reason, an electric circuit called `motor driver' has been dedicated to controlling the motor. In this way, we can control the motor in a real-time without burdening the main controller. 
-
-When controlling the motor using the motor driver, it is important to follow the communication protocol for the motor driver. CANOpen protocol is one of the well used communication protocol for the motor control. It is because this protocol provides researchers a variety of features to reliably control the motor in real time. *I have experience controlling 4 motors with 1Khz control loop using CANOpen (Details are here.). I am also confident in constructing robot system using a high-level controller (ROS) and low-level controller(STM) with this CANOpen protocol.* Details of how I constructed the high-level and low-level controller is described in below.
 
 ### 2.2 SDO
 CANopen devices have their object dictionary 
@@ -199,6 +183,22 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) // HAL_Can inter
     HAL_CAN_GetRxMessage(&hcan1, CAN_RX_FIFO0, &RxHeader, RxData);
   }
 }
+```
+
+
+### 
+```c
+// Start_Remote_node //
+
+// Enter_Pre_operation // 
+
+// Stop_Remote_node //
+
+// Reset_node //
+
+// Reset_Communication //
+
+
 ```
 
 
