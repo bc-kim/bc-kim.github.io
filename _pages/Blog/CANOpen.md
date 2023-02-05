@@ -27,19 +27,17 @@ Practically, CAN is related to a method of sending/receivng bit messages physica
 
 
 ### 1.2 Structure of CAN and CANOpen message
-Standard CAN frame consists of 8 different types of message fields, which are 1) Start of Frame (SOF, 1bit), 2) Identifier (ID, 11 bits), 3) Remote Transmission Request (RTR, 1 bit), 4) Control (6 bits), 5) Data (0-64 bits), 6) Cyclic Redundancy Check (CRC, 16 bits), 7) Acknowledgment (ACK, 2 bits), and 8) End of Frame (EOF, 7 bits). 
+Standard CAN frame consists of 8 different types of message fields, which are 1) Start of Frame (SOF), 2) Identifier (ID), 3) Remote Transmission Request (RTR), 4) Control, 5) Data, 6) Cyclic Redundancy Check (CRC), 7) Acknowledgment (ACK), and 8) End of Frame (EOF). 
 
-Since the CAN message structure is complex (but it is important for reliable communication), sending/reciving CAN frames can be annoying for those who want to use CAN Bus. Therefore, we will not explain 8 message fields here - details are well explained in [[4]][CANOpen_CSS]. It is because, when we write a code to send/receive the CAN message, we don't need to know about these message fields.
+Since the CAN message structure is complex, sending/reciving CAN frames could be annoying for those who want to use CAN Bus. Therefore, we will not explain 8 message fields here - details are well explained in [[4]][CANOpen_CSS]. It is because, when we write a code to send/receive the CAN message, we don't need to know about these message fields.
 
 Instead of considering 8 message fields, we have to know about
 
+- Communication Object Identifier (COB-ID)
+- Remote Transmission Request (RTR)
+- Data length
+- Data
 
-1) Communication Object Identifier (COB-ID)
-2) Remote Transmission Request (RTR)
-3) Data length
-4) Data
-
- 
 when writing a code for CAN communication - i.e., the hardwares automatically translate them to CAN message. So we would focus on COB-ID, Data length, and Data, when we write a code for CANOpen.
 
 COB-ID (11 bits) is a identifier consists of two parts: Function code and Node ID. The Function code (4 bits) represents the aim of message - it could be NMT, SYNC, EMCY, TIME, PDO, SDO, and HEARTBEAT. Details of Function code will be explained in the next subsection. The node number (7 bits), on the other side, means the address of the device. Each device has their own node number (which we can change by setting) from 1~127. 
@@ -78,7 +76,7 @@ For this reason, when we first want to
 </figure>
 
 
-### 2.2 SDO
+#### 1.3.2 SDO
 CANopen devices have their object dictionary 
 
 defines all the information 
@@ -87,7 +85,7 @@ defines all the information
 
 ```
 
-### 2.3 PDO
+#### 1.3.3 PDO
 Since SDO deals with a single object dictionary per single message frame, a communication using SDO may be seem inefficient - because we need some overhead when using SDO (such as index and subindex). 
 
 Alternative way to deal with this issue is a method of using PDO - in most of cases, PDO is used to transfer desired/current motor values (e.g., motor position, velocity, torque) in a real-time manner.
@@ -107,18 +105,18 @@ Also, if we mapped "target velocity" to PDO-1, we can change the motor velocity 
 
 ```
 
-## 3. Implementation 
+## 2. Implementation 
 
 Before writing a code for CANOpen communication, we have to configure the CAN bus using STM cubeMX. In cubeMX, we deal with hardware layer of the CAN bus. 
-### 3.1 Wiring for CAN communication
+### 2.1 Wiring for CAN communication
 As a first step, we have to construct CAN-Bus that connects our MCU board (i.e., Nucleo F-446RE) and motor driver. 
 
-### 3.2 CAN settings at cubeMx
+### 2.2 CAN settings at cubeMx
 
 Since we are using STM boards, we first have to use cubeMx in order to configure basic settings for the CAN communication.
 
 
-### 3.3 Initialization of CAN communication (in STM codes)
+### 2.3 Initialization of CAN communication (in STM codes)
 Before writing a code for CANOpen communication, we have to configure the CAN in STM. 
 
 In this state, the code determines which messages the device listens to and which messages it doesn't listen to. When we want to get all the messages in the bus (Since we usually develop master node rather than slave node, not using any filter for the CAN communication is common.), the filter can be written as below: 
@@ -148,9 +146,7 @@ In this state, the code determines which messages the device listens to and whic
   }
 ```
 
-### 3.3 Send CAN message
-
-### 2.2 Send CANOpen message
+### 2.4 Send CANOpen message
 To send CAN message, we have to define two variables: 1) TxHeader and 2) data. TxHeader contains basic information about the CAN message while data contains a specific CAN message. 
 
 
@@ -168,7 +164,7 @@ while(HAL_CAN_GetTxMailboxesFreeLevel(&hcan1) == 0);
 while(HAL_CAN_IsTxMessagePending(&hcan1, TxMailbox) == 1);
 ```
 
-### 2.3 Receive CANOpen message
+### 2.5 Receive CANOpen message
 
 To receive CAN message, I ususally use two different methods. First method is pulling method. 
 
@@ -186,7 +182,9 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) // HAL_Can inter
 ```
 
 
-### 
+### 2.6 NMT
+
+
 ```c
 // Start_Remote_node //
 
@@ -200,6 +198,11 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) // HAL_Can inter
 
 
 ```
+### 2.7 PDO
+
+### 2.8 SDO
+
+
 
 
 [1] [Overal view of CAN & CANOpen][CAN_cia] 
