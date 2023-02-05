@@ -25,29 +25,30 @@ Practically, CAN is related to a method of sending/receivng bit messages physica
 
 
 ### 1.2 Structure of CAN and CANOpen message
-Standard CAN frame consists of 8 different types of message fields as below: 
-
-- SOF (1 bit)
-- ID (11 bits)
-- RTR (1 bit)
-- Control (6 bits)
-- Data (0 - 64 bits)
-- CRC (16 bits)
-- ACK (2 bits)
-- EOF (7 bits)
+Standard CAN frame consists of 8 different types of message fields, which are 1) Start of Frame (SOF, 1bit), 2) Identifier (ID, 11 bits), 3) Remote Transmission Request (RTR, 1 bit), 4) Control (6 bits), 5) Data (0-64 bits), 6) Cyclic Redundancy Check (CRC, 16 bits), 7) Acknowledgment (ACK, 2 bits), and 8) End of Frame (EOF, 7 bits). 
 
 Since the CAN message structure is complex (but it is important for reliable communication), sending/reciving CAN frames can be annoying for those who want to use CAN Bus. Therefore, we will not explain 8 message fields here - details are well explained in [[4]][CANOpen_CSS]. It is because, when we write a code to send/receive the CAN message, we don't need to know about these message fields.
 
-Instead, we have to know about 1) COB-ID, 2) Data length, and 3) Data. Meaning that, when we write a code that specify COB-ID, Data length, and Data, the hardware automatically translate them to 8 message fields explained previously. So we would focus on COB-ID, Data length, and Data.
+Instead of considering 8 message fields, we have to know about
 
-For the COB-ID, it 
+1) Communication Object Identifier (COB-ID)
+2) Remote Transmission Request (RTR)
+3) Data length
+4) Data
+ 
+when writing a code for CAN communication - i.e., the hardwares automatically translate them to CAN message. So we would focus on COB-ID, Data length, and Data, when we write a code for CANOpen.
 
-CANOpen message consists of 
+COB-ID (11 bits) is a identifier consists of two parts: Function code and Node ID. The Function code (4 bits) represents the aim of message - it could be NMT, SYNC, EMCY, TIME, PDO, SDO, and HEARTBEAT. Details of Function code will be explained in the next subsection. The node number (7 bits), on the other side, means the address of the device. Each device has their own node number (which we can change by setting) from 1~127. 
 
+RTR is used to specify whether the message is requesting a message or not. It distinguishes whether the master node is requesting a message or sending a message to other devices. The data length is exact byte size of the data.
 
-With given setup for CAN protocol as explained in Chapter 1, we can now send or receive CANOpen messages. The structure consists of CANOpen message has following 
+### 1.3 Service types of the CANOpen message
 
-Since we can now send and receive CAN messages, we can use CANOpen to communicate with other CANOpen devices (e.g. motor driver). Among many functions in CANOpen protocol, I have used following three protocols:
+As we showed in the previous subsection, there exists useful service types (NMT, SYNC, EMCY, TIME, PDO, SDO, and HEARTBEAT) in CANOpen protocol. These service types help us communicating other device effectively. In this blog, we would cover NMT, PDO, and SDO because we can control the motor even with only three service types. 
+
+#### 1.3.1 NMT
+NMT stands for Network managements. 
+
  - Network Management (NMT)
  - Service Data Object (SDO)
  - Process Data Object (PDO)
