@@ -75,27 +75,25 @@ Here, Reset Message (Node) resets all functions while Reset Message (Communicati
 With given concept of NMT, the CAN message of NMT is constructed as follow. 
 
 - COB-ID: 0x000
-- RTR: 0(NMT is NOT remoter request message)
-- Data length: 2(bytes)
+- RTR: 0 (NMT is NOT remote request message)
+- Data length: 2 (bytes)
 - Data: As below
 
 | Data 1 	| Data 2 	| Data 3 	| Data4 	|
-|-------	|-------	|-------	|-------	|
+|:-------:	|:-------:	|:-------:	|:-------:	|
 | CS 	| Node ID  	| N/A  	| N/A 	|
 
 Here, CS stands for Command Specifier which has different values (0x01, 0x02, 0x80, 0x81, 0x82 as described above) according to 5 NMT messages. Also, if we want to send NMT message for all devices at the CAN Bus, we can set Node ID as 0x00 to conduct this process. 
 
 For example, if we want to switch the state of CANOpen device (that has Nide ID as 0x01) to Pre-operational state, we can do it by sending a CAN message as 
 
-0x000|0x80|0x01.
-
-| cobID 	| Data1 	| Data2 	| Data3 	| Data4 	|
+| COB-ID 	| Data 1 	| Data 2 	| Data 3 	| Data 4 	|
 |-------	|-------	|-------	|-------	|-------	|
 | 0x000 	| 0x80  	| 0x01  	| N/A 	| N/A  	|
 
 Also, if we want to switch the state of all devices at the CAN Bus to Operational state, it can be done by sending a CAN message as 
 
-| cobID 	| Data1 	| Data2 	| Data3 	| Data4 	|
+| COB-ID 	| Data 1 	| Data 2 	| Data 3 	| Data 4 	|
 |-------	|-------	|-------	|-------	|-------	|
 | 0x000 	| 0x01  	| 0x00  	| N/A 	| N/A  	|
 
