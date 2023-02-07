@@ -56,19 +56,32 @@ NMT, which stands for Network Managements, is used to manage the device state. A
 - Operational
 - Stopped
 
-When the CANOpen device 
+When the CANOpen device boots up (i.e., when we apply power to the CANOpen device), the device automatically enters to "Initialization state". After initilization, the device sends a boot-up message and enters to "Pre-operational" state automatically - When we apply power to the CANOpen device, the device automatically enters to "Pre-operational" state after entering to "Initialization state". 
+
+Once the device enters to "Pre-operational" state, the device state can be switched to one of three states (e.g., pre-operational state, operational state, Stopped state). Here, the state can be changed through 3 NMT messages as below:
+
+- Message that switches to Pre-operational state 
+- Message that switches to operational state 
+- Message that switches to Stopped state 
+
+When we want to set the device state "Initialization state" again instead of above three states, it can be done by sending 2 NMT messages as below:
+
+- Reset Message (Node) 
+- Reset Message (Communication) 
+
+Here, Reset Message (Node) resets all functions while Reset Message (Communication) only resets the communication functions. In summary, there exists total 5 NMT messages that switches the state of the machine. Also, it is notable that, the transition from "Initialization state" to "Pre-operational state" is done automatically. 
+
+
+When the device is at "Pre-Operational" state, we have to send a CANOpen message, which means *start remote Node indication*, to make the device state as "Operational" state. 
+
+NMT m
+0x01
+
+
 
 
 In this blog, I would briefly explain above three protocols and how to implement them in actual STM codes. For more details on NMT, SDO, and PDO, please see reference listed below.
 
-
-When we aim to communicate with motor driver, we first have to know about NMT. Briefly, NMT defines the network state of the device - the CANOpen device 
-
-- Initilization
-- Pre-operational
-- 
-
-For this reason, when we first want to 
 
 {% capture fig_img %}
 ![Foo]({{ "/assets/images/Researches/SliderTendonLinearActuator/Fig1.png" | relative_url }})
