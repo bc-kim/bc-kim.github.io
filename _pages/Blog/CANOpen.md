@@ -49,6 +49,9 @@ RTR is used to specify whether the message is requesting a message or not. It di
 As described in the previous subsection, there exists useful service types (NMT, SYNC, EMCY, TIME, PDO, SDO, and HEARTBEAT) in CANOpen protocol. These service types help engineers communicating other device effectively. In this blog, we would cover Network Management (NMT), Service Data Object (SDO) and Process Data Object (PDO) because we can control the motor even with only three service types. 
 
 #### 1.3.1 NMT
+
+##### Concept of NMT
+
 NMT, which stands for Network Managements, is used to manage the device state. According to CANOpen protocol, the device has four states as below:
 
 - Initialization
@@ -71,16 +74,14 @@ When we want to set the device state "Initialization state" again instead of abo
 
 Here, Reset Message (Node) resets all functions while Reset Message (Communication) only resets the communication functions. In summary, there exists total 5 NMT messages that switches the state of the machine. Also, it is notable that, the transition from "Initialization state" to "Pre-operational state" is done automatically. 
 
+##### Actual structure of NMT
 
-When the device is at "Pre-Operational" state, we have to send a CANOpen message, which means *start remote Node indication*, to make the device state as "Operational" state. 
+With given concept of NMT, the CAN message of NMT is constructed as follow. 
 
-NMT m
-0x01
-
-
-
-
-In this blog, I would briefly explain above three protocols and how to implement them in actual STM codes. For more details on NMT, SDO, and PDO, please see reference listed below.
+- COB-ID of NMT is 0x000
+- RTR of NMT is 0 (NMT is NOT remoter request message)
+- Data length of the NMT message is always 2 byte.
+- Data of NMT message structure is |CS|Node number|
 
 
 {% capture fig_img %}
