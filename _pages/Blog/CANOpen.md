@@ -63,14 +63,14 @@ When the CANOpen device boots up (i.e., when we apply power to the CANOpen devic
 
 Once the device enters to "Pre-operational" state, the device state can be switched to one of three states (e.g., pre-operational state, operational state, Stopped state). Here, the state can be changed through 3 NMT messages as below:
 
-- Message that switches to Pre-operational state 
-- Message that switches to operational state 
-- Message that switches to Stopped state 
+- Message that switches to Pre-operational state (CS: 0x80)
+- Message that switches to operational state (CS: 0x01)
+- Message that switches to Stopped state  (CS: 0x02)
 
 When we want to set the device state "Initialization state" again instead of above three states, it can be done by sending 2 NMT messages as below:
 
-- Reset Message (Node) 
-- Reset Message (Communication) 
+- Node Reset Message (CS: 0x81)
+- Communication Reset Message (CS: 0x82)
 
 Here, Reset Message (Node) resets all functions while Reset Message (Communication) only resets the communication functions. In summary, there exists total 5 NMT messages that switches the state of the machine. Also, it is notable that, the transition from "Initialization state" to "Pre-operational state" is done automatically. 
 
@@ -78,20 +78,12 @@ Here, Reset Message (Node) resets all functions while Reset Message (Communicati
 
 With given concept of NMT, the CAN message of NMT is constructed as follow. 
 
-- COB-ID of NMT is 0x000
-- RTR of NMT is 0 (NMT is NOT remoter request message)
-- Data length of the NMT message is always 2 byte.
-- Data of NMT message structure is |CS|Node number|
+- COB-ID: 0x000
+- RTR: 0 (NMT is NOT remoter request message)
+- Data length: 2 (bytes)
+- Data: |CS|Node ID|
 
-
-{% capture fig_img %}
-![Foo]({{ "/assets/images/Researches/SliderTendonLinearActuator/Fig1.png" | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Fig. 1 Soft wearable robot application using the Slider-Tendon Linear Actuator. The proposed actuator provides adaptability and usability to the soft wearable robot by including functions such as fast-connection, under-actuation mechanism, and stroke amplification.</figcaption>
-</figure>
+Here, CS stands for Command Specifier which has different values (0x01, 0x02, 0x80, 0x81, 0x82 as described above) according to 5 NMT messages. Also, if we want to send NMT message for all devices at the CAN Bus, we can set Node ID as 0x00 to conduct this process.
 
 
 #### 1.3.2 SDO
