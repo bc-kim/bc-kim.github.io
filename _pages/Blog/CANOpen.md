@@ -78,12 +78,19 @@ With given concept of NMT, the CAN message of NMT is constructed as follow.
 - RTR: 0(NMT is NOT remoter request message)
 - Data length: 2(bytes)
 - Data: / CS / Node ID
+- Data
+| 0x01 	| 0x02 	|   	|   	|   	|
+|------	|------	|---	|---	|---	|
 
 Here, CS stands for Command Specifier which has different values (0x01, 0x02, 0x80, 0x81, 0x82 as described above) according to 5 NMT messages. Also, if we want to send NMT message for all devices at the CAN Bus, we can set Node ID as 0x00 to conduct this process. 
 
 For example, if we want to switch the state of CANOpen device (that has Nide ID as 0x01) to Pre-operational state, we can do it by sending a CAN message as 
 
 0x000|0x80|0x01.
+
+| cobID 	| Data1 	| Data2 	| Data3 	| Data4 	|
+|-------	|-------	|-------	|-------	|-------	|
+| 0x000 	| 0x01  	| 0x02  	| 0x020 	| 0x03  	|
 
 Also, if we want to switch the state of all devices at the CAN Bus to Operational state, it can be done by sending a CAN message as 
 
