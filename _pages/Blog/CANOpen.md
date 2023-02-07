@@ -79,7 +79,7 @@ With given concept of NMT, the CAN message of NMT is constructed as follow.
 - Data length: 2 (bytes)
 - Data: As below
 
-| Data 1 	| Data 2 	| Data 3 	| Data4 	|
+| Data 1 	| Data 2 	| Data 3 	| Data 4 	|
 |:-------:	|:-------:	|:-------:	|:-------:	|
 | CS 	| Node ID  	| N/A  	| N/A 	|
 
@@ -87,9 +87,9 @@ Here, CS stands for Command Specifier which has different values (0x01, 0x02, 0x
 
 For example, if we want to switch the state of CANOpen device (that has Nide ID as 0x01) to Pre-operational state, we can do it by sending a CAN message as 
 
-| COB-ID 	| Data 1 	| Data 2 	| Data 3 	| Data 4 	|
-|-------	|-------	|-------	|-------	|-------	|
-| 0x000 	| 0x80  	| 0x01  	| N/A 	| N/A  	|
+| COB-ID 	| Data 1 	| Data 2 	| Data 3 	| Data 4 	| Data 5 	| Data 6 	| Data 7 	| Data 8 	|
+|-------	|-------	|-------	|-------	|-------	|-------	|-------	|-------	|-------	|
+| 0x000 	| 0x80  	| 0x01  	| N/A 	| N/A  	| N/A 	| N/A  	| N/A 	| N/A  	|
 
 Also, if we want to switch the state of all devices at the CAN Bus to Operational state, it can be done by sending a CAN message as 
 
@@ -98,9 +98,8 @@ Also, if we want to switch the state of all devices at the CAN Bus to Operationa
 | 0x000 	| 0x01  	| 0x00  	| N/A 	| N/A  	|
 
 #### 1.3.2 SDO
-CANopen devices have their object dictionary 
+Before explaning SDO, it is important to notify a interesting concept of CANOpen called *Object dictionary*. 
 
-defines all the information 
 
 
 #### 1.3.3 PDO
