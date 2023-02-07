@@ -27,7 +27,7 @@ Practically, CAN is related to a method of sending/receivng bit messages physica
 
 
 ### 1.2 Structure of CAN and CANOpen message
-Standard CAN frame consists of 8 different types of message fields, which are 1) Start of Frame (SOF), 2) Identifier (ID), 3) Remote Transmission Request (RTR), 4) Control, 5) Data, 6) Cyclic Redundancy Check (CRC), 7) Acknowledgment (ACK), and 8) End of Frame (EOF). 
+Standard CAN frame consists of 8 different types of message fields, which are 1. Start of Frame (SOF), 2. Identifier (ID), 3. Remote Transmission Request (RTR), 4. Control, 5. Data, 6. Cyclic Redundancy Check (CRC), 7. Acknowledgment (ACK), and 8. End of Frame (EOF). 
 
 Since the CAN message structure is complex, sending/reciving CAN frames could be annoying for those who want to use CAN Bus. Therefore, we will not explain 8 message fields here - details are well explained in [[4]][CANOpen_CSS]. It is because, when we write a code to send/receive the CAN message, we don't need to know about these message fields.
 
@@ -35,25 +35,29 @@ Instead of considering 8 message fields, we have to know about
 
 - Communication Object Identifier (COB-ID)
 - Remote Transmission Request (RTR)
-- Data length
 - Data
+- Data length
 
 when writing a code for CAN communication - i.e., the hardwares automatically translate them to CAN message. So we would focus on COB-ID, Data length, and Data, when we write a code for CANOpen.
 
 COB-ID (11 bits) is a identifier consists of two parts: Function code and Node ID. The Function code (4 bits) represents the aim of message - it could be NMT, SYNC, EMCY, TIME, PDO, SDO, and HEARTBEAT. Details of Function code will be explained in the next subsection. The node number (7 bits), on the other side, means the address of the device. Each device has their own node number (which we can change by setting) from 1~127. 
 
-RTR is used to specify whether the message is requesting a message or not. It distinguishes whether the master node is requesting a message or sending a message to other devices. The data length is exact byte size of the data.
+RTR is used to specify whether the message is requesting a message or not. It distinguishes whether the master node is requesting a message or sending a message to other devices. The data contains the content that the message wants to convey while the data length is byte size of the data; the size of data is 0~64 bits while the data length is 4 bits.
 
 ### 1.3 Service types of the CANOpen message
 
-As we showed in the previous subsection, there exists useful service types (NMT, SYNC, EMCY, TIME, PDO, SDO, and HEARTBEAT) in CANOpen protocol. These service types help us communicating other device effectively. In this blog, we would cover NMT, PDO, and SDO because we can control the motor even with only three service types. 
+As described in the previous subsection, there exists useful service types (NMT, SYNC, EMCY, TIME, PDO, SDO, and HEARTBEAT) in CANOpen protocol. These service types help engineers communicating other device effectively. In this blog, we would cover Network Management (NMT), Service Data Object (SDO) and Process Data Object (PDO) because we can control the motor even with only three service types. 
 
 #### 1.3.1 NMT
-NMT stands for Network managements. 
+NMT, which stands for Network Managements, is used to manage the device state. According to CANOpen protocol, the device has four states as below:
 
- - Network Management (NMT)
- - Service Data Object (SDO)
- - Process Data Object (PDO)
+- Initialization
+- Pre-Operational
+- Operational
+- Stopped
+
+When the CANOpen device 
+
 
 In this blog, I would briefly explain above three protocols and how to implement them in actual STM codes. For more details on NMT, SDO, and PDO, please see reference listed below.
 
@@ -81,9 +85,6 @@ CANopen devices have their object dictionary
 
 defines all the information 
 
-```c 
-
-```
 
 #### 1.3.3 PDO
 Since SDO deals with a single object dictionary per single message frame, a communication using SDO may be seem inefficient - because we need some overhead when using SDO (such as index and subindex). 
@@ -92,18 +93,6 @@ Alternative way to deal with this issue is a method of using PDO - in most of ca
 
 PDO can be categorized into TxPDO and RxPDO. 
 For PDO communication, we have to first map object to PDO entry. When using Faulhaber motor driver, PDO mapping can be done by using motion manager. (It can be downloaded here)
-
-For example, if we mapped "current position" to PDO-1, the 
-
-```c
-
-```
-
-Also, if we mapped "target velocity" to PDO-1, we can change the motor velocity by sending PDO message as 
-
-```c
-
-```
 
 ## 2. Implementation 
 
@@ -198,10 +187,22 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) // HAL_Can inter
 
 
 ```
-### 2.7 PDO
+### 2.7 SDO
 
-### 2.8 SDO
+### 2.8 PDO
 
+
+For example, if we mapped "current position" to PDO-1, the 
+
+```c
+
+```
+
+Also, if we mapped "target velocity" to PDO-1, we can change the motor velocity by sending PDO message as 
+
+```c
+
+```
 
 
 
