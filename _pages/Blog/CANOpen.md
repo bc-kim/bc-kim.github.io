@@ -50,8 +50,6 @@ As described in the previous subsection, there exists useful service types (NMT,
 
 #### 1.3.1 NMT
 
-##### Concept of NMT
-
 NMT, which stands for Network Managements, is used to manage the device state. According to CANOpen protocol, the device has four states as below:
 
 - Initialization
@@ -74,17 +72,22 @@ When we want to set the device state "Initialization state" again instead of abo
 
 Here, Reset Message (Node) resets all functions while Reset Message (Communication) only resets the communication functions. In summary, there exists total 5 NMT messages that switches the state of the machine. Also, it is notable that, the transition from "Initialization state" to "Pre-operational state" is done automatically. 
 
-##### Actual structure of NMT
-
 With given concept of NMT, the CAN message of NMT is constructed as follow. 
 
 - COB-ID: 0x000
-- RTR: 0 (NMT is NOT remoter request message)
-- Data length: 2 (bytes)
-- Data: |CS|Node ID|
+- RTR: 0(NMT is NOT remoter request message)
+- Data length: 2(bytes)
+- Data: / CS / Node ID
 
-Here, CS stands for Command Specifier which has different values (0x01, 0x02, 0x80, 0x81, 0x82 as described above) according to 5 NMT messages. Also, if we want to send NMT message for all devices at the CAN Bus, we can set Node ID as 0x00 to conduct this process.
+Here, CS stands for Command Specifier which has different values (0x01, 0x02, 0x80, 0x81, 0x82 as described above) according to 5 NMT messages. Also, if we want to send NMT message for all devices at the CAN Bus, we can set Node ID as 0x00 to conduct this process. 
 
+For example, if we want to switch the state of CANOpen device (that has Nide ID as 0x01) to Pre-operational state, we can do it by sending a CAN message as 
+
+0x000|0x80|0x01.
+
+Also, if we want to switch the state of all devices at the CAN Bus to Operational state, it can be done by sending a CAN message as 
+
+0x000|0x01|0x00.
 
 #### 1.3.2 SDO
 CANopen devices have their object dictionary 
