@@ -98,8 +98,9 @@ Also, if we want to switch the state of all devices at the CAN Bus to Operationa
 | 0x000 	| 0x01  	| 0x00  	| N/A 	| N/A  	| N/A 	| N/A  	| N/A 	| N/A  	|
 
 #### 1.3.2 SDO
-Before explaning SDO, it is important to notify a interesting concept of CANOpen called *Object dictionary*. 
+When communicating with CANOpen devices, we have to know  *Object dictionary* - it is a data structure that contains all communication parmeters (it contains not only  motor control commands such as target/current velocity but also other data such as device manufacturer, interface data). Since Object dictionary of CANOpen devices can be usually found in their data sheet, so please see data sheet for more examples of Object dictionary. 
 
+SDO, which stands for Service Data Object, is a protocol to read from or write to Object dictionary. 
 
 
 #### 1.3.3 PDO
@@ -191,17 +192,74 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) // HAL_Can inter
 
 
 ```c
-// Start_Remote_node //
-
-// Enter_Pre_operation // 
-
-// Stop_Remote_node //
-
-// Reset_node //
-
-// Reset_Communication //
-
-
+  uint8_t codID;
+  uint8_t txData[8];
+  uint8_t Node;
+  
+  Node = 0x01;
+  txData = {
+      0x00,
+  };
+  // Start_Remote_node:
+    cobID = 0x000;
+    txData[0] = 0x01;
+    txData[1] = Node;
+    TxHeader.StdId = cobID;
+    TxHeader.RTR = 0;
+    TxHeader.IDE = CAN_ID_STD;
+    TxHeader.DLC = 2;
+    while(HAL_CAN_GetTxMailboxesFreeLevel(&hcan1) == 0);
+      HAL_CAN_AddTxMessage(&hcan1, &TxHeader, &txData, &TxMailbox);
+    while(HAL_CAN_IsTxMessagePending(&hcan1, TxMailbox) == 1);
+    
+  // Enter_Pre_operation:
+    cobID = 0x000;
+    txData[0] = 0x80;
+    txData[1] = Node;
+    TxHeader.StdId = cobID;
+    TxHeader.RTR = 0;
+    TxHeader.IDE = CAN_ID_STD;
+    TxHeader.DLC = 2;
+    while(HAL_CAN_GetTxMailboxesFreeLevel(&hcan1) == 0);
+      HAL_CAN_AddTxMessage(&hcan1, &TxHeader, &txData, &TxMailbox);
+    while(HAL_CAN_IsTxMessagePending(&hcan1, TxMailbox) == 1);
+    
+  // Stop_Remote_node:
+    cobID = 0x000;
+    txData[0] = 0x02;
+    txData[1] = Node;
+    TxHeader.StdId = cobID;
+    TxHeader.RTR = 0;
+    TxHeader.IDE = CAN_ID_STD;
+    TxHeader.DLC = 2;
+    while(HAL_CAN_GetTxMailboxesFreeLevel(&hcan1) == 0);
+      HAL_CAN_AddTxMessage(&hcan1, &TxHeader, &txData, &TxMailbox);
+    while(HAL_CAN_IsTxMessagePending(&hcan1, TxMailbox) == 1);
+    
+  // Reset_node:
+    cobID = 0x000;
+    txData[0] = 0x81;
+    txData[1] = Node;
+    TxHeader.StdId = cobID;
+    TxHeader.RTR = 0;
+    TxHeader.IDE = CAN_ID_STD;
+    TxHeader.DLC = 2;
+    while(HAL_CAN_GetTxMailboxesFreeLevel(&hcan1) == 0);
+      HAL_CAN_AddTxMessage(&hcan1, &TxHeader, &txData, &TxMailbox);
+    while(HAL_CAN_IsTxMessagePending(&hcan1, TxMailbox) == 1);
+    
+  // Reset_Communication:
+    cobID = 0x000;
+    txData[0] = 0x82;
+    txData[1] = Node;
+    TxHeader.StdId = cobID;
+    TxHeader.RTR = 0;
+    TxHeader.IDE = CAN_ID_STD;
+    TxHeader.DLC = 2;
+    while(HAL_CAN_GetTxMailboxesFreeLevel(&hcan1) == 0);
+      HAL_CAN_AddTxMessage(&hcan1, &TxHeader, &txData, &TxMailbox);
+    while(HAL_CAN_IsTxMessagePending(&hcan1, TxMailbox) == 1);
+    
 ```
 ### 2.7 SDO
 
