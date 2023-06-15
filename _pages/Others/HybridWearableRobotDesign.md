@@ -12,7 +12,7 @@ mathjax: true
 - **Byungchul Kim**, Kyubum Kim, Sejin Jeong, Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," in preparation.
 
 
-*Only limited contents are included in this page because the research has not yet been published. This page will be updated later.
+*Only limited contents are included in this page because the research has not yet been published. This page will be updated later. For more information, please see [[Supplementary Site]][ExoShell_Supp] prepared for the peer review.
 
 ---
 
@@ -28,3 +28,4 @@ The compliance of robot is also a well-known factor that affects the robot funct
 Smmarizing the above robot characteristics, it can be seen that the rigid wearable robot has high functions but low usability, whereas the software wearable robot shows the opposite. For this reason, I have tried to use both rigid and soft components in designing the wearable robot. Since the rigid part of the robot seems similar to the shell, I named this robot design as Exo-Glove Shell; the detail information can be found in the [Exo-Glove Shell page][EGS_link].
 
 [EGS_link]: /research/exogloveshell
+[ExoShell_Supp]: https://sites.google.com/view/exo-gloveshell/

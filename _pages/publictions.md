@@ -15,9 +15,9 @@ International Journals
 Journals Under Review / in Preparation
 ---
 
-4| <font color="#F7FE2E"><b>Byungchul Kim</b></font>, Useok Jeong, Kyu-Jin Cho, "Analysis and Design of Dual Tendon Routing for the Under-actuated Tendon-Driven Robotic Systems", IEEE Transactions on Robotics, submitted.
+4| <font color="#F7FE2E"><b>Byungchul Kim</b></font>, Useok Jeong, Kyu-Jin Cho, "Analysis and Design of Dual Tendon Routing for the Under-actuated Tendon-Driven Robotic Systems," IEEE Transactions on Robotics, submitted.
 
-5| <font color="#F7FE2E"><b>Byungchul Kim</b></font>, Kyubum Kim, Sejin Jeong, Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," in preparation.
+5| <font color="#F7FE2E"><b>Byungchul Kim</b></font>, Kyubum Kim, Sejin Jeong, Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," in SoftRobtics [[Supplementary Site]][ExoShell_Supp]
 
 Patents
 ---
@@ -82,3 +82,5 @@ Theses and Dissertations
 
 [penholder_patent_link]: https://www.google.co.kr/patents/US9522562?dq=US+9,522,562+B2&hl=ko&sa=X&ved=0ahUKEwinpdrHyuzVAhVHXrwKHZx4B9cQ6AEIJDAA
 [pvt_patent_link]: https://patents.google.com/patent/KR101600270B1/ko
+
+[ExoShell_Supp]: https://sites.google.com/view/exo-gloveshell/

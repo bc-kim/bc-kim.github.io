@@ -115,10 +115,9 @@ For PDO communication, we have to first map object to PDO entry. When using Faul
 
 Before writing a code for CANOpen communication, we have to configure the CAN bus using STM cubeMX. In cubeMX, we deal with hardware layer of the CAN bus. 
 ### 2.1 Wiring for CAN communication
-As a first step, we have to construct CAN-Bus that connects our MCU board (i.e., Nucleo F-446RE) and motor driver. 
+As a first step, we have to construct CAN-Bus that connects our MCU board (i.e., Nucleo F-446RE) and motor driver. The wiring of CAN communication is simple (it is one big advantage of the CANOpen communication). Only thing we should do is to connect two wires. Please refer to [here][CAN_Wiring] for more detailed wiring method.
 
 ### 2.2 CAN settings at cubeMx
-
 Since we are using STM boards, we first have to use cubeMx in order to configure basic settings for the CAN communication.
 
 
@@ -155,11 +154,25 @@ In this state, the code determines which messages the device listens to and whic
 ### 2.4 Send CANOpen message
 To send CAN message, we have to define two variables: 1) TxHeader and 2) data. TxHeader contains basic information about the CAN message while data contains a specific CAN message. 
 
-
+Below is a simple code that sends a CAN message. 
 ```c
 // [Example 1.2.1 Send CAN message]
+uint8_t codID;
+uint8_t txData[8];
+uint8_t Node;
+uint8_t len;
+
+Node = 0x01;
+txData = {
+    0x00,
+};
+cobID = 0x000; // Changes according to the message 
+txData[0] = 0x01; // Changes according to the message 
+txData[1] = Node; // Changes according to the message 
+len = 2;  // Changes according to the message.
+
 TxHeader.StdId = cobID;
-TxHeader.RTR = rtr == 0;
+TxHeader.RTR = 0;
 TxHeader.IDE = CAN_ID_STD;
 TxHeader.DLC = len;
 data[0] = 0x00;
@@ -189,7 +202,7 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) // HAL_Can inter
 
 
 ### 2.6 NMT
-
+Code at the below shows NMT communication related to 1. Start_remote_node, 2. Enter_pre_operation, 3. Stop_remote_node, 4. Reset_node, and 5. Reset_communication. 
 
 ```c
   uint8_t codID;
@@ -278,7 +291,12 @@ Also, if we mapped "target velocity" to PDO-1, we can change the motor velocity 
 
 ```
 
+### 2.9 Overall code - example
+With the concept of NMT, SDO and PDO, this page also introduce a simple code that control the motor position. 
 
+```d
+
+```
 
 [1] [Overal view of CAN & CANOpen][CAN_cia] 
 
@@ -293,3 +311,4 @@ Also, if we mapped "target velocity" to PDO-1, we can change the motor velocity 
 [CANOpen_NI]: https://www.ni.com/en-us/innovations/white-papers/13/the-basics-of-canopen.html
 [osi_layer]: https://en.wikipedia.org/wiki/OSI_model
 [CANOpen_CSS]: https://www.csselectronics.com/pages/can-bus-intros-tutorials
+[CAN_Wiring]: https://www.csselectronics.com/pages/can-bus-simple-intro-tutorial
