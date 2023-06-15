@@ -39,7 +39,7 @@ CV can be downloaded from [here][cv_link].
 |Preiod|Experience|
 |:---:|:---|
 |Jan.2023  <br>-<br> Present|<b><font color="#F7FE2E">Postdoctoral Research Associate</font></b><br> Distributed Robotics Lab, Computer Science and Artificial Intelligence Lab (CSAIL), Massachusetts Institute of Technology (MIT) <br> Advisor: Prof. Daniela Rus|
-|Jan.2023  <br>-<br> Present|<b><font color="#F7FE2E">Research Affiliate</font></b><br> Harvard Microrobotics Lab, School of Engineering and Applied Sciences (SEAS), Harvard  <br> Project: CETI project <br> <br> Project Investigator: Prof. Robert Wood|
+|Jan.2023  <br>-<br> Present|<b><font color="#F7FE2E">Research Affiliate</font></b><br> Harvard Microrobotics Lab, School of Engineering and Applied Sciences (SEAS), Harvard  <br> Project: CETI project <br> Project Investigator: Prof. Robert Wood|
 |Sep.2020  <br>-<br> Present|<b><font color="#F7FE2E">Postdoctoral Research Associate</font></b><br> Soft Robotics Research Center (SRRC), Biorobotics Lab, Seoul National University <br> Project: Soft wearable robots <br> Advisor: Prof. Kyu-Jin Cho|
 
 >Education
@@ -60,7 +60,7 @@ CV can be downloaded from [here][cv_link].
 |Preiod|Research experience|
 |:---:|:---|
 |2021 <br>-<br> 2023|<b><font color="#F7FE2E">Rehabilitation robot system for untact self-training</font></b><br> <i>Funded by National Research Foundation of Korea, Ministry of Trade, Industry and Energy of Korea</i><br> <span>&#8226;</span> Upper limb rehabilitation robot system for untact self-training. <br> Contributed the actuator design (Slider-Tendon Linear Actuator)|
-|2020 <br>-<br> Present|<b><font color="#F7FE2E">SoFT meta-Human</font></b><br> <i>Funded by National Research Foundation of Korea, Ministry of Science, ICT and Future Planning</i><br> <span>&#8226;</span>   Soft wearable robots for everyday use. <br> Contributed the design, prototyping, and experiments.|
+|2020 <br>-<br> 2023|<b><font color="#F7FE2E">SoFT meta-Human</font></b><br> <i>Funded by National Research Foundation of Korea, Ministry of Science, ICT and Future Planning</i><br> <span>&#8226;</span>   Soft wearable robots for everyday use. <br> Contributed the design, prototyping, and experiments.|
 |2020 <br>-<br> 2022|<b><font color="#F7FE2E">GUI for the Hand Wearable Robot</font></b><br> <span>&#8226;</span>   GUI for the user to manipulate the hand wearable robot <br> Contributed the original idea, GUI design, coding|
 |2020 <br>-<br> 2021|<b><font color="#F7FE2E">Soft Hand Wearable Robot for Poliomyelitis</font></b><br> <i>Funded by National Rehabilitation Center of Korea</i><br> <span>&#8226;</span>   Customized hand wearable robot design for the poliomyelitis <br> Contributed the design, control for the safety|
 |2017 <br>-<br> 2023|<b><font color="#F7FE2E">Exo-Glove Shell</font></b><br> <span>&#8226;</span>   <u>Dissertation Topic</u> for Ph. D<br> <span>&#8226;</span>   Hand wearable robot that assists the thumb opposition with under-actuation mechanism.<br> Contributed the original idea, design, prototyping, experiments, and analyzing the data.|
@@ -102,18 +102,17 @@ CV can be downloaded from [here][cv_link].
 
 |Preiod|Scholarship|
 |:---:|:---|
+|Jan. 2023 - Jan. 2024|<b><font color="#F7FE2E">Biomedical Global Talent Nurturing Program</font></b><br> <i>Funded by Korea Health Industry Development Institute</i>|
 |Sep. 2016 - Dec. 2016 <br> Sep. 2012 - Dec. 2012  <br> Mar. 2012 - Jun. 2012|<b><font color="#F7FE2E">Brain Korea 21 Research Scholarship</font></b><br> <i>Funded by National Research Foundation of Korea</i>|
 |Mar. 2014 - Jun. 2014|<b><font color="#F7FE2E">Lecture & Research Scholarship</font></b><br> <i>Funded by Seoul National University</i>|
 |Sep. 2011 - Dec. 2011  <br> Sep. 2010 - Dec. 2010 <br> Sep. 2009 - Dec. 2009|<b><font color="#F7FE2E">Superior Academic Performance</font></b><br> <i>Funded by Seoul National University</i>|
 
->Presentation
+>Invited Talks
 ---
-
 |Preiod|Title|
 |:---:|:---|
-|Dec.2016|Excellence award, Government 3.0 National Participation and Collaboration Contest <br> Ministry of Health and Welfare, Korea|
-|Nov.2012|Excellence award, Creative design competition<br> Seoul National University, Korea|
-|Nov.2012|Bronze prize, International Co-Creative Design Competition <br> Seoul National University, Korea|
+|Jun.2023|Under-actuated Tendon-driven Soft Robots For the Human Assistance, UC Berkeley|
+|Jun.2022|Building Competent Tendon-driven Soft Robots even with fewer actuators, MIT|
 
 >Awards
 ---
