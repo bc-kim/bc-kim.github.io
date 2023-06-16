@@ -39,8 +39,8 @@ CV can be downloaded from [here][cv_link].
 |Preiod|Experience|
 |:---:|:---|
 |Jan.2023  <br>-<br> Present|<b><font color="#F7FE2E">Postdoctoral Research Associate</font></b><br> Distributed Robotics Lab, Computer Science and Artificial Intelligence Lab (CSAIL), Massachusetts Institute of Technology (MIT) <br> Advisor: Prof. Daniela Rus|
-|Jan.2023  <br>-<br> Present|<b><font color="#F7FE2E">Research Affiliate</font></b><br> Harvard Microrobotics Lab, School of Engineering and Applied Sciences (SEAS), Harvard  <br> Project: CETI project <br> Project Investigator: Prof. Robert Wood|
-|Sep.2020  <br>-<br> Present|<b><font color="#F7FE2E">Postdoctoral Research Associate</font></b><br> Soft Robotics Research Center (SRRC), Biorobotics Lab, Seoul National University <br> Project: Soft wearable robots <br> Advisor: Prof. Kyu-Jin Cho|
+|Jan.2023  <br>-<br> Present|<b><font color="#F7FE2E">Research Affiliate</font></b><br> Harvard Microrobotics Lab, School of Engineering and Applied Sciences (SEAS), Harvard  <br> Project Investigator: Prof. Robert Wood|
+|Sep.2020  <br>-<br> Present|<b><font color="#F7FE2E">Postdoctoral Research Associate</font></b><br> Soft Robotics Research Center (SRRC), Biorobotics Lab, Seoul National University <br> Advisor: Prof. Kyu-Jin Cho|
 
 >Education
 ---
@@ -59,6 +59,9 @@ CV can be downloaded from [here][cv_link].
 
 |Preiod|Research experience|
 |:---:|:---|
+|2023 <br>-<br> Present|<b><font color="#F7FE2E">Project to construct Computational co-design framework</font></b><br> <span>&#8226;</span> Generative AI for robot design <br> Contributed the real-world robot design and fabrication|
+|2023 <br>-<br> Present|<b><font color="#F7FE2E">[Project CETI][CETI]</font></b><br> <span>&#8226;</span> Understanding what whales are saying <br> Contributed wearable tag design|
+|2023 <br>-<br> Present|<b><font color="#F7FE2E">Project to develop hybrid rigid-soft hand</font></b><br> <span>&#8226;</span> Desiging hybrid rigid-soft hand for kitchen work <br> Contributed the robotic hand design|
 |2021 <br>-<br> 2023|<b><font color="#F7FE2E">Rehabilitation robot system for untact self-training</font></b><br> <i>Funded by National Research Foundation of Korea, Ministry of Trade, Industry and Energy of Korea</i><br> <span>&#8226;</span> Upper limb rehabilitation robot system for untact self-training. <br> Contributed the actuator design (Slider-Tendon Linear Actuator)|
 |2020 <br>-<br> 2023|<b><font color="#F7FE2E">SoFT meta-Human</font></b><br> <i>Funded by National Research Foundation of Korea, Ministry of Science, ICT and Future Planning</i><br> <span>&#8226;</span>   Soft wearable robots for everyday use. <br> Contributed the design, prototyping, and experiments.|
 |2020 <br>-<br> 2022|<b><font color="#F7FE2E">GUI for the Hand Wearable Robot</font></b><br> <span>&#8226;</span>   GUI for the user to manipulate the hand wearable robot <br> Contributed the original idea, GUI design, coding|
@@ -153,3 +156,4 @@ Update: 2020/01/13
 [Biorob_pdf]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/2022Biorob_Programbook.pdf
 [Biorob_link]: https://sites.google.com/view/biorob-2022-hand-wearable/
 [2019RobosoftLink]: https://youtu.be/K7L5Aa39xNg
+[CETI]: https://www.projectceti.org
