@@ -39,7 +39,7 @@ CV can be downloaded from [here][cv_link].
 |Preiod|Experience|
 |:---:|:---|
 |Jan.2023  <br>-<br> Present|<b><font color="#F7FE2E">Postdoctoral Research Associate</font></b><br> Distributed Robotics Lab, Computer Science and Artificial Intelligence Lab (CSAIL), Massachusetts Institute of Technology (MIT) <br> Advisor: Prof. Daniela Rus|
-|Jan.2023  <br>-<br> Present|<b><font color="#F7FE2E">Research Affiliate</font></b><br> Harvard Microrobotics Lab, School of Engineering and Applied Sciences (SEAS), Harvard  <br> Project Investigator: Prof. Robert Wood|
+|Mar.2023  <br>-<br> Present|<b><font color="#F7FE2E">Research Affiliate</font></b><br> Harvard Microrobotics Lab, School of Engineering and Applied Sciences (SEAS), Harvard  <br> Project Investigator: Prof. Robert Wood|
 |Sep.2020  <br>-<br> Present|<b><font color="#F7FE2E">Postdoctoral Research Associate</font></b><br> Soft Robotics Research Center (SRRC), Biorobotics Lab, Seoul National University <br> Advisor: Prof. Kyu-Jin Cho|
 
 >Education
