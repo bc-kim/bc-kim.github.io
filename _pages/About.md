@@ -61,7 +61,7 @@ CV can be downloaded from [here][cv_link].
 |:---:|:---|
 |2023 <br>-<br> Present|<b><font color="#F7FE2E">Computational co-design framework</font></b><br> <span>&#8226;</span> Generative AI for robot design <br> Contributed the real-world robot design and fabrication|
 |2023 <br>-<br> Present|<b><font color="#F7FE2E">Project CETI</font></b><br> <span>&#8226;</span> Understanding what whales are saying <br> Contributed wearable tag design|
-|2023 <br>-<br> Present|<b><font color="#F7FE2E">Hybrid rigid-soft hand development</font></b><br> <span>&#8226;</span> Desiging hybrid rigid-soft hand for kitchen work <br> Contributed the robotic hand design|
+|2023 <br>-<br> Present|<b><font color="#F7FE2E">Hybrid rigid-soft hand development</font></b><br> <span>&#8226;</span> Designing hybrid rigid-soft hand for kitchen work <br> Contributed the robotic hand design|
 |2021 <br>-<br> 2023|<b><font color="#F7FE2E">Rehabilitation robot system for untact self-training</font></b><br> <i>Funded by National Research Foundation of Korea, Ministry of Trade, Industry and Energy of Korea</i><br> <span>&#8226;</span> Upper limb rehabilitation robot system for untact self-training. <br> Contributed the actuator design (Slider-Tendon Linear Actuator)|
 |2020 <br>-<br> 2023|<b><font color="#F7FE2E">SoFT meta-Human</font></b><br> <i>Funded by National Research Foundation of Korea, Ministry of Science, ICT and Future Planning</i><br> <span>&#8226;</span>   Soft wearable robots for everyday use. <br> Contributed the design, prototyping, and experiments.|
 |2020 <br>-<br> 2022|<b><font color="#F7FE2E">GUI for the Hand Wearable Robot</font></b><br> <span>&#8226;</span>   GUI for the user to manipulate the hand wearable robot <br> Contributed the original idea, GUI design, coding|
