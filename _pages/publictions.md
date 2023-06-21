@@ -24,7 +24,7 @@ Patents
 
 6| Kyu-Jin Cho, <font color="#213363"><b>Byungchul Kim</b></font>, Daeyoung Lee, “PEN HOLDER”, US 9522562, US.    [[site]][penholder_patent_link]
 
-7| Kyu-Jin Cho, Hyunki In, Kyuhan Cho, <font color="#213363"><b>Byungchul Kim</b></font>, “PASSIVE VARIABLE TRANSMISSION FOR WIRE DRIVEN JOINT MECHANISM”, 10-11600270-0000, KR. <font color="#FE2E2E">**Technology transfer** </font> [[site]][pvt_patent_link]
+7| Kyu-Jin Cho, Hyunki In, Kyuhan Cho, <font color="#213363"><b>Byungchul Kim</b></font>, “PASSIVE VARIABLE TRANSMISSION FOR WIRE DRIVEN JOINT MECHANISM”, 10-11600270-0000, KR. <font color="#17594A">**Technology transfer** </font> [[site]][pvt_patent_link]
 
 8| Kyu-Jin Cho, <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin Choi, “SLIDER TYPE TENDON DRIVEN ACTUATOR FOR UNDER-ACTUATION AND GLOVE TYPE WEARABLE ROBOT HAVING THE SAME ACTUATOR”, 2020/005275, Patent pending (PCT/KR).
 
