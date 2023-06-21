@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -104,13 +104,13 @@ analytics:
 author:
   name             : "Byungchul Kim"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "I am a Postdoctoral Research Fellow working with Professor Daniela Rus in Computer Science and Artificial Intelligence Lab."
+  bio              : "Postdoc working with Prof. Daniela Rus in CSAIL, MIT."
   location         : "Cambridge, MA"
   email            : "bckim@mit.edu"
   links:
     - label: "CSAIL"
       icon: "fas fa-fw fa-link"
-      url: "https://csail.mit.edu"
+      url: "https://www.csail.mit.edu/person/byungchul-kim"
     - label: " Download CV"
       icon: "far fa-file-pdf"
       url: "https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV.pdf"
