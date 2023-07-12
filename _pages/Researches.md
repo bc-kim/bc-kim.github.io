@@ -10,20 +10,24 @@ sidebar:
 **Overview Presentation Video**
 ---
 
-An overview of my researches is explained in my presentation video below. Details research contets, divided by each study, are located at each research pages.
+An overview of my research is explained in my presentation video below. Please look for each research page if you want more detailed contents.
 
 <iframe width="950" height="534" src="https://www.youtube.com/embed/IMUZDQrXGGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Introduction**
 ---
 
-Due to significant improvements in robot components in terms of size and performance, technologies for wearable devices have received great attention and have been developed for various purposes. In the wearable device development process, it is required to satisfy two different kinds of performance factors:
+Due to significant improvements in robot components in terms of size and performance, technologies for wearable devices have received great attention and have been developed for various purposes. 
+
+In the wearable device development process, 
+
+it is required to satisfy two different kinds of performance factors:
 
 - Robot usability
 
 - Robot functionality
 
-It is because, unlike other devices, the wearable device should be worn on the human body. For instance, in hand wearable robot researches, the researchers have aimed for making compact, light, and soft device to guarantee the usability. For the functionality, on the other hand, they have attempted to design the robot that assists a sufficient number of grasp types with enough grasping force. 
+It is because, unlike other devices, the wearable device should be worn on the human body. For instance, in hand wearable robot research, the researchers have aimed for making compact, light, and soft device to guarantee the usability. For the functionality, on the other hand, they have attempted to design the robot that assists a sufficient number of grasp types with enough grasping force. 
 
 Designing the robot that satisfies both performance factors is a challenging issue because of an inevitable trade-off between keeping the usability with less number of actuators and keeping the functionality by using numerous high-force actuators. 
 

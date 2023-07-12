@@ -18,7 +18,14 @@ mathjax: true
 
 **Definition of the under-actuation mechanism**
 ---
-The complexity of the robot system is highly affected by the number of actuators. For this reason, several researchers have tried to use less number of actuators than the robot actual degree of freedoms (DoF); these robots and mechanism were named as <i> under-actuated robots </i> and <i>under-actuation mechanism</i>, respectively.
+*Under-actuation mechanism*, mechanisms that use fewer actuators than the system's degree of freedoms (DoFs), 
+
+provides advantages. It simplifies the robot design because we can design the robot with fewer actuators. Further, 
+
+
+The number of actuators is one of main reason impacting the robot system's complexity. Researchers have tried to 
+
+use less number of actuators than the robot actual degree of freedoms (DoF); these robots and mechanism were named as <i> under-actuated robots </i> and <i>under-actuation mechanism</i>, respectively.
 
 **Wearable robot with tendon-driven under-actuation mechanism**
 ---
