@@ -17,7 +17,7 @@ Journals Under Review / in Preparation
 
 4| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, Kyu-Jin Cho, "Analysis and Design of Dual Tendon Routing for the Under-actuated Tendon-Driven Robotic Systems," IEEE Transactions on Robotics, submitted.
 
-5| <font color="#213363"><b>Byungchul Kim</b></font>, Kyubum Kim, Sejin Jeong, Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," SoftRobtics, submitted [[Supplementary Site]][ExoShell_Supp]
+5| <font color="#213363"><b>Byungchul Kim</b></font>, Kyubum Kim, Sejin Jeong, Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," SoftRobtics, submitted [[site]][ExoShell_Supp]
 
 Patents
 ---
@@ -35,10 +35,11 @@ Books
 
 Other conferences and Workshop Papers
 ---
+10| Cedric Honnet, Yunyi Zhu, Martin Nisser, Chao Liu, <font color="#213363"><b>Byungchul Kim</b></font>, Jae Hun Seol, Jongho Lee, Daniela Rus, and Stefanie Mueller, “Laser-Etching Flexible Sensors for Robotic Touch Recognition," IEEE International Conference on Robotics and Automation, Late Braking Results, London, United Kingdom, May 2023. [[video]][SensorMIT]
 
-10|	<font color="#213363"><b>Byungchul Kim</b></font> and Kyu-Jin Cho, “Building Simple Yet Competent Soft-Rigid Hybrid Hand Wearable Robots”, IEEE RAS/EMBS International Conference on Biomedical Robotics & Biomechanics, Seoul, Korea, August 2022.
+11|	<font color="#213363"><b>Byungchul Kim</b></font> and Kyu-Jin Cho, “Building Simple Yet Competent Soft-Rigid Hybrid Hand Wearable Robots”, IEEE RAS/EMBS International Conference on Biomedical Robotics & Biomechanics, Seoul, Korea, August 2022.
 
-11|	<font color="#213363"><b>Byungchul Kim</b></font> and Kyu-Jin Cho, “Slider-Tendon Linear Actuator to Simplify the Soft Wearable Robots”, IEEE International Conference on Robotics and Automation, Challenges and Opportunities of Bio-inspired Design, Actuation, and Locomotion, Philadelphia, USA, May 2021.
+12|	<font color="#213363"><b>Byungchul Kim</b></font> and Kyu-Jin Cho, “Slider-Tendon Linear Actuator to Simplify the Soft Wearable Robots”, IEEE International Conference on Robotics and Automation, Challenges and Opportunities of Bio-inspired Design, Actuation, and Locomotion, Philadelphia, USA, May 2021.
 
 13| Kyubum Kim, <font color="#213363"><b>Byungchul Kim</b></font>, Data-driven Inverse Kinematics for Human Hand”, International Conference on Control Automation and Systems, Korea, October 2021.
 
@@ -46,30 +47,30 @@ Other conferences and Workshop Papers
 
 15| <font color="#213363"><b>Byungchul Kim</b></font>, Kyu-Jin Cho, “Wrist Anchor for Soft Hand Wearable Robot”, The Korean society of Mechanical Engineers, on-line, April 2021.
 
-13| <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin Choi, Kyu-Jin Cho, “Wrist tendon anchor for soft wearable robot”, The Korean society of Mechanical Engineers, on-line, December 2020.
+16| <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin Choi, Kyu-Jin Cho, “Wrist tendon anchor for soft wearable robot”, The Korean society of Mechanical Engineers, on-line, December 2020.
 
-14| Sanghee Cheon, Brian Byunghyun Kang, <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin Choi, Kyubum Kim, Kyu-Jin Cho, "Exo-Glove Power: A Soft Wearable Hand Robot for Power Grasp Enhancement,", International Conference of Control Automation and Systems, Jeju Island, Korea, July 2019.
+17| Sanghee Cheon, Brian Byunghyun Kang, <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin Choi, Kyubum Kim, Kyu-Jin Cho, "Exo-Glove Power: A Soft Wearable Hand Robot for Power Grasp Enhancement,", International Conference of Control Automation and Systems, Jeju Island, Korea, July 2019.
 
-15| <font color="#213363"><b>Byungchul Kim</b></font>, Brian Byunghyun Kang, Sanghee Cheon, Hyungmin Choi, Kyubum Kim, Kyu-Jin Cho, "Wrist tendon anchor for soft wearable robot," International Conference of Control Automation and Systems, Jeju Island, Korea, July 2019.
+18| <font color="#213363"><b>Byungchul Kim</b></font>, Brian Byunghyun Kang, Sanghee Cheon, Hyungmin Choi, Kyubum Kim, Kyu-Jin Cho, "Wrist tendon anchor for soft wearable robot," International Conference of Control Automation and Systems, Jeju Island, Korea, July 2019.
 
-16| <font color="#213363"><b>Byungchul Kim</b></font>, Kyu-Jin Cho, "Modeling of the relationship between wire tension and joint torque for force control of tendon driven hand assist wearable robot", International Conference of Control Automation and Systems, Pyeongchang, Korea, October 2018.
+19| <font color="#213363"><b>Byungchul Kim</b></font>, Kyu-Jin Cho, "Modeling of the relationship between wire tension and joint torque for force control of tendon driven hand assist wearable robot", International Conference of Control Automation and Systems, Pyeongchang, Korea, October 2018.
 
-17| <font color="#213363"><b>Byungchul Kim</b></font>, Haemin Lee, Sanghoon Kim, Kyu-Jin Cho, “Tendon path design of robotic hand for natural hand motion, The Korean society of Mechanical Engineers, Daejeon, Korea, April 2017.
+20| <font color="#213363"><b>Byungchul Kim</b></font>, Haemin Lee, Sanghoon Kim, Kyu-Jin Cho, “Tendon path design of robotic hand for natural hand motion, The Korean society of Mechanical Engineers, Daejeon, Korea, April 2017.
 
-18| Jiyoung Park, Myungjoon Lim, Keumju Lee, Hyosoon Kweon, <font color="#213363"><b>Byungchul Kim</b></font>, Kyu-Jin Cho, Hyeon Choi, Usability assessment of a glove type writing assistive device for people with spinal cord injury, International Convention on Rehabilitation Engineering and assistive technology, Midview city, Singapore, August 2015.
+21| Jiyoung Park, Myungjoon Lim, Keumju Lee, Hyosoon Kweon, <font color="#213363"><b>Byungchul Kim</b></font>, Kyu-Jin Cho, Hyeon Choi, Usability assessment of a glove type writing assistive device for people with spinal cord injury, International Convention on Rehabilitation Engineering and assistive technology, Midview city, Singapore, August 2015.
 
-19| <font color="#213363"><b>Byungchul Kim</b></font>, Daeyoung Lee, Kyu-Jin Cho, Development of tendon maintain system for tendon-driven wearable device, The Korean Society of Precision Engineering, Jeju Island, Korea, May 2015.
+22| <font color="#213363"><b>Byungchul Kim</b></font>, Daeyoung Lee, Kyu-Jin Cho, Development of tendon maintain system for tendon-driven wearable device, The Korean Society of Precision Engineering, Jeju Island, Korea, May 2015.
 
-20| <font color="#213363"><b>Byungchul Kim</b></font>, Hyunki In, Kyu-Jin Cho, Strap driven system for hand soft exoskeleton, International Biomedical Engineering Conference, Gwangju, Korea, November 2014.
+23| <font color="#213363"><b>Byungchul Kim</b></font>, Hyunki In, Kyu-Jin Cho, Strap driven system for hand soft exoskeleton, International Biomedical Engineering Conference, Gwangju, Korea, November 2014.
 
-21| <font color="#213363"><b>Byungchul Kim</b></font>, Daeyoung Lee, Jisuk Kim, Hyunki In, Kyu-Jin Cho, Usability assessment of a glove type writing assistive device for people with spinal cord injury, Rehabilitation Engineering and Assistive Technology Society of Korea, Jeonju, Korea, April 2012.
+24| <font color="#213363"><b>Byungchul Kim</b></font>, Daeyoung Lee, Jisuk Kim, Hyunki In, Kyu-Jin Cho, Usability assessment of a glove type writing assistive device for people with spinal cord injury, Rehabilitation Engineering and Assistive Technology Society of Korea, Jeonju, Korea, April 2012.
 
 Theses and Dissertations
 ---
 
-22| <font color="#213363"><b>Byungchul Kim</b></font>, “Tendon-Driven Hand Wearable Robot using Slider-Tendon Linear Actuator”, Doctoral Dissertation, Seoul National University, Seoul, Korea.
+25| <font color="#213363"><b>Byungchul Kim</b></font>, “Tendon-Driven Hand Wearable Robot using Slider-Tendon Linear Actuator”, Doctoral Dissertation, Seoul National University, Seoul, Korea.
 
-23| <font color="#213363"><b>Byungchul Kim</b></font>, “A user-friendly assistive glove for SCI people performing natural writing posture”, Master’s thesis, Seoul National University, Seoul, Korea.
+26| <font color="#213363"><b>Byungchul Kim</b></font>, “A user-friendly assistive glove for SCI people performing natural writing posture”, Master’s thesis, Seoul National University, Seoul, Korea.
 
 [Tmech_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Slider-Tendon_Linear_Actuator_With_Under-Actuation_and_Fast-Connection_for_Soft_Wearable_Robots.pdf
 [Tmech_link]: https://ieeexplore.ieee.org/document/9314058 
@@ -84,3 +85,4 @@ Theses and Dissertations
 [pvt_patent_link]: https://patents.google.com/patent/KR101600270B1/ko
 
 [ExoShell_Supp]: https://sites.google.com/view/exo-gloveshell/
+[SensorMIT]: https://www.youtube.com/watch?v=o4CEsLRgKqg
