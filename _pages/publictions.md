@@ -35,6 +35,7 @@ Books
 
 Other conferences and Workshop Papers
 ---
+
 10| Cedric Honnet, Yunyi Zhu, Martin Nisser, Chao Liu, <font color="#213363"><b>Byungchul Kim</b></font>, Jae Hun Seol, Jongho Lee, Daniela Rus, and Stefanie Mueller, “Laser-Etching Flexible Sensors for Robotic Touch Recognition," IEEE International Conference on Robotics and Automation, Late Braking Results, London, United Kingdom, May 2023. [[video]][SensorMIT]
 
 11|	<font color="#213363"><b>Byungchul Kim</b></font> and Kyu-Jin Cho, “Building Simple Yet Competent Soft-Rigid Hybrid Hand Wearable Robots”, IEEE RAS/EMBS International Conference on Biomedical Robotics & Biomechanics, Seoul, Korea, August 2022.
