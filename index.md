@@ -23,7 +23,7 @@ As a robot hardware designer, my primary focus revolves around answering the que
 
 I recognize that the successful development of practical assistive robots necessitates the convergence of multidisciplinary knowledge. Therefore, I am eagerly looking forward to collaborating with researchers from diverse fields to bring about these advancements.
 
-You can check my detail informations on my [about][about_link] page; you can also find my bio [here][bio] Further, please look for my [research][Research_link] page and [publication][publication_link] page for details of my research. For any inquires, you can reach me via email: [bckim@mit.edu][email].
+You can check my detail informations on my [about][about_link] page; you can also find my bio [here][bio]. Further, please look for my [research][Research_link] page and [publication][publication_link] page for details of my research. For any inquires, you can reach me via email: [bckim@mit.edu][email].
 
 CV can be downloaded from [here][cv_link]. 
 
