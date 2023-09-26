@@ -15,10 +15,10 @@ header:
       url: "https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV.pdf"
 ---
 
->About me
+>Bio
 ---
 
-I am a Postdoctoral Research Fellow at the MIT, Cambridge, USA, working with [Professor Daniela Rus][Lab_MIT_Link] in computer science and aritificial laboratory (CSAIL), since Jan 2023. Before joining MIT, I was a Postdoctoral Research Fellow in Soft Robotic Research Center (SRRC), working with [Professor Kyu-jin Cho][Lab_link] in department of Mechanical engineering, Seoul National University, Seoul, Korea. 
+Byungchul Kim is a Postdoctoral Research Fellow at the MIT working with [Professor Daniela Rus][Lab_MIT_Link] in computer science and aritificial laboratory (CSAIL), since Jan 2023. Before joining MIT, he was a Postdoctoral Research Fellow in Soft Robotic Research Center (SRRC), working with [Professor Kyu-jin Cho][Lab_link] in department of Mechanical engineering, Seoul National University, Seoul, Korea. Dr. Kim completed his B.S., M.S., and Ph.D. degrees in Mechanical and Aerospace Engineering, all from Seoul National University. His research interests include soft robotics, hand wearable robotic system, and under-actuated tendon-driven system. 
 
 CV can be downloaded from [here][cv_link]. 
 
