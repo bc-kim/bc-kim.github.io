@@ -99,3 +99,4 @@ Theses and Dissertations
 [RAL_pdf]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Underactuated_Robotic_Gripper_With_Fiber-Optic_Force_Sensing_Tendons.pdf
 
 [NeruIPSsite]:https://sites.google.com/view/diffusebot
+[NeruIPS2023_pdf]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Underactuated_Robotic_Gripper_With_Fiber-Optic_Force_Sensing_Tendons.pdf
