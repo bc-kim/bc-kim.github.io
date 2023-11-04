@@ -104,5 +104,5 @@ Theses and Dissertations
 [RAL_link]: https://ieeexplore.ieee.org/abstract/document/10250947
 [RAL_pdf]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Underactuated_Robotic_Gripper_With_Fiber-Optic_Force_Sensing_Tendons.pdf
 
-[NeruIPSsite]:https://sites.google.com/view/diffusebot
+[NeruIPSsite]:https://diffusebot.github.io/
 [NeruIPS2023_pdf]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/10463_diffusebot_breeding_soft_robot.pdf
