@@ -116,9 +116,9 @@ CV can be downloaded from [here][cv_link].
 
 |Preiod|Title|
 |:---:|:---|
-|Jan.2024|<b><font color="#213363">How will researchers design/fabricate the robot in the future?</font></b><br>, Seoul National University|
-|Jun.2023|<b><font color="#213363">Under-actuated Tendon-driven Soft Robots For the Human Assistance</font></b><br>, UC Berkeley|
-|Jun.2022|<b><font color="#213363">Building Competent Tendon-driven Soft Robots even with fewer actuators</font></b><br>, MIT|
+|Jan.2024|<b><font color="#213363">How will researchers design/fabricate the robot in the future?</font></b><br> <b> Seoul National University|
+|Jun.2023|<b><font color="#213363">Under-actuated Tendon-driven Soft Robots For the Human Assistance</font></b><br> <b> UC Berkeley|
+|Jun.2022|<b><font color="#213363">Building Competent Tendon-driven Soft Robots even with fewer actuators</font></b><br> <b> MIT|
 
 >Awards
 ---
