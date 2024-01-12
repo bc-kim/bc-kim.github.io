@@ -98,8 +98,7 @@ CV can be downloaded from [here][cv_link].
 
 |Conference|Information|
 |:---:|:---|
-|ICRA <br>2024 <br> accepted|  <span>&#8226;</span> Organizing committee, “Advancing wearable devices and applications through novel design, sensing, actuation, and AI
-”, workshop, IEEE International Conference on Robotics & Automation (ICRA), May 2024. [[site]][ICRA_workshop_link]
+|ICRA <br>2024 <br> (accepted)|  <span>&#8226;</span> Organizing committee, “Advancing wearable devices and applications through novel design, sensing, actuation, and AI”, workshop, IEEE International Conference on Robotics & Automation (ICRA), May 2024. [[site]][ICRA_workshop_link]
 |Biorob <br>2022|  <span>&#8226;</span> Organizing committee, “Advancing Hand Wearable Robotics through novel design, actuation, sensing, and control algorithm”, workshop, IEEE RAS/EMBS International Conference on Biomedical Robotics & Biomechanics, August 2022. [[pdf]][Biorob_pdf][[site]][Biorob_link]
 
 >Scholarship
@@ -117,9 +116,9 @@ CV can be downloaded from [here][cv_link].
 
 |Preiod|Title|
 |:---:|:---|
-|Jan.2024|How will researchers design/fabricate the robot in the future?, Seoul National University|
-|Jun.2023|Under-actuated Tendon-driven Soft Robots For the Human Assistance, UC Berkeley|
-|Jun.2022|Building Competent Tendon-driven Soft Robots even with fewer actuators, MIT|
+|Jan.2024|<b><font color="#213363">How will researchers design/fabricate the robot in the future?</font></b><br>, Seoul National University|
+|Jun.2023|<b><font color="#213363">Under-actuated Tendon-driven Soft Robots For the Human Assistance</font></b><br>, UC Berkeley|
+|Jun.2022|<b><font color="#213363">Building Competent Tendon-driven Soft Robots even with fewer actuators</font></b><br>, MIT|
 
 >Awards
 ---
@@ -147,14 +146,14 @@ For any inquires, you can reach me via email: [bckim@mit.edu][email].
 
 CV can be downloaded from [here][cv_link]. 
 
-Update: 2020/01/13
+Update: 2024/01/13
 
 [Lab_Daniela_Link]: https://www.csail.mit.edu/person/daniela-rus
 [cv_link]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV.pdf
 [email]: mailto:kbc1990@snu.ac.kr
 [Research_link]: /research/
 [SRRC_link]: https://www.srrc.snu.ac.kr
-[Lab_link]: https://biorobotics.snu.ac.kr
+[Lab_link]: https://biorobotics.snu.ac.kr/lab-members
 [email]: mailto:bckim@mit.edu
 [Biorob_pdf]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/2022Biorob_Programbook.pdf
 [Biorob_link]: https://sites.google.com/view/biorob-2022-hand-wearable/
