@@ -82,7 +82,7 @@ Other conferences and Workshop Papers
 Theses and Dissertations
 ---
 
-28| <font color="#213363"><b>Byungchul Kim</b></font>, “Tendon-Driven Hand Wearable Robot using Slider-Tendon Linear Actuator”, Doctoral Dissertation, Seoul National University, Seoul, Korea.
+28| <font color="#213363"><b>Byungchul Kim</b></font>, “Tendon-Driven Hand Wearable Robot using Slider-Tendon Linear Actuator”, Doctoral Dissertation, Seoul National University, Seoul, Korea. [[pdf]][thesis_pdf]
 
 29| <font color="#213363"><b>Byungchul Kim</b></font>, “A user-friendly assistive glove for SCI people performing natural writing posture”, Master’s thesis, Seoul National University, Seoul, Korea.
 
@@ -107,3 +107,5 @@ Theses and Dissertations
 [NeruIPSsite]:https://diffusebot.github.io/
 [NeruIPS2023_pdf]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/10463_diffusebot_breeding_soft_robot.pdf
 [NeruIPSvideo]: https://www.youtube.com/watch?v=LSzasdvD3Ss
+
+[thesis_pdf]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Thesis_Paper.pdf
