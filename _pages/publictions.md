@@ -17,7 +17,7 @@ International Journals
 Computer Science Conferences
 ---
 
-5| Tsun-Hsuan Wang, Juntian Zheng, Pingchuan Ma, Yilun Du,  <font color="#213363"><b>Byungchul Kim</b></font>, Andrew Everett Spielberg, Joshua B. Tenenbaum, Chuang Gan, Daniela Rus, "DiffuseBot: Breeding Soft Robots With Physics-Augmented Generative Diffusion Models," in **Neural Information Processing Systems**. [[pdf]][NeruIPS2023_pdf] [[site]][NeruIPSsite] <font color="#17594A"><b>**Oral presentation**</b></font><br>
+5| Tsun-Hsuan Wang, Juntian Zheng, Pingchuan Ma, Yilun Du,  <font color="#213363"><b>Byungchul Kim</b></font>, Andrew Everett Spielberg, Joshua B. Tenenbaum, Chuang Gan, Daniela Rus, "DiffuseBot: Breeding Soft Robots With Physics-Augmented Generative Diffusion Models," in **Neural Information Processing Systems**. [[pdf]][NeruIPS2023_pdf] [[video]][NeruIPSvideo] [[site]][NeruIPSsite] <font color="#17594A"><b>**Oral presentation**</b></font><br>
 
 Journals Under Review / in Preparation
 ---
@@ -106,3 +106,4 @@ Theses and Dissertations
 
 [NeruIPSsite]:https://diffusebot.github.io/
 [NeruIPS2023_pdf]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/10463_diffusebot_breeding_soft_robot.pdf
+[NeruIPSvideo]: https://www.youtube.com/watch?v=LSzasdvD3Ss

@@ -15,7 +15,7 @@ header:
 **About me**
 ---
 
-Hello! I am a Postdoctoral Researcher at the [MIT CSAIL][Lab_MIT_Link] working with Professor Daniela Rus, since Jan 2023. My current work at CSAIL is centered on the development of tendon-driven soft robots utilizing computational co-design framework. Before joining MIT, I was a Postdoctoral Researcher at Soft Robotic Research Center (SRRC) in Seoul National University (SNU), working with [Professor Kyu-jin Cho][Lab_link](Department of Mechanical engineering, SNU). 
+Hello! I am a Postdoctoral Researcher at the [MIT CSAIL][Lab_MIT_Link] working with Professor Daniela Rus, since Jan 2023. My current work at CSAIL is centered on the development of tendon-driven soft robots utilizing computational co-design framework. Before joining MIT, I was a Postdoctoral Researcher at [Soft Robotic Research Center (SRRC)][Lab_link] in Seoul National University (SNU), working with Professor Kyu-jin Cho (Department of Mechanical engineering, SNU). 
 
 I believe the true allure of engineering is its ability to leverage technology to improve human lives. With this belief as my driving force, I am dedicated to developing assistive soft robots that can be used in the real world beyond the laboratory with my expertise that lies in three key areas: 1) under-actuation mechanisms, 2) tendon transmission, and 3) the design of soft robots. 
 
@@ -29,9 +29,9 @@ CV can be downloaded from [here][cv_link].
 
 [Lab_MIT_Link]: https://csail.mit.edu
 [SRRC_link]: https://www.srrc.snu.ac.kr
-[Research_link]: /researches/
+[Research_link]: /research/
 [publication_link]: /publications/
-[Lab_link]: https://biorobotics.snu.ac.kr
+[Lab_link]: https://www.srrc.snu.ac.kr/
 [about_link]: /about/
 [cv_link]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV.pdf
 [email]: mailto:bckim@mit.edu

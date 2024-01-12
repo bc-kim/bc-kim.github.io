@@ -18,7 +18,7 @@ header:
 >Bio
 ---
 
-Byungchul Kim is a Postdoctoral Research Fellow at MIT working with [Professor Daniela Rus][Lab_MIT_Link] in the Computer Science and Artificial Laboratory (CSAIL), since Jan 2023. Before joining MIT, he was a Postdoctoral Research Fellow at the Soft Robotic Research Center (SRRC), working with [Professor Kyu-jin Cho][Lab_link] in the department of Mechanical Engineering, Seoul National University, Seoul, Korea. Dr. Kim completed his B.S., M.S., and Ph.D. degrees in Mechanical and Aerospace Engineering, all from Seoul National University. His research interests include soft robotics, hand-wearable robotic systems, and under-actuated tendon-driven systems. 
+Byungchul Kim is a [Postdoctoral Research Fellow at MIT][Lab_my_Link] working with [Professor Daniela Rus][Lab_Daniela_Link] in the Computer Science and Artificial Laboratory (CSAIL), since Jan 2023. Before joining MIT, he was a Postdoctoral Research Fellow at the Soft Robotic Research Center (SRRC), working with [Professor Kyu-jin Cho][Lab_link] in the department of Mechanical Engineering, Seoul National University, Seoul, Korea. Dr. Kim completed his B.S., M.S., and Ph.D. degrees in Mechanical and Aerospace Engineering, all from Seoul National University. His research interests include soft robotics, hand-wearable robotic systems, and under-actuated tendon-driven systems. 
 
 CV can be downloaded from [here][cv_link]. 
 
@@ -98,6 +98,8 @@ CV can be downloaded from [here][cv_link].
 
 |Conference|Information|
 |:---:|:---|
+|ICRA <br>2024 <br> accepted|  <span>&#8226;</span> Organizing committee, “Advancing wearable devices and applications through novel design, sensing, actuation, and AI
+”, workshop, IEEE International Conference on Robotics & Automation (ICRA), May 2024. [[site]][ICRA_workshop_link]
 |Biorob <br>2022|  <span>&#8226;</span> Organizing committee, “Advancing Hand Wearable Robotics through novel design, actuation, sensing, and control algorithm”, workshop, IEEE RAS/EMBS International Conference on Biomedical Robotics & Biomechanics, August 2022. [[pdf]][Biorob_pdf][[site]][Biorob_link]
 
 >Scholarship
@@ -115,6 +117,7 @@ CV can be downloaded from [here][cv_link].
 
 |Preiod|Title|
 |:---:|:---|
+|Jan.2024|How will researchers design/fabricate the robot in the future?, Seoul National University|
 |Jun.2023|Under-actuated Tendon-driven Soft Robots For the Human Assistance, UC Berkeley|
 |Jun.2022|Building Competent Tendon-driven Soft Robots even with fewer actuators, MIT|
 
@@ -135,6 +138,7 @@ CV can be downloaded from [here][cv_link].
 |Mar. 2017 - Jun. 2017|<b><font color="#213363">Teaching Assistant</font></b><br> Introduction for soft robotics (Prof. Kyu-Jin Cho) <br>Seoul National University|
 |Mar. 2012 - Jun. 2012|<b><font color="#213363">Teaching Assistant</font></b><br>Mechanical System Modeling and Control (Prof. Kyu-Jin Cho)<br>Seoul National University|
 |Mar. 2020 - Dec. 2020 <br> Mar. 2019 - Jun. 2019 <br> Mar. 2018 - Dec. 2018 <br> Mar. 2017 - Dec. 2017 <br> Mar. 2012 - Dec. 2012|<b><font color="#213363">B.S Thesis/UROP Tutoring</font></b><br>Led the B.S. Thesis of three undergraduate students (Prof. Kyu-Jin Cho)<br>Led four students for the Undergraduate Research Opportunities (Prof. Kyu-Jin Cho)<br> Seoul National University|
+|Sep. 2023 - Dec. 2023 |<b><font color="#213363">Kaufman Teaching Certificate Program at MIT</font></b><br>Participated the Kaufman Teaching Certificate Program at MIT. [[Certificate]][KTCP_certificate_link]|
 
 >Contact & CV
 ---
@@ -145,8 +149,7 @@ CV can be downloaded from [here][cv_link].
 
 Update: 2020/01/13
 
-
-[Lab_MIT_Link]: https://csail.mit.edu
+[Lab_Daniela_Link]: https://www.csail.mit.edu/person/daniela-rus
 [cv_link]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV.pdf
 [email]: mailto:kbc1990@snu.ac.kr
 [Research_link]: /research/
@@ -157,3 +160,6 @@ Update: 2020/01/13
 [Biorob_link]: https://sites.google.com/view/biorob-2022-hand-wearable/
 [2019RobosoftLink]: https://youtu.be/K7L5Aa39xNg
 [CETI]: https://www.projectceti.org
+[ICRA_workshop_link]: https://sites.google.com/view/icra-2024-wearable-workshop/home
+[Lab_my_Link]: https://www.csail.mit.edu/person/byungchul-kim
+[KTCP_certificate_link]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Slider-Tendon_Linear_Actuator_With_Under-Actuation_and_Fast-Connection_for_Soft_Wearable_Robots.pdf
