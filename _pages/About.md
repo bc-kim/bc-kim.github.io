@@ -116,7 +116,7 @@ CV can be downloaded from [here][cv_link].
 
 |Preiod|Title|
 |:---:|:---|
-|Jan.2024|<b><font color="#213363">How will researchers design/fabricate the robot in the future?</font></b><br> Seoul National University|
+|Jan.2024|<b><font color="#213363">How will the “future” researchers design/fabricate the robots?</font></b><br> Seoul National University|
 |Jun.2023|<b><font color="#213363">Under-actuated Tendon-driven Soft Robots For the Human Assistance</font></b><br> UC Berkeley|
 |Jun.2022|<b><font color="#213363">Building Competent Tendon-driven Soft Robots even with fewer actuators</font></b><br> MIT|
 
@@ -161,4 +161,4 @@ Update: 2024/01/13
 [CETI]: https://www.projectceti.org
 [ICRA_workshop_link]: https://sites.google.com/view/icra-2024-wearable-workshop/home
 [Lab_my_Link]: https://www.csail.mit.edu/person/byungchul-kim
-[KTCP_certificate_link]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Slider-Tendon_Linear_Actuator_With_Under-Actuation_and_Fast-Connection_for_Soft_Wearable_Robots.pdf
+[KTCP_certificate_link]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Certificates/KTCP.pdf
