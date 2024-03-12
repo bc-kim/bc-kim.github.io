@@ -46,8 +46,8 @@ blog:
     url: /blog/canopen
         
 abouts:
-  - title: "About Me"
-    url: /about/#about-me
+  - title: "Bio"
+    url: /about/#bio
   - title: "Research Interests"
     url: /about/#research-interests
   - title: "Experience"
