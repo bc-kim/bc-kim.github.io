@@ -59,7 +59,7 @@ CV can be downloaded from [here][cv_link].
 
 |Preiod|Research experience|
 |:---:|:---|
-|2023 <br>-<br> Present|<b><font color="#213363">Computational co-design framework</font></b><br> <span>&#8226;</span> Generative AI for robot design <br> Contributed the real-world robot design and fabrication|
+|2023 <br>-<br> Present|<b><font color="#213363">Computational co-design framework</font></b><br> <span>&#8226;</span> Generative AI for robot design <font color="#17594A"><b>**Oral presentation in 2023 NeurIPS**</b></font><br> Contributed the real-world robot design and fabrication|
 |2023 <br>-<br> Present|<b><font color="#213363">Project CETI</font></b><br> <span>&#8226;</span> Understanding what whales are saying <br> Contributed wearable tag design|
 |2023 <br>-<br> Present|<b><font color="#213363">Hybrid rigid-soft hand development</font></b><br> <span>&#8226;</span> Designing hybrid rigid-soft hand for kitchen work <br> Contributed the robotic hand design|
 |2021 <br>-<br> 2023|<b><font color="#213363">Rehabilitation robot system for untact self-training</font></b><br> <i>Funded by National Research Foundation of Korea, Ministry of Trade, Industry and Energy of Korea</i><br> <span>&#8226;</span> Upper limb rehabilitation robot system for untact self-training. <br> Contributed the actuator design (Slider-Tendon Linear Actuator)|
