@@ -171,4 +171,4 @@ Update: 2024/01/13
 [ICRA_workshop_link]: https://sites.google.com/view/icra-2024-wearable-workshop/home
 [Lab_my_Link]: https://www.csail.mit.edu/person/byungchul-kim
 [KTCP_certificate_link]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Certificates/KTCP.pdf
-[wos_link]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Others/WOS_cv.pdf
+[wos_link]: https://www.webofscience.com/wos/author/record/39675729
