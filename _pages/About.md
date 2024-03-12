@@ -146,7 +146,6 @@ CV can be downloaded from [here][cv_link].
 |:---:|:---|:---|
 |Oct 2023|<b>Soft Robotics</b>|Untethered Electro-fluidic Actuation of High-force Artificial Muscles for Soft Wearable Robots|
 |Mar 2023|<b>Soft Robotics</b>|A Flexible Bi-directional Interface with Integrated Multi-modal Sensing and Haptic Feedback for Closed-loop Human-Machine Interaction|
-|Can be found [here][[wos_link]]|
 
 
 >Contact & CV
