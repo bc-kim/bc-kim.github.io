@@ -139,6 +139,15 @@ CV can be downloaded from [here][cv_link].
 |Mar. 2020 - Dec. 2020 <br> Mar. 2019 - Jun. 2019 <br> Mar. 2018 - Dec. 2018 <br> Mar. 2017 - Dec. 2017 <br> Mar. 2012 - Dec. 2012|<b><font color="#213363">B.S Thesis/UROP Tutoring</font></b><br>Led the B.S. Thesis of three undergraduate students (Prof. Kyu-Jin Cho)<br>Led four students for the Undergraduate Research Opportunities (Prof. Kyu-Jin Cho)<br> Seoul National University|
 |Sep. 2023 - Dec. 2023 |<b><font color="#213363">Kaufman Teaching Certificate Program at MIT</font></b><br>Participated the Kaufman Teaching Certificate Program at MIT. [[Certificate]][KTCP_certificate_link]|
 
+>[Verified Peer Reviews][wos_link]
+---
+|Preiod|Journal|Paper Title
+|:---:|:---|:---|
+|Oct 2023|<b>Soft Robotics</b>|Untethered Electro-fluidic Actuation of High-force Artificial Muscles for Soft Wearable Robots|
+|Mar 2023|<b>Soft Robotics</b>|A Flexible Bi-directional Interface with Integrated Multi-modal Sensing and Haptic Feedback for Closed-loop Human-Machine Interaction|
+
+
+
 >Contact & CV
 ---
 
@@ -162,3 +171,4 @@ Update: 2024/01/13
 [ICRA_workshop_link]: https://sites.google.com/view/icra-2024-wearable-workshop/home
 [Lab_my_Link]: https://www.csail.mit.edu/person/byungchul-kim
 [KTCP_certificate_link]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Certificates/KTCP.pdf
+[wos_link]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Others/WOS_cv.pdf
