@@ -145,12 +145,12 @@ CV can be downloaded from [here][cv_link].
 |Year|Journal/Confernece & Number of reviews|
 |:---:|:---|
 |2024| Soft Robotics: 1 <br> IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob): 3<br>  IEEE International Conference on Robotics and Automation (ICRA): 1|
-|2023| Soft Robotics: 2 <br> IEEE Robotics and Automation Letters(RAL): 1 <br>  International Conference on Ubiquitous Robots (UR): 1<br>  IEEE International Conference on Robotics and Automation (ICRA): 1|
-|2022|IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob): 1<br> International Conference on Ubiquitous Robots (UR): 1 <br>  IEEE International Conference on Robotics and Automation (ICRA): 1|
-|2021|IEEE Robotics and Automation Letters(RAL): 1 <br> IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM): 1 <br> International Conference on Ubiquitous Robots (UR): 1 <br>  IEEE International Conference on Robotics and Automation (ICRA): 1|
+|2023| Soft Robotics: 2 <br> IEEE Transactions on Haptics:1 <br> IEEE Robotics and Automation Letters(RAL): 1 <br>  International Conference on Ubiquitous Robots (UR): 1<br>  IEEE International Conference on Robotics and Automation (ICRA): 1|
+|2022|IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob): 1 <br> IEEE Transactions on Haptics:2 <br> International Conference on Ubiquitous Robots (UR): 1 <br>  IEEE International Conference on Robotics and Automation (ICRA): 1<br> IEEE Transactions on Neural Systems and Rehabilitation (TNSRE): 2|
+|2021|IEEE Robotics and Automation Letters(RAL): 1 <br> IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM): 1 <br> International Conference on Ubiquitous Robots (UR): 1 <br>  IEEE International Conference on Robotics and Automation (ICRA): 1<br> IEEE Transactions on Neural Systems and Rehabilitation (TNSRE): 1|
 |2020|IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS): 1|
-|2019| IEEE International Conference on Soft Robotics (RoboSoft): 1 <br>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS): 1|
-|2018|IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS): 1|
+|2019| IEEE International Conference on Soft Robotics (RoboSoft): 1 <br>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS): 1<br> IEEE Transactions on Neural Systems and Rehabilitation (TNSRE): 1|
+|2018|IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS): 1<br> IEEE Transactions on Neural Systems and Rehabilitation (TNSRE): 1|
 
 >Contact & CV
 ---
