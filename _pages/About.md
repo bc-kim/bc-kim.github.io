@@ -139,11 +139,15 @@ CV can be downloaded from [here][cv_link].
 |Mar. 2020 - Dec. 2020 <br> Mar. 2019 - Jun. 2019 <br> Mar. 2018 - Dec. 2018 <br> Mar. 2017 - Dec. 2017 <br> Mar. 2012 - Dec. 2012|<b><font color="#213363">B.S Thesis/UROP Tutoring</font></b><br>Led the B.S. Thesis of three undergraduate students (Prof. Kyu-Jin Cho)<br>Led four students for the Undergraduate Research Opportunities (Prof. Kyu-Jin Cho)<br> Seoul National University|
 |Sep. 2023 - Dec. 2023 |<b><font color="#213363">Kaufman Teaching Certificate Program at MIT</font></b><br>Participated the Kaufman Teaching Certificate Program at MIT. [[Certificate]][KTCP_certificate_link]|
 
->[Verified Peer Reviews][wos_link]
+>[Peer Reviews][wos_link]
 ---
 
-|Preiod|Journal|Paper Title
+Some of the paper review records can be found in the [Web of Science][wos_link].
+|Preiod|Journal|Paper Title|
 |:---:|:---|:---|
+|Mar 2024|<b>Biorob (3 papers)</b>|(Not Published)|
+|Mar 2024|<b>Soft Robotics</b>|(Not Published)|
+|Oct 2023|<b>ICRA</b>|(Not Published)|
 |Oct 2023|<b>Soft Robotics</b>|(Not Published)|
 |Mar 2023|<b>Soft Robotics</b>|(Not Published)|
 
