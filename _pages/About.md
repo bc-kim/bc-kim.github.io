@@ -142,15 +142,15 @@ CV can be downloaded from [here][cv_link].
 >[Peer Reviews][wos_link]
 ---
 
-Some of the paper review records can be found in the [Web of Science][wos_link].
-|Preiod|Journal|Paper Title|
-|:---:|:---|:---|
-|Mar 2024|<b>Biorob (3 papers)</b>|(Not Published)|
-|Mar 2024|<b>Soft Robotics</b>|(Not Published)|
-|Oct 2023|<b>ICRA</b>|(Not Published)|
-|Oct 2023|<b>Soft Robotics</b>|(Not Published)|
-|Mar 2023|<b>Soft Robotics</b>|(Not Published)|
-
+|Year|Journal/Confernece & Number of reviews|
+|:---:|:---|
+|2024| Soft Robotics: 1 <br> IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob): 3<br>  IEEE International Conference on Robotics and Automation (ICRA): 1|
+|2023| Soft Robotics: 2 <br> International Conference on Ubiquitous Robots (UR): 1<br>  IEEE International Conference on Robotics and Automation (ICRA): 1|
+|2022|IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob): 1<br> International Conference on Ubiquitous Robots (UR): 1 <br>  IEEE International Conference on Robotics and Automation (ICRA): 1|
+|2021|IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM): 1 <br> International Conference on Ubiquitous Robots (UR): 1 <br>  IEEE International Conference on Robotics and Automation (ICRA): 1|
+|2020|IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS): 1|
+|2019| IEEE International Conference on Soft Robotics (RoboSoft): 1 <br>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS): 1|
+|2018|IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS): 1|
 
 >Contact & CV
 ---
