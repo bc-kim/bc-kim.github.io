@@ -144,7 +144,7 @@ CV can be downloaded from [here][cv_link].
 
 |Year|Journal/Confernece & Number of reviews|
 |:---:|:---|
-|Total| Total number of verified peer reviews: 21 <br> RAS paper review record can be found [here][RAS_link] <br> The other paper review records can be found in [here][wos_link]. |
+|Total| Total number of verified peer reviews: 21 <br> RAS paper review record (without the Paper ID and Paper title) is [here][RAS_link]. <br> The other paper review records is [here][wos_link]. |
 |2024| Soft Robotics: 1 <br> IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob): 3<br>  IEEE International Conference on Robotics and Automation (ICRA): 1|
 |2023| Soft Robotics: 2 <br> IEEE Transactions on Haptics (ToH): 1 <br> IEEE Robotics and Automation Letters (RAL): 1 <br>  IEEE International Conference on Robotics and Automation (ICRA): 1|
 |2022|IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob): 1 <br> IEEE Transactions on Haptics (ToH): 2 <br> IEEE Transactions on Neural Systems and Rehabilitation (TNSRE): 2|
