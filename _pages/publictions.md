@@ -6,25 +6,25 @@ classes: wide
 International Journals
 ---
 
-1| Jaehyun Lee, <font color="#213363"><b>Byungchul Kim</b></font>, Kyu-Jin Cho, Yong-Lae Park, "Underactuated Robotic Gripper with Fiber-Optic Force Sensing Tendons", in **IEEE Robotics and Automation Letters (I.F 5.2, Top 20%)****, vol. 8, Issue 11, pp. 7607 - 7614, Nov. 2023. [[pdf]][RAL_pdf] [[site]][RAL_link]
+1| <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin choi, Kyubum Kim, Sejin Jeong, and Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," SoftRobtics, submitted [[site]][ExoShell_Supp]
 
-2|  <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, Brian Byunghyun Kang, Kyu-Jin Cho, "Slider-Tendon Linear Actuator with Under-actuation and Fast-connection for Soft Wearable Robots ", in **IEEE/ASME Transactions on Mechatronics (I.F 6.4, Top 10%)**, vol. 26, no. 6, pp. 2932-2943, Dec. 2021. [[pdf]][Tmech_pdf] [[site]][Tmech_link] 
+2| Jaehyun Lee, <font color="#213363"><b>Byungchul Kim</b></font>, Kyu-Jin Cho, and Yong-Lae Park, "Underactuated Robotic Gripper with Fiber-Optic Force Sensing Tendons", in **IEEE Robotics and Automation Letters (I.F 5.2, Top 20%)****, vol. 8, Issue 11, pp. 7607 - 7614, Nov. 2023. [[pdf]][RAL_pdf] [[site]][RAL_link]
 
-3| <font color="#213363"><b>Byungchul Kim</b></font>, Jiwon Ryu, Kyu-Jin Cho, "Joint Angle Estimation of a Tendon-Driven Soft Wearable Robot through a Tension and Stroke Measurement," in **Sensors (I.F 3.9, Top 25%)**, 20.10 (2020): 2852. [[pdf]][Sensors_pdf] [[site]][Sensors_link]
+3|  <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, Brian Byunghyun Kang, and Kyu-Jin Cho, "Slider-Tendon Linear Actuator with Under-actuation and Fast-connection for Soft Wearable Robots ", in **IEEE/ASME Transactions on Mechatronics (I.F 6.4, Top 10%)**, vol. 26, no. 6, pp. 2932-2943, Dec. 2021. [[pdf]][Tmech_pdf] [[site]][Tmech_link] 
 
-4| <font color="#213363"><b>Byungchul Kim</b></font>, Hyunki In, Daeyoung Lee, Kyu-Jin Cho, "Development and assessment of a hand assist device: GRIPIT", in **Journal of NeuroEngineering and Rehabilitation (I.F 5.1, Top 5%)**, 14.1 (2017): 15. [[pdf]][JNER_pdf] [[site]][JNER_link]
+4| <font color="#213363"><b>Byungchul Kim</b></font>, Jiwon Ryu, and Kyu-Jin Cho, "Joint Angle Estimation of a Tendon-Driven Soft Wearable Robot through a Tension and Stroke Measurement," in **Sensors (I.F 3.9, Top 25%)**, 20.10 (2020): 2852. [[pdf]][Sensors_pdf] [[site]][Sensors_link]
+
+5| <font color="#213363"><b>Byungchul Kim</b></font>, Hyunki In, Daeyoung Lee, Kyu-Jin Cho, "Development and assessment of a hand assist device: GRIPIT", in **Journal of NeuroEngineering and Rehabilitation (I.F 5.1, Top 5%)**, 14.1 (2017): 15. [[pdf]][JNER_pdf] [[site]][JNER_link]
 
 Computer Science Conferences
 ---
 
-5| Tsun-Hsuan Wang, Juntian Zheng, Pingchuan Ma, Yilun Du,  <font color="#213363"><b>Byungchul Kim</b></font>, Andrew Everett Spielberg, Joshua B. Tenenbaum, Chuang Gan, Daniela Rus, "DiffuseBot: Breeding Soft Robots With Physics-Augmented Generative Diffusion Models," in **Neural Information Processing Systems (NeruIPS 2023)**. [[pdf]][NeruIPS2023_pdf] [[video]][NeruIPSvideo] [[site]][NeruIPSsite] <font color="#17594A"><b>**Oral presentation**</b></font><br>
+6| Tsun-Hsuan Wang, Juntian Zheng, Pingchuan Ma, Yilun Du,  <font color="#213363"><b>Byungchul Kim</b></font>, Andrew Everett Spielberg, Joshua B. Tenenbaum, Chuang Gan, and Daniela Rus, "DiffuseBot: Breeding Soft Robots With Physics-Augmented Generative Diffusion Models," in **Neural Information Processing Systems (NeruIPS 2023)**. [[pdf]][NeruIPS2023_pdf] [[video]][NeruIPSvideo] [[site]][NeruIPSsite] <font color="#17594A"><b>**Oral presentation**</b></font><br>
 
 Journals Under Review / in Preparation
 ---
 
-6| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, Kyu-Jin Cho, "Analysis and Design of Dual Tendon Routing for the Under-actuated Tendon-Driven Robotic Systems," IEEE Transactions on Robotics, submitted.
-
-7| <font color="#213363"><b>Byungchul Kim</b></font>, Kyubum Kim, Sejin Jeong, Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," SoftRobtics, submitted [[site]][ExoShell_Supp]
+7| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Analysis and Design of Dual Tendon Routing for the Under-actuated Tendon-Driven Robotic Systems," IEEE Transactions on Robotics, submitted.
 
 Refereed Conference Paper
 ---

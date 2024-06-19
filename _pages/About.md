@@ -51,6 +51,14 @@ CV can be downloaded from [here][cv_link].
 |Mar.2012 <br>-<br> Feb.2014|<b><font color="#213363">M.S. in Mechanical and Aerospace Engineering</font></b><br> Seoul National University, Seoul, Korea <br>  Dissertation: A user-friendly assistive glove for SCI people performing natural writing posture <br> Advisor: Prof. Kyu-Jin Cho|
 |Mar.2008 <br>-<br> Feb.2012|<b><font color="#213363">B.S. in Mechanical and Aerospace Engineering</font></b><br> Seoul National University, Seoul, Korea <br> Advisor: Prof. Minsu Kim|
 
+Grant (as a PI)
+---
+
+|Preiod|Experience|
+|:---:|:---|
+|Sep.2024  <br>-<br> Aug.2025|<b><font color="#213363">Sejong Science Fellowship (funded by the National Research Foundation of Korea)</font></b><br> Generative Artificial Intelligence driven robot design and control (Role: PI) <br> 70,000,000 KRW (~50,000 USD)|
+
+
 >Research experience
 ---
 
