@@ -58,6 +58,24 @@ Grant (as a PI)
 |:---:|:---|
 |Sep.2024  <br>-<br> Aug.2025|<b><font color="#213363">Sejong Science Fellowship (funded by the National Research Foundation of Korea)</font></b><br> Generative Artificial Intelligence driven robot design and control (Role: PI) <br> 70,000,000 KRW (~50,000 USD)|
 
+Invited Talks
+---
+
+|  Preiod  | Title                                                                                                                            |
+| :------: | :------------------------------------------------------------------------------------------------------------------------------- |
+| June.2024 | <b><font color="#213363">Advancing Computational Co-Design: Generative AI to design the Soft Robot</font></b><br> Korea University |
+| Jan.2024 | <b><font color="#213363">How will the “future” researchers design/fabricate the robots?</font></b><br> Seoul National University |
+| Jun.2023 | <b><font color="#213363">Under-actuated Tendon-driven Soft Robots For the Human Assistance</font></b><br> UC Berkeley            |
+| Jun.2022 | <b><font color="#213363">Building Competent Tendon-driven Soft Robots even with fewer actuators</font></b><br> MIT               |
+
+>Workshop Organization
+---
+
+|Conference|Information|
+|:---:|:---|
+|ICRA <br>2024 <br> (accepted)|  <span>&#8226;</span> Organizing committee, “Advancing wearable devices and applications through novel design, sensing, actuation, and AI”, workshop, IEEE International Conference on Robotics & Automation (ICRA), May 2024. [[site]][ICRA_workshop_link]
+|Biorob <br>2022|  <span>&#8226;</span> Organizing committee, “Advancing Hand Wearable Robotics through novel design, actuation, sensing, and control algorithm”, workshop, IEEE RAS/EMBS International Conference on Biomedical Robotics & Biomechanics, August 2022. [[pdf]][Biorob_pdf][[site]][Biorob_link]
+
 
 >Research experience
 ---
@@ -100,15 +118,7 @@ Grant (as a PI)
 |Manufacturing|  <span>&#8226;</span>  CNC milling<br>  <span>&#8226;</span>  laser cutter<br>  <span>&#8226;</span>  3D printing|
 |Circuitdesign <br> and Artworks|  <span>&#8226;</span>  KiCAD<br>  <span>&#8226;</span>  Eagle CAD|
 
-
->Workshop Organization
----
-
-|Conference|Information|
-|:---:|:---|
-|ICRA <br>2024 <br> (accepted)|  <span>&#8226;</span> Organizing committee, “Advancing wearable devices and applications through novel design, sensing, actuation, and AI”, workshop, IEEE International Conference on Robotics & Automation (ICRA), May 2024. [[site]][ICRA_workshop_link]
-|Biorob <br>2022|  <span>&#8226;</span> Organizing committee, “Advancing Hand Wearable Robotics through novel design, actuation, sensing, and control algorithm”, workshop, IEEE RAS/EMBS International Conference on Biomedical Robotics & Biomechanics, August 2022. [[pdf]][Biorob_pdf][[site]][Biorob_link]
-
+>
 >Scholarship
 ---
 
@@ -119,14 +129,6 @@ Grant (as a PI)
 |Mar. 2014 - Jun. 2014|<b><font color="#213363">Lecture & Research Scholarship</font></b><br> <i>Funded by Seoul National University</i>|
 |Sep. 2011 - Dec. 2011  <br> Sep. 2010 - Dec. 2010 <br> Sep. 2009 - Dec. 2009|<b><font color="#213363">Superior Academic Performance</font></b><br> <i>Funded by Seoul National University</i>|
 
->Invited Talks
----
-
-|Preiod|Title|
-|:---:|:---|
-|Jan.2024|<b><font color="#213363">How will the “future” researchers design/fabricate the robots?</font></b><br> Seoul National University|
-|Jun.2023|<b><font color="#213363">Under-actuated Tendon-driven Soft Robots For the Human Assistance</font></b><br> UC Berkeley|
-|Jun.2022|<b><font color="#213363">Building Competent Tendon-driven Soft Robots even with fewer actuators</font></b><br> MIT|
 
 >Awards
 ---

@@ -6,7 +6,7 @@ classes: wide
 International Journals
 ---
 
-1| <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin choi, Kyubum Kim, Sejin Jeong, and Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," SoftRobtics, submitted [[site]][ExoShell_Supp]
+1| <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin choi, Kyubum Kim, Sejin Jeong, and Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," SoftRobtics, Accepted [[site]][ExoShell_Supp]
 
 2| Jaehyun Lee, <font color="#213363"><b>Byungchul Kim</b></font>, Kyu-Jin Cho, and Yong-Lae Park, "Underactuated Robotic Gripper with Fiber-Optic Force Sensing Tendons", in **IEEE Robotics and Automation Letters (I.F 5.2, Top 20%)****, vol. 8, Issue 11, pp. 7607 - 7614, Nov. 2023. [[pdf]][RAL_pdf] [[site]][RAL_link]
 
