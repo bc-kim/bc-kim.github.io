@@ -11,13 +11,12 @@ sidebar:
 ---
 - **Byungchul Kim**, Hyungmin Choi, Kyu Bum Kim, Sejin Jeong, Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," in preparation.
 
-This research is accepted in Soft Robotics Journal. Please find our supplementary site for detailed information about this research. 
-[[Supplementary Site]][ExoShell_Supp]
+This research is accepted in Soft Robotics Journal. Please find our supplementary site for detailed information about this research 
+[[Supplementary Site]][ExoShell_Supp]. Below is an overview of this project. 
 
 ---
 
-**Exo-Glove Shell Overview**
----
+**Overview**
 
 {% capture fig_img %}
 ![Foo]({{ "/assets/images/Researches/ExoGloveShell/Fig1.png" | relative_url }})
