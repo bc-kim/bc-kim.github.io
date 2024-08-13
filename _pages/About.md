@@ -7,7 +7,7 @@ classes: wide
 author_profile: false
 sidebar:
   nav: "abouts"
-excerpt: "Postdoctoral Research Fellow at MIT"
+excerpt: "Postdoctoral Research Associate at MIT"
 header:
   overlay_image: /assets/images/Main.png
   actions:
@@ -18,7 +18,7 @@ header:
 >Bio
 ---
 
-Byungchul Kim is a [Postdoctoral Research Fellow at MIT][Lab_my_Link] working with [Professor Daniela Rus][Lab_Daniela_Link] in the Computer Science and Artificial Laboratory (CSAIL), since Jan 2023. Before joining MIT, he was a Postdoctoral Research Fellow at the Soft Robotic Research Center (SRRC), working with [Professor Kyu-jin Cho][Lab_link] in the department of Mechanical Engineering, Seoul National University, Seoul, Korea. Dr. Kim completed his B.S., M.S., and Ph.D. degrees in Mechanical and Aerospace Engineering, all from Seoul National University. His research interests include soft robotics, hand-wearable robotic systems, and under-actuated tendon-driven systems. 
+Byungchul Kim is a [Postdoctoral Research Associate at MIT][Lab_my_Link] working with [Professor Daniela Rus][Lab_Daniela_Link] in the Computer Science and Artificial Laboratory (CSAIL), since Jan 2023. Before joining MIT, he was a Postdoctoral Research Fellow at the Soft Robotic Research Center (SRRC), working with [Professor Kyu-jin Cho][Lab_link] in the department of Mechanical Engineering, Seoul National University, Seoul, Korea. Dr. Kim completed his B.S., M.S., and Ph.D. degrees in Mechanical and Aerospace Engineering, all from Seoul National University. His research interests include soft robotics, hand-wearable robotic systems, and under-actuated tendon-driven systems. 
 
 CV can be downloaded from [here][cv_link]. 
 
