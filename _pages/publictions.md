@@ -6,9 +6,9 @@ classes: wide
 International Journals
 ---
 
-1| <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin choi, Kyubum Kim, Sejin Jeong, and Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," SoftRobtics, Accepted [[site]][ExoShell_Supp]
+1| <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin choi, Kyubum Kim, Sejin Jeong, and Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," in **Soft Robotics (I.F. 7.9, Top 20%)** , vol. 0, no. 0, Aug. 2024. [[pdf]][SoRoPDF][[Supplementary]][SoRoSM][[video]][SoRoVideo][[site]][ExoShell_Supp]
 
-2| Jaehyun Lee, <font color="#213363"><b>Byungchul Kim</b></font>, Kyu-Jin Cho, and Yong-Lae Park, "Underactuated Robotic Gripper with Fiber-Optic Force Sensing Tendons", in **IEEE Robotics and Automation Letters (I.F 5.2, Top 20%)****, vol. 8, Issue 11, pp. 7607 - 7614, Nov. 2023. [[pdf]][RAL_pdf] [[site]][RAL_link]
+2| Jaehyun Lee, <font color="#213363"><b>Byungchul Kim</b></font>, Kyu-Jin Cho, and Yong-Lae Park, "Underactuated Robotic Gripper with Fiber-Optic Force Sensing Tendons", in **IEEE Robotics and Automation Letters (I.F 5.2, Top 20%)**, vol. 8, Issue 11, pp. 7607 - 7614, Nov. 2023. [[pdf]][RAL_pdf] [[site]][RAL_link]
 
 3|  <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, Brian Byunghyun Kang, and Kyu-Jin Cho, "Slider-Tendon Linear Actuator with Under-actuation and Fast-connection for Soft Wearable Robots ", in **IEEE/ASME Transactions on Mechatronics (I.F 6.4, Top 10%)**, vol. 26, no. 6, pp. 2932-2943, Dec. 2021. [[pdf]][Tmech_pdf] [[site]][Tmech_link] 
 
@@ -109,3 +109,7 @@ Theses and Dissertations
 [NeruIPSvideo]: https://www.youtube.com/watch?v=LSzasdvD3Ss
 
 [thesis_pdf]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Thesis_Paper.pdf
+
+[SoRoPDF]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/soro_main.pdf
+[SoRoSM]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/soro_sm.pdf
+[SoRoVideo]: https://youtu.be/yM8G0V4FGkk
