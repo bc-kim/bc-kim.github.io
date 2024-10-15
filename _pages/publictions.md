@@ -6,7 +6,7 @@ classes: wide
 International Journals
 ---
 
-1| <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin choi, Kyubum Kim, Sejin Jeong, and Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," in **Soft Robotics (I.F. 7.9, Top 20%)** , vol. 0, no. 0, Aug. 2024. [[pdf]][SoRoPDF][[Supplementary]][SoRoSM][[video]][SoRoVideo][[site]][ExoShell_Supp]
+1| <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin Choi, Kyubum Kim, Sejin Jeong, and Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," in **Soft Robotics (I.F. 7.9, Top 20%)**, Aug. 2024. [[pdf]][SoRoPDF][[Supplementary]][SoRoSM][[video]][SoRoVideo][[site]][ExoShell_Supp]
 
 2| Jaehyun Lee, <font color="#213363"><b>Byungchul Kim</b></font>, Kyu-Jin Cho, and Yong-Lae Park, "Underactuated Robotic Gripper with Fiber-Optic Force Sensing Tendons", in **IEEE Robotics and Automation Letters (I.F 5.2, Top 20%)**, vol. 8, Issue 11, pp. 7607 - 7614, Nov. 2023. [[pdf]][RAL_pdf] [[site]][RAL_link]
 
@@ -19,7 +19,7 @@ International Journals
 Computer Science Conferences
 ---
 
-6| Tsun-Hsuan Wang, Juntian Zheng, Pingchuan Ma, Yilun Du,  <font color="#213363"><b>Byungchul Kim</b></font>, Andrew Everett Spielberg, Joshua B. Tenenbaum, Chuang Gan, and Daniela Rus, "DiffuseBot: Breeding Soft Robots With Physics-Augmented Generative Diffusion Models," in **Neural Information Processing Systems (NeruIPS 2023)**. [[pdf]][NeruIPS2023_pdf] [[video]][NeruIPSvideo] [[site]][NeruIPSsite] <font color="#17594A"><b>**Oral presentation**</b></font><br>
+6| Tsun-Hsuan Wang, Juntian Zheng, Pingchuan Ma, Yilun Du,  <font color="#213363"><b>Byungchul Kim</b></font>, Andrew Everett Spielberg, Joshua B. Tenenbaum, Chuang Gan, and Daniela Rus, "DiffuseBot: Breeding Soft Robots With Physics-Augmented Generative Diffusion Models," in **Neural Information Processing Systems (NeurIPS 2023)**. [[pdf]][NeruIPS2023_pdf] [[video]][NeruIPSvideo] [[site]][NeruIPSsite] <font color="#17594A"><b>**Oral presentation**</b></font><br>
 
 Journals Under Review / in Preparation
 ---
