@@ -26,8 +26,7 @@ Journals Under Review / in Preparation
 
 7| Kyu Bum Kim, Hyungmin Choi, <font color="#213363"><b>Byungchul Kim</b></font>, Brian Byunghyun Kang, Sangheui Cheon, and Kyu-Jin Cho, "Exo-Glove Poly III: Grasp Assistance by Modulating Thumb and Finger Motion Sequence with a Single Actuator," Soft Robotics, under-review.
 
-8| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Dual-Tendon Routing: Tendon Routing for
-Under-actuated Tendon-Driven Soft Hand-wearable Robot," IEEE Robotics and Automation Letters, submitted.
+8| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Dual-Tendon Routing: Tendon Routing for Under-actuated Tendon-Driven Soft Hand-wearable Robot," IEEE Robotics and Automation Letters, submitted.
 
 9| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Exo-Glove Pinch: Soft Hand-wearable Robot Designed through
 the Analysis of the Constrained Tendon Routing," IEEE Robotics and Automation Letters, submitted.
