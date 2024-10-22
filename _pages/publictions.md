@@ -24,18 +24,25 @@ Computer Science Conferences
 Journals Under Review / in Preparation
 ---
 
-7| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Analysis and Design of Dual Tendon Routing for the Under-actuated Tendon-Driven Robotic Systems," IEEE Transactions on Robotics, submitted.
+7| Kyu Bum Kim, Hyungmin Choi, <font color="#213363"><b>Byungchul Kim</b></font>, Brian Byunghyun Kang, Sangheui Cheon, and Kyu-Jin Cho, "Exo-Glove Poly III: Grasp Assistance by Modulating Thumb and Finger Motion Sequence with a Single Actuator," Soft Robotics, under-review.
+
+8| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Dual-Tendon Routing: Tendon Routing for
+Under-actuated Tendon-Driven Soft Hand-wearable Robot," IEEE Robotics and Automation Letters, submitted.
+
+9| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Exo-Glove Pinch: Soft Hand-wearable Robot Designed through
+the Analysis of the Constrained Tendon Routing," IEEE Robotics and Automation Letters, submitted.
 
 Refereed Conference Paper
 ---
 
-8|	<font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, Brian Byunghyun Kang, and Kyu-Jin Cho, “Slider-Tendon Linear Actuator with Under actuation and Fast connection for Soft Wearable Robots”, International Conference on Advanced Intelligent Mechatronics, 2021.
+10|  Gregory Xie, Lillian Chin, <font color="#213363"><b>Byungchul Kim</b></font>, Rachel Holladay, and Daniela Rus, “Strong Compliant Grasps Using a Cable-Driven Soft Gripper”, IEEE/RSJ International Conference on Intelligent Robots and Systems, 2024.
 
+11|	<font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, Brian Byunghyun Kang, and Kyu-Jin Cho, “Slider-Tendon Linear Actuator with Under actuation and Fast connection for Soft Wearable Robots”, International Conference on Advanced Intelligent Mechatronics, 2021.
 
 Patents
 ---
 
-9| Kyu-Jin Cho, <font color="#213363"><b>Byungchul Kim</b></font>, Daeyoung Lee, “PEN HOLDER”, US 9522562, US.    [[site]][penholder_patent_link]
+9| Kyu-Jin Cho, <font color="#213363"><b>Byungchul Kim</b></font>, Daeyoung Lee, “PEN HOLDER”, US 9522562, US. [[site]][penholder_patent_link]
 
 10| Kyu-Jin Cho, Hyunki In, Kyuhan Cho, <font color="#213363"><b>Byungchul Kim</b></font>, “PASSIVE VARIABLE TRANSMISSION FOR WIRE DRIVEN JOINT MECHANISM”, 10-11600270-0000, KR. <font color="#17594A"><b>**Technology transfer**</b> </font> [[site]][pvt_patent_link]
 
