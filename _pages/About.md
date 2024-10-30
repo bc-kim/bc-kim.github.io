@@ -54,9 +54,9 @@ CV can be downloaded from [here][cv_link].
 Grant (as a PI)
 ---
 
-|Preiod|Experience|
-|:---:|:---|
-|Sep.2024  <br>-<br> Aug.2025|<b><font color="#213363">Sejong Science Fellowship (funded by the National Research Foundation of Korea)</font></b><br> Generative Artificial Intelligence driven robot design and control (Role: PI) <br> 70,000,000 KRW (~50,000 USD)|
+|Preiod| Experience                                                                                                                                                                                                                                                         |
+|:---:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Sep.2024  <br>-<br> Aug.2025| <b><font color="#213363">Sejong Science Fellowship (funded by the National Research Foundation of Korea)</font></b><br> Generative Artificial Intelligence driven robot design and control (Role: PI) <br> 70,000,000 KRW (~50,000 USD) [certificate][Sejong_link] |
 
 Invited Talks
 ---
@@ -186,3 +186,4 @@ Update: 2024/01/13
 [KTCP_certificate_link]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Certificates/KTCP.pdf
 [wos_link]: https://www.webofscience.com/wos/author/record/39675729
 [RAS_link]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Review_record_18.04_24.03.pdf
+[Sejong_link]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Certificates/Sejong_certificate.pdf
