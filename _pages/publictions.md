@@ -62,15 +62,15 @@ Other conferences and Workshop Papers
 
 16| Kyubum Kim, <font color="#213363"><b>Byungchul Kim</b></font>, Data-driven Inverse Kinematics for Human Hand”, International Conference on Control Automation and Systems, Korea, October 2021.
 
-17| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, Brian Byunghyun Kang, Kyu-Jin Cho, “Slider-Tendon Linear Actuator with Under actuation and Fast connection for Soft Wearable Robots”, International Conference on Advanced Intelligent Mechatronics, on-line, July 2021.
+17| <font color="#213363"><b>Byungchul Kim</b></font>, Kyu-Jin Cho, “Wrist Anchor for Soft Hand Wearable Robot”, The Korean society of Mechanical Engineers, on-line, April 2021.
 
-18| <font color="#213363"><b>Byungchul Kim</b></font>, Kyu-Jin Cho, “Wrist Anchor for Soft Hand Wearable Robot”, The Korean society of Mechanical Engineers, on-line, April 2021.
+18| <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin Choi, Kyu-Jin Cho, “Wrist tendon anchor for soft wearable robot”, The Korean society of Mechanical Engineers, on-line, December 2020.
 
-19| <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin Choi, Kyu-Jin Cho, “Wrist tendon anchor for soft wearable robot”, The Korean society of Mechanical Engineers, on-line, December 2020.
+19| Sanghee Cheon, Brian Byunghyun Kang, <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin Choi, Kyubum Kim, Kyu-Jin Cho, "Exo-Glove Power: A Soft Wearable Hand Robot for Power Grasp Enhancement,", International Conference of Control Automation and Systems, Jeju Island, Korea, July 2019.
 
-20| Sanghee Cheon, Brian Byunghyun Kang, <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin Choi, Kyubum Kim, Kyu-Jin Cho, "Exo-Glove Power: A Soft Wearable Hand Robot for Power Grasp Enhancement,", International Conference of Control Automation and Systems, Jeju Island, Korea, July 2019.
+20| <font color="#213363"><b>Byungchul Kim</b></font>, Brian Byunghyun Kang, Sanghee Cheon, Hyungmin Choi, Kyubum Kim, Kyu-Jin Cho, "Wrist tendon anchor for soft wearable robot," International Conference of Control Automation and Systems, Jeju Island, Korea, July 2019.
 
-21| <font color="#213363"><b>Byungchul Kim</b></font>, Brian Byunghyun Kang, Sanghee Cheon, Hyungmin Choi, Kyubum Kim, Kyu-Jin Cho, "Wrist tendon anchor for soft wearable robot," International Conference of Control Automation and Systems, Jeju Island, Korea, July 2019.
+21| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, Brian Byunghyun Kang, Kyu-Jin Cho, “Compact Actuator with Tendon Transmission Box for Soft wearable Robot”, 2019 2nd IEEE International Conference on Soft Robotics (RoboSoft), late breaking result, April 2019.
 
 22| <font color="#213363"><b>Byungchul Kim</b></font>, Kyu-Jin Cho, "Modeling of the relationship between wire tension and joint torque for force control of tendon driven hand assist wearable robot", International Conference of Control Automation and Systems, Pyeongchang, Korea, October 2018.
 
