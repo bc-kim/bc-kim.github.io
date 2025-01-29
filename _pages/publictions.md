@@ -6,15 +6,15 @@ classes: wide
 International Journals
 ---
 
-J.5| <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin Choi, Kyubum Kim, Sejin Jeong, and Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," in **Soft Robotics (I.F. 7.9, Top 20%)**, Aug. 2024. [[pdf]][SoRoPDF][[Supplementary]][SoRoSM][[video]][SoRoVideo][[site]][ExoShell_Supp]
+J.5| <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin Choi, Kyubum Kim, Sejin Jeong, and Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," in **Soft Robotics (I.F. 7.9, JCI Top 20%)**, Aug. 2024. [[pdf]][SoRoPDF][[Supplementary]][SoRoSM][[video]][SoRoVideo][[site]][ExoShell_Supp]
 
-J.4| Jaehyun Lee, <font color="#213363"><b>Byungchul Kim</b></font>, Kyu-Jin Cho, and Yong-Lae Park, "Underactuated Robotic Gripper with Fiber-Optic Force Sensing Tendons", in **IEEE Robotics and Automation Letters (I.F 5.2, Top 20%)**, vol. 8, Issue 11, pp. 7607 - 7614, Nov. 2023. [[pdf]][RAL_pdf] [[site]][RAL_link]
+J.4| Jaehyun Lee, <font color="#213363"><b>Byungchul Kim</b></font>, Kyu-Jin Cho, and Yong-Lae Park, "Underactuated Robotic Gripper with Fiber-Optic Force Sensing Tendons", in **IEEE Robotics and Automation Letters (I.F 5.2, JCI Top 20%)**, vol. 8, Issue 11, pp. 7607 - 7614, Nov. 2023. [[pdf]][RAL_pdf] [[site]][RAL_link]
 
-J.3|  <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, Brian Byunghyun Kang, and Kyu-Jin Cho, "Slider-Tendon Linear Actuator with Under-actuation and Fast-connection for Soft Wearable Robots ", in **IEEE/ASME Transactions on Mechatronics (I.F 6.4, Top 10%)**, vol. 26, no. 6, pp. 2932-2943, Dec. 2021. [[pdf]][Tmech_pdf] [[site]][Tmech_link] 
+J.3|  <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, Brian Byunghyun Kang, and Kyu-Jin Cho, "Slider-Tendon Linear Actuator with Under-actuation and Fast-connection for Soft Wearable Robots ", in **IEEE/ASME Transactions on Mechatronics (I.F 6.4, JCI Top 10%)**, vol. 26, no. 6, pp. 2932-2943, Dec. 2021. [[pdf]][Tmech_pdf] [[site]][Tmech_link] 
 
-J.2| <font color="#213363"><b>Byungchul Kim</b></font>, Jiwon Ryu, and Kyu-Jin Cho, "Joint Angle Estimation of a Tendon-Driven Soft Wearable Robot through a Tension and Stroke Measurement," in **Sensors (I.F 3.9, Top 25%)**, 20.10 (2020): 2852. [[pdf]][Sensors_pdf] [[site]][Sensors_link]
+J.2| <font color="#213363"><b>Byungchul Kim</b></font>, Jiwon Ryu, and Kyu-Jin Cho, "Joint Angle Estimation of a Tendon-Driven Soft Wearable Robot through a Tension and Stroke Measurement," in **Sensors (I.F 3.9, JCI Top 25%)**, 20.10 (2020): 2852. [[pdf]][Sensors_pdf] [[site]][Sensors_link]
 
-J.1| <font color="#213363"><b>Byungchul Kim</b></font>, Hyunki In, Daeyoung Lee, Kyu-Jin Cho, "Development and assessment of a hand assist device: GRIPIT", in **Journal of NeuroEngineering and Rehabilitation (I.F 5.1, Top 5%)**, 14.1 (2017): 15. [[pdf]][JNER_pdf] [[site]][JNER_link]
+J.1| <font color="#213363"><b>Byungchul Kim</b></font>, Hyunki In, Daeyoung Lee, Kyu-Jin Cho, "Development and assessment of a hand assist device: GRIPIT", in **Journal of NeuroEngineering and Rehabilitation (I.F 5.1, JIF Top 5%)**, 14.1 (2017): 15. [[pdf]][JNER_pdf] [[site]][JNER_link]
 
 Computer Science Conferences
 ---
