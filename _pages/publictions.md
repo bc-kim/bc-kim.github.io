@@ -5,6 +5,7 @@ classes: wide
 ---
 International Journals
 ---
+
 J.6| Kyu Bum Kim, Hyungmin Choi, <font color="#213363"><b>Byungchul Kim</b></font>, Brian Byunghyun Kang, Sangheui Cheon, and Kyu-Jin Cho, "Exo-Glove Poly III: Grasp Assistance by Modulating Thumb and Finger Motion Sequence with a Single Actuator," in **Soft Robotics (I.F. 7.9, JCI Top 20%)**, 2025.
 
 J.5| <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin Choi, Kyubum Kim, Sejin Jeong, and Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," in **Soft Robotics (I.F. 7.9, JCI Top 20%)**, Aug. 2024. [[pdf]][SoRoPDF][[Supplementary]][SoRoSM][[video]][SoRoVideo][[site]][ExoShell_Supp]
