@@ -32,8 +32,10 @@ C.2|  Gregory Xie, Lillian Chin, <font color="#213363"><b>Byungchul Kim</b></fon
 
 C.1|	<font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, Brian Byunghyun Kang, and Kyu-Jin Cho, “Slider-Tendon Linear Actuator with Under actuation and Fast connection for Soft Wearable Robots”, International Conference on Advanced Intelligent Mechatronics, 2021.
 
-Journals Under Review / in Preparation
+Papers Under Review / in Preparation
 ---
+
+R.3| Zhou Xian, Yiling Qiao, [...]  <font color="#213363"><b>Byungchul Kim</b></font>, [...] and Chuang Gan (among 51 authors), "Genesis: A Generative and Universal Physics Engine for Robotics and Beyond," in preparation. [[video]][Genesis_video][[site]][Genesis_link]
 
 R.2| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Dual-Tendon Routing: Tendon Routing for Under-actuated Tendon-Driven Soft Hand-wearable Robot," IEEE Robotics and Automation Letters, submitted.
 
@@ -124,3 +126,6 @@ T.1| <font color="#213363"><b>Byungchul Kim</b></font>, “A user-friendly assis
 [ICRA2025site]:https://diffusebot.github.io/
 [ICRA2025_pdf]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/_ICRA__Generative_AI_Driven_Jumping_Robot_Design_Using_Diffusion_Models.pdf
 [ICRA2025_video]: https://youtu.be/seLBEMrhMjI
+
+[Genesis_video]: https://youtu.be/Uw_Y5dNYC1M
+[Genesis_link]: https://genesis-embodied-ai.github.io
