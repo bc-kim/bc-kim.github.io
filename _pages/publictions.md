@@ -6,7 +6,7 @@ classes: wide
 International Journals
 ---
 
-J.7| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Dual-Tendon Routing: Tendon Routing for Under-actuated Tendon-Driven Soft Hand-wearable Robot," IEEE Robotics and Automation Letters, accepted.
+J.7| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Dual-Tendon Routing: Tendon Routing for Under-actuated Tendon-Driven Soft Hand-wearable Robot," IEEE Robotics and Automation Letters, accepted. [[pdf]][DTR_pdf][[video]][DTR_video]
 
 J.6| Kyu Bum Kim, Hyungmin Choi, <font color="#213363"><b>Byungchul Kim</b></font>, Brian Byunghyun Kang, Sangheui Cheon, and Kyu-Jin Cho, "Exo-Glove Poly III: Grasp Assistance by Modulating Thumb and Finger Motion Sequence with a Single Actuator," in **Soft Robotics (I.F. 7.9, JCI Top 20%)**, 2025.
 
@@ -129,3 +129,6 @@ T.1| <font color="#213363"><b>Byungchul Kim</b></font>, “A user-friendly assis
 
 [Genesis_video]: https://youtu.be/Uw_Y5dNYC1M
 [Genesis_link]: https://genesis-embodied-ai.github.io
+
+[DTR_pdf]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/RAL_DTR_Final.pdf
+[DTR_video]: https://youtu.be/8iz3lKWT_M8
