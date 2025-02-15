@@ -113,13 +113,17 @@ author:
       url: "https://www.csail.mit.edu/person/byungchul-kim"
     - label: " Download CV"
       icon: "far fa-file-pdf"
-      url: "https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV.pdf"
+      url: "https://bc-kim.github.io/assets/CV/ByungchulKim-CV.pdf"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bc-kim"
     - label: "  LinkedIn"
       icon: "fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/byungchul-kim/"
+    - label: " YouTube"
+      icon: "fab fa-youtube"
+      url: "https://www.youtube.com/@byungchulkim5073"
+
 
 # Site Footer
 footer:
