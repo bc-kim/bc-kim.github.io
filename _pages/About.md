@@ -171,19 +171,19 @@ CV can be downloaded from [here][cv_link].
 Update: 2024/01/13
 
 [Lab_Daniela_Link]: https://www.csail.mit.edu/person/daniela-rus
-[cv_link]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV.pdf
+[cv_link]: https://bc-kim.github.io/assets/CV/ByungchulKim-CV.pdf
 [email]: mailto:kbc1990@snu.ac.kr
 [Research_link]: /research/
 [SRRC_link]: https://www.srrc.snu.ac.kr
 [Lab_link]: https://biorobotics.snu.ac.kr/lab-members
 [email]: mailto:bckim@mit.edu
-[Biorob_pdf]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/2022Biorob_Programbook.pdf
+[Biorob_pdf]: https://bc-kim.github.io/assets/Publications/2022Biorob_Programbook.pdf
 [Biorob_link]: https://sites.google.com/view/biorob-2022-hand-wearable/
 [2019RobosoftLink]: https://youtu.be/K7L5Aa39xNg
 [CETI]: https://www.projectceti.org
 [ICRA_workshop_link]: https://sites.google.com/view/icra-2024-wearable-workshop/home
 [Lab_my_Link]: https://www.csail.mit.edu/person/byungchul-kim
-[KTCP_certificate_link]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Certificates/KTCP.pdf
+[KTCP_certificate_link]:https://bc-kim.github.io/assets/Certificates/KTCP.pdf
 [wos_link]: https://www.webofscience.com/wos/author/record/39675729
-[RAS_link]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Review_record_18.04_24.03.pdf
-[Sejong_link]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Certificates/Sejong_certificate.pdf
+[RAS_link]: https://bc-kim.github.io/assets/Publications/Review_record_18.04_24.03.pdf
+[Sejong_link]: https://bc-kim.github.io/assets/Certificates/Sejong_certificate.pdf

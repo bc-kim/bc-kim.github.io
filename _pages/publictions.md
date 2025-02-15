@@ -6,7 +6,7 @@ classes: wide
 International Journals
 ---
 
-J.7| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Dual-Tendon Routing: Tendon Routing for Under-actuated Tendon-Driven Soft Hand-wearable Robot," IEEE Robotics and Automation Letters, accepted. [[pdf]][DTR_pdf][[video]][DTR_video]
+J.7| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Dual-Tendon Routing: Tendon Routing for Under-actuated Tendon-Driven Soft Hand-wearable Robot," IEEE Robotics and Automation Letters, 2025. [[pdf]][DTR_pdf][[video]][DTR_video]
 
 J.6| Kyu Bum Kim, Hyungmin Choi, <font color="#213363"><b>Byungchul Kim</b></font>, Brian Byunghyun Kang, Sangheui Cheon, and Kyu-Jin Cho, "Exo-Glove Poly III: Grasp Assistance by Modulating Thumb and Finger Motion Sequence with a Single Actuator," in **Soft Robotics (I.F. 7.9, JCI Top 20%)**, 2025.
 
@@ -95,13 +95,13 @@ T.2| <font color="#213363"><b>Byungchul Kim</b></font>, “Tendon-Driven Hand We
 
 T.1| <font color="#213363"><b>Byungchul Kim</b></font>, “A user-friendly assistive glove for SCI people performing natural writing posture”, Master’s thesis, Seoul National University, Seoul, Korea.
 
-[Tmech_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Slider-Tendon_Linear_Actuator_With_Under-Actuation_and_Fast-Connection_for_Soft_Wearable_Robots.pdf
+[Tmech_pdf]:https://bc-kim.github.io/assets/Publications/Slider-Tendon_Linear_Actuator_With_Under-Actuation_and_Fast-Connection_for_Soft_Wearable_Robots.pdf
 [Tmech_link]: https://ieeexplore.ieee.org/document/9314058 
 
-[Sensors_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Kim%2C%20Ryu%2C%20Cho%20-%202020%20-%20Joint%20Angle%20Estimation%20of%20a%20Tendon-driven%20Soft%20Wearable%20Robot%20through%20a%20Tension%20and%20Stroke%20Measurement.pdf
+[Sensors_pdf]:https://bc-kim.github.io/assets/Publications/Kim%2C%20Ryu%2C%20Cho%20-%202020%20-%20Joint%20Angle%20Estimation%20of%20a%20Tendon-driven%20Soft%20Wearable%20Robot%20through%20a%20Tension%20and%20Stroke%20Measurement.pdf
 [Sensors_link]: https://www.mdpi.com/718524 
 
-[JNER_pdf]:https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Kim%20et%20al.%20-%202017%20-%20Development%20and%20assessment%20of%20a%20hand%20assist%20device%20GRIPIT.pdf
+[JNER_pdf]:https://bc-kim.github.io/assets/Publications/Kim%20et%20al.%20-%202017%20-%20Development%20and%20assessment%20of%20a%20hand%20assist%20device%20GRIPIT.pdf
 [JNER_link]: https://jneuroengrehab.biomedcentral.com/articles/10.1186/s12984-017-0223-4
 
 [penholder_patent_link]: https://www.google.co.kr/patents/US9522562?dq=US+9,522,562+B2&hl=ko&sa=X&ved=0ahUKEwinpdrHyuzVAhVHXrwKHZx4B9cQ6AEIJDAA
@@ -111,24 +111,24 @@ T.1| <font color="#213363"><b>Byungchul Kim</b></font>, “A user-friendly assis
 [SensorMIT]: https://www.youtube.com/watch?v=o4CEsLRgKqg
 
 [RAL_link]: https://ieeexplore.ieee.org/abstract/document/10250947
-[RAL_pdf]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Underactuated_Robotic_Gripper_With_Fiber-Optic_Force_Sensing_Tendons.pdf
+[RAL_pdf]: https://bc-kim.github.io/assets/Publications/Underactuated_Robotic_Gripper_With_Fiber-Optic_Force_Sensing_Tendons.pdf
 
 [NeruIPSsite]:https://diffusebot.github.io/
-[NeruIPS2023_pdf]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/10463_diffusebot_breeding_soft_robot.pdf
+[NeruIPS2023_pdf]: https://bc-kim.github.io/assets/Publications/10463_diffusebot_breeding_soft_robot.pdf
 [NeruIPSvideo]: https://www.youtube.com/watch?v=LSzasdvD3Ss
 
-[thesis_pdf]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/Thesis_Paper.pdf
+[thesis_pdf]: https://bc-kim.github.io/assets/ublications/Thesis_Paper.pdf
 
-[SoRoPDF]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/soro_main.pdf
-[SoRoSM]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/soro_sm.pdf
+[SoRoPDF]: https://bc-kim.github.io/assets/Publications/soro_main.pdf
+[SoRoSM]: https://bc-kim.github.io/assets/Publications/soro_sm.pdf
 [SoRoVideo]: https://youtu.be/yM8G0V4FGkk
 
 [ICRA2025site]:https://diffusebot.github.io/
-[ICRA2025_pdf]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/_ICRA__Generative_AI_Driven_Jumping_Robot_Design_Using_Diffusion_Models.pdf
+[ICRA2025_pdf]: https://bc-kim.github.io/assets/Publications/_ICRA__Generative_AI_Driven_Jumping_Robot_Design_Using_Diffusion_Models.pdf
 [ICRA2025_video]: https://youtu.be/seLBEMrhMjI
 
 [Genesis_video]: https://youtu.be/Uw_Y5dNYC1M
 [Genesis_link]: https://genesis-embodied-ai.github.io
 
-[DTR_pdf]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/Publications/RAL_DTR_Final.pdf
+[DTR_pdf]: https://bc-kim.github.io/assets/Publications/RAL_DTR_Final.pdf
 [DTR_video]: https://youtu.be/8iz3lKWT_M8
