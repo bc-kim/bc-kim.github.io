@@ -124,7 +124,7 @@ T.1| <font color="#213363"><b>Byungchul Kim</b></font>, “A user-friendly assis
 [SoRoVideo]: https://youtu.be/yM8G0V4FGkk
 
 [ICRA2025site]:https://diffusebot.github.io/
-[ICRA2025_pdf]: https://bc-kim.github.io/assets/Publications/_ICRA__Generative_AI_Driven_Jumping_Robot_Design_Using_Diffusion_Models.pdf
+[ICRA2025_pdf]: https://bc-kim.github.io/assets/Publications/ICRA__Generative_AI_Driven_Jumping_Robot_Design_Using_Diffusion_Models.pdf
 [ICRA2025_video]: https://youtu.be/seLBEMrhMjI
 
 [Genesis_video]: https://youtu.be/Uw_Y5dNYC1M
