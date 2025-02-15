@@ -10,7 +10,7 @@ header:
   overlay_image: /assets/images/Main.png
   actions:
     - label: "Download CV"
-      url: "https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV.pdf"
+      url: "https://bc-kim.github.io/assets/CV/ByungchulKim-CV.pdf"
 ---
 **About me**
 ---
@@ -33,6 +33,6 @@ CV can be downloaded from [here][cv_link].
 [publication_link]: /publications/
 [Lab_link]: https://www.srrc.snu.ac.kr/
 [about_link]: /about/
-[cv_link]: https://github.com/bc-kim/bc-kim.github.io/blob/master/assets/CV/ByungchulKim-CV.pdf
+[cv_link]: https://bc-kim.github.io/assets/CV/ByungchulKim-CV.pdf
 [email]: mailto:bckim@mit.edu
 [bio]: https://bc-kim.github.io/about/#bio
