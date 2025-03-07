@@ -6,11 +6,13 @@ classes: wide
 International Journals
 ---
 
-J.7| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Dual-Tendon Routing: Tendon Routing for Under-actuated Tendon-Driven Soft Hand-wearable Robot," IEEE Robotics and Automation Letters, 2025. [[pdf]][DTR_pdf][[video]][DTR_video]
+J.8| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Exo-Glove Pinch: Soft Hand-wearable Robot Designed through the Analysis of the Constrained Tendon Routing," **IEEE Robotics and Automation Letters (I.F 5.2, JCI Top 20%)**, Mar. 2025 (Early Access).
+
+J.7| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Dual-Tendon Routing: Tendon Routing for Under-actuated Tendon-Driven Soft Hand-wearable Robot," **IEEE Robotics and Automation Letters (I.F 5.2, JCI Top 20%)**, Feb. 2025 (Early Access). [[pdf]][DTR_pdf][[video]][DTR_video]
 
 J.6| Kyu Bum Kim, Hyungmin Choi, <font color="#213363"><b>Byungchul Kim</b></font>, Brian Byunghyun Kang, Sangheui Cheon, and Kyu-Jin Cho, "Exo-Glove Poly III: Grasp Assistance by Modulating Thumb and Finger Motion Sequence with a Single Actuator," in **Soft Robotics (I.F. 7.9, JCI Top 20%)**, 2025.
 
-J.5| <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin Choi, Kyubum Kim, Sejin Jeong, and Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," in **Soft Robotics (I.F. 7.9, JCI Top 20%)**, Aug. 2024. [[pdf]][SoRoPDF][[Supplementary]][SoRoSM][[video]][SoRoVideo][[site]][ExoShell_Supp]
+J.5| <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin Choi, Kyubum Kim, Sejin Jeong, and Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," in **Soft Robotics (I.F. 7.9, JCI Top 20%)**, Feb. 2025. [[pdf]][SoRoPDF][[Supplementary]][SoRoSM][[video]][SoRoVideo][[site]][ExoShell_Supp]
 
 J.4| Jaehyun Lee, <font color="#213363"><b>Byungchul Kim</b></font>, Kyu-Jin Cho, and Yong-Lae Park, "Underactuated Robotic Gripper with Fiber-Optic Force Sensing Tendons", in **IEEE Robotics and Automation Letters (I.F 5.2, JCI Top 20%)**, vol. 8, Issue 11, pp. 7607 - 7614, Nov. 2023. [[pdf]][RAL_pdf] [[site]][RAL_link]
 
@@ -37,9 +39,7 @@ C.1|	<font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, Brian Byung
 Papers Under Review / in Preparation
 ---
 
-R.2| Zhou Xian, Yiling Qiao, [...]  <font color="#213363"><b>Byungchul Kim</b></font>, [...] and Chuang Gan (among 51 authors), "Genesis: A Generative and Universal Physics Engine for Robotics and Beyond," in preparation. [[video]][Genesis_video][[site]][Genesis_link]
-
-R.1| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Exo-Glove Pinch: Soft Hand-wearable Robot Designed through the Analysis of the Constrained Tendon Routing," IEEE Robotics and Automation Letters, submitted.
+R.1| Zhou Xian, Yiling Qiao, [...]  <font color="#213363"><b>Byungchul Kim</b></font>, [...] and Chuang Gan (among 51 authors), "Genesis: A Generative and Universal Physics Engine for Robotics and Beyond," in preparation. [[video]][Genesis_video][[site]][Genesis_link]
 
 Patents
 ---
