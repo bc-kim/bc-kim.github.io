@@ -10,9 +10,9 @@ J.8| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin
 
 J.7| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Dual-Tendon Routing: Tendon Routing for Under-actuated Tendon-Driven Soft Hand-wearable Robot," **IEEE Robotics and Automation Letters (I.F 5.2, JCI Top 20%)**, Feb. 2025. [[pdf]][DTR_pdf][[video]][DTR_video][[website]][DTR_website]
 
-J.6| Kyu Bum Kim, Hyungmin Choi, <font color="#213363"><b>Byungchul Kim</b></font>, Brian Byunghyun Kang, Sangheui Cheon, and Kyu-Jin Cho, "Exo-Glove Poly III: Grasp Assistance by Modulating Thumb and Finger Motion Sequence with a Single Actuator," in **Soft Robotics (I.F. 7.9, JCI Top 20%)**, 2025. [[pdf]][SoRo_polyIII_pdf][[video]][SoRo_polyIII_video][[Supplementary]][[SoRo_polyIII_sm]]
+J.6| Kyu Bum Kim, Hyungmin Choi, <font color="#213363"><b>Byungchul Kim</b></font>, Brian Byunghyun Kang, Sangheui Cheon, and Kyu-Jin Cho, "Exo-Glove Poly III: Grasp Assistance by Modulating Thumb and Finger Motion Sequence with a Single Actuator," in **Soft Robotics (I.F. 7.9, JCI Top 20%)**, 2025. [[pdf]][SoRo_polyIII_pdf][[video]][SoRo_polyIII_video][[supplementary]][SoRo_polyIII_sm]
 
-J.5| <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin Choi, Kyubum Kim, Sejin Jeong, and Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," in **Soft Robotics (I.F. 7.9, JCI Top 20%)**, Feb. 2025. [[pdf]][SoRoPDF][[Supplementary]][SoRoSM][[video]][SoRoVideo][[site]][ExoShell_Supp]
+J.5| <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin Choi, Kyubum Kim, Sejin Jeong, and Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," in **Soft Robotics (I.F. 7.9, JCI Top 20%)**, Feb. 2025. [[pdf]][SoRoPDF][[supplementary]][SoRoSM][[video]][SoRoVideo][[site]][ExoShell_Supp]
 
 J.4| Jaehyun Lee, <font color="#213363"><b>Byungchul Kim</b></font>, Kyu-Jin Cho, and Yong-Lae Park, "Underactuated Robotic Gripper with Fiber-Optic Force Sensing Tendons", in **IEEE Robotics and Automation Letters (I.F 5.2, JCI Top 20%)**, vol. 8, Issue 11, pp. 7607 - 7614, Nov. 2023. [[pdf]][RAL_pdf] [[site]][RAL_link]
 
