@@ -8,9 +8,9 @@ International Journals
 
 J.8| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Exo-Glove Pinch: Soft Hand-wearable Robot Designed through the Analysis of the Constrained Tendon Routing," **IEEE Robotics and Automation Letters (I.F 5.2, JCI Top 20%)**, Mar. 2025 (Early Access).
 
-J.7| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Dual-Tendon Routing: Tendon Routing for Under-actuated Tendon-Driven Soft Hand-wearable Robot," **IEEE Robotics and Automation Letters (I.F 5.2, JCI Top 20%)**, Feb. 2025. [[pdf]][DTR_pdf][[video]][DTR_video]
+J.7| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Dual-Tendon Routing: Tendon Routing for Under-actuated Tendon-Driven Soft Hand-wearable Robot," **IEEE Robotics and Automation Letters (I.F 5.2, JCI Top 20%)**, Feb. 2025. [[pdf]][DTR_pdf][[video]][DTR_video][[website]][DTR_website]
 
-J.6| Kyu Bum Kim, Hyungmin Choi, <font color="#213363"><b>Byungchul Kim</b></font>, Brian Byunghyun Kang, Sangheui Cheon, and Kyu-Jin Cho, "Exo-Glove Poly III: Grasp Assistance by Modulating Thumb and Finger Motion Sequence with a Single Actuator," in **Soft Robotics (I.F. 7.9, JCI Top 20%)**, 2025.
+J.6| Kyu Bum Kim, Hyungmin Choi, <font color="#213363"><b>Byungchul Kim</b></font>, Brian Byunghyun Kang, Sangheui Cheon, and Kyu-Jin Cho, "Exo-Glove Poly III: Grasp Assistance by Modulating Thumb and Finger Motion Sequence with a Single Actuator," in **Soft Robotics (I.F. 7.9, JCI Top 20%)**, 2025. [[pdf]][SoRo_polyIII_pdf][[video]][SoRo_polyIII_video][[Supplementary]][[SoRo_polyIII_sm]]
 
 J.5| <font color="#213363"><b>Byungchul Kim</b></font>, Hyungmin Choi, Kyubum Kim, Sejin Jeong, and Kyu-Jin Cho, "Exo-Glove Shell: A Hybrid Exo-Glove for the Thumb Opposition with an Under-Actuated Tendon-Driven System," in **Soft Robotics (I.F. 7.9, JCI Top 20%)**, Feb. 2025. [[pdf]][SoRoPDF][[Supplementary]][SoRoSM][[video]][SoRoVideo][[site]][ExoShell_Supp]
 
@@ -132,3 +132,8 @@ T.1| <font color="#213363"><b>Byungchul Kim</b></font>, “A user-friendly assis
 
 [DTR_pdf]: https://bc-kim.github.io/assets/Publications/RAL_DTR_Final.pdf
 [DTR_video]: https://youtu.be/8iz3lKWT_M8
+[DTR_website]: https://sites.google.com/view/dt-routing/overview
+
+[SoRo_polyIII_pdf]: https://bc-kim.github.io/assets/Publications/soro_exopolyIII.pdf
+[SoRo_polyIII_video]: https://youtu.be/g7Nchsnu2wY
+[SoRo_polyIII_sm]: https://bc-kim.github.io/assets/Publications/soro_exopolyIII_sm.pdf
