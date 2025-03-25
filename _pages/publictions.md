@@ -37,7 +37,7 @@ C.1|	<font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, Brian Byung
 Papers Under Review / in Preparation
 ---
 
-R.2| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Exo-Glove Pinch: Soft Hand-wearable Robot Designed through the Analysis of the Constrained Tendon Routing," **IEEE Robotics and Automation Letters (I.F 5.2, JCI Top 20%)**, Mar. 2025 (Early Access).
+R.2| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Exo-Glove Pinch: Soft Hand-wearable Robot Designed through the Analysis of the Constrained Tendon Routing," **IEEE Robotics and Automation Letters (I.F 5.2, JCI Top 20%)**.
 
 R.1| Zhou Xian, Yiling Qiao, [...]  <font color="#213363"><b>Byungchul Kim</b></font>, [...] and Chuang Gan (among 51 authors), "Genesis: A Generative and Universal Physics Engine for Robotics and Beyond," in preparation. [[video]][Genesis_video][[site]][Genesis_link]
 
