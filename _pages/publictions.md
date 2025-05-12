@@ -36,6 +36,7 @@ C.1|	<font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, Brian Byung
 
 Papers Under Review / in Preparation
 ---
+
 R.4| Yaniv Aluma, Zethra Baron, [...]  <font color="#213363"><b>Byungchul Kim</b></font>, [...] and Robert J. Wood (among 48 authors), "Cooperative lifting during a sperm whale birth and shifts in coda vocal styles during key events," under-review, Science Advances.
 
 R.3| Jared Boyer, Joseph DelPreto, T. Konstantin Rusch, Zahra Babaiee, <font color="#213363"><b>Byungchul Kim</b></font>, Radu Grosu, Daniela Rus  <font color="#213363"><b>Byungchul Kim</b></font>, [...] and Chuang Gan (among 51 authors), "Teaching Robots Household Tasks Using State-Space Models and Wearable Sensors," under-review, 2025 Conference on Robot Learning (CoRL).
@@ -60,6 +61,7 @@ B.1| Myungjoon Lim, Jiyoung Park, Kuem Ju Lee, Hyosun Kweon, <font color="#21336
 
 Other conferences and Workshop Papers
 ---
+
 O.16| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, “Position and Force Constraints in Underactuated Tendon-Driven Systems," IEEE International Conference on Robotics and Automation, [Mechanism Manipulation WS][2025ICRA_WS_website], Georgia, The United States of America, May 2025. [[pdf]][2025ICRA_WS_paper] [[poster]][2025ICRA_WS_poster]
 
 O.15| Cedric Honnet, Yunyi Zhu, Martin Nisser, Chao Liu, <font color="#213363"><b>Byungchul Kim</b></font>, Jae Hun Seol, Jongho Lee, Daniela Rus, and Stefanie Mueller, “Laser-Etching Flexible Sensors for Robotic Touch Recognition," IEEE International Conference on Robotics and Automation, Late Braking Results, London, United Kingdom, May 2023. [[video]][SensorMIT]
