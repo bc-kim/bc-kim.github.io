@@ -30,7 +30,7 @@ Refereed Conference Paper
 
 C.3|  <font color="#213363"><b>Byungchul Kim*</b></font>, Tsun-Hsuan Wang*, and Daniela Rus, "Generative-AI-Driven Jumping Robot Design Using Diffusion Models," in 2025 IEEE International Conference on Robotics and Automation (ICRA). [[pdf]][ICRA2025_pdf] [[video]][ICRA2025_video]
 
-C.2|  Gregory Xie, Lillian Chin, <font color="#213363"><b>Byungchul Kim</b></font>, Rachel Holladay, and Daniela Rus, “Strong Compliant Grasps Using a Cable-Driven Soft Gripper”, IEEE/RSJ International Conference on Intelligent Robots and Systems, 2024.
+C.2|  Gregory Xie, Lillian Chin, <font color="#213363"><b>Byungchul Kim</b></font>, Rachel Holladay, and Daniela Rus, “Strong Compliant Grasps Using a Cable-Driven Soft Gripper”, IEEE/RSJ International Conference on Intelligent Robots and Systems, 2024. [[pdf]][2024IROS_pdf]
 
 C.1|	<font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, Brian Byunghyun Kang, and Kyu-Jin Cho, “Slider-Tendon Linear Actuator with Under actuation and Fast connection for Soft Wearable Robots”, International Conference on Advanced Intelligent Mechatronics, 2021.
 
@@ -147,3 +147,5 @@ T.1| <font color="#213363"><b>Byungchul Kim</b></font>, “A user-friendly assis
 [2025ICRA_WS_website]: https://sites.google.com/theaiinstitute.com/icra-2025-mechanisms-for-manip/
 [2025ICRA_WS_paper]: https://bc-kim.github.io/assets/Publications/2025_ICRA_WS_Extended_Abstract.pdf
 [2025ICRA_WS_poster]: https://bc-kim.github.io/assets/Publications/2025ICRA_WS_Poster.pdf
+
+[2024IROS_pdf]: https://bc-kim.github.io/assets/Publications/2024IROS.pdf
