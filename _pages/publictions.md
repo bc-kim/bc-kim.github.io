@@ -39,7 +39,7 @@ Papers Under Review / in Preparation
 
 R.4| Yaniv Aluma, Zethra Baron, [...]  <font color="#213363"><b>Byungchul Kim</b></font>, [...] and Robert J. Wood (among 48 authors), "Cooperative lifting during a sperm whale birth and shifts in coda vocal styles during key events," under-review, Science Advances.
 
-R.3| Jared Boyer, Joseph DelPreto, T. Konstantin Rusch, Zahra Babaiee, <font color="#213363"><b>Byungchul Kim</b></font>, Radu Grosu, Daniela Rus  <font color="#213363"><b>Byungchul Kim</b></font>, [...] and Chuang Gan (among 51 authors), "Teaching Robots Household Tasks Using State-Space Models and Wearable Sensors," under-review, 2025 Conference on Robot Learning (CoRL).
+R.3| Jared Boyer, Joseph DelPreto, T. Konstantin Rusch, Zahra Babaiee, <font color="#213363"><b>Byungchul Kim</b></font>, Radu Grosu, Daniela Rus  <font color="#213363"><b>, "Teaching Robots Household Tasks Using State-Space Models and Wearable Sensors," under-review, 2025 Conference on Robot Learning (CoRL).
 
 R.2| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Exo-Glove Pinch: Soft Hand-wearable Robot Designed through the Analysis of the Constrained Tendon Routing," under-review, IEEE Robotics and Automation Letters.
 
