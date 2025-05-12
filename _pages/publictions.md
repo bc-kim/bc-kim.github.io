@@ -62,7 +62,7 @@ B.1| Myungjoon Lim, Jiyoung Park, Kuem Ju Lee, Hyosun Kweon, <font color="#21336
 Other conferences and Workshop Papers
 ---
 
-O.16| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, “Position and Force Constraints in Underactuated Tendon-Driven Systems," IEEE International Conference on Robotics and Automation, [Mechanism Manipulation WS][2025ICRA_WS_website], Georgia, The United States of America, May 2025. [[pdf]][2025ICRA_WS_paper] [[poster]][2025ICRA_WS_poster]
+O.16| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, “Position and Force Constraints in Underactuated Tendon-Driven Systems," IEEE International Conference on Robotics and Automation, [Workshop][2025ICRA_WS_website], Georgia, The United States of America, May 2025. [[pdf]][2025ICRA_WS_paper] [[poster]][2025ICRA_WS_poster]
 
 O.15| Cedric Honnet, Yunyi Zhu, Martin Nisser, Chao Liu, <font color="#213363"><b>Byungchul Kim</b></font>, Jae Hun Seol, Jongho Lee, Daniela Rus, and Stefanie Mueller, “Laser-Etching Flexible Sensors for Robotic Touch Recognition," IEEE International Conference on Robotics and Automation, Late Braking Results, London, United Kingdom, May 2023. [[video]][SensorMIT]
 
