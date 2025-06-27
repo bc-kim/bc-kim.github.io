@@ -28,7 +28,7 @@ CS.1| Tsun-Hsuan Wang, Juntian Zheng, Pingchuan Ma, Yilun Du,  <font color="#213
 Refereed Conference Paper
 ---
 
-C.3|  <font color="#213363"><b>Byungchul Kim*</b></font>, Tsun-Hsuan Wang*, and Daniela Rus, "Generative-AI-Driven Jumping Robot Design Using Diffusion Models," in 2025 IEEE International Conference on Robotics and Automation (ICRA). [[pdf]][ICRA2025_pdf] [[video]][ICRA2025_video]
+C.3|  <font color="#213363"><b>Byungchul Kim*</b></font>, Tsun-Hsuan Wang*, and Daniela Rus, "Generative-AI-Driven Jumping Robot Design Using Diffusion Models," in 2025 IEEE International Conference on Robotics and Automation (ICRA). [[pdf]][ICRA2025_pdf] [[video]][ICRA2025_video] [[News(korean)]][MIT_Media_korean][[News_csail]][csail_news]
 
 C.2|  Gregory Xie, Lillian Chin, <font color="#213363"><b>Byungchul Kim</b></font>, Rachel Holladay, and Daniela Rus, “Strong Compliant Grasps Using a Cable-Driven Soft Gripper”, IEEE/RSJ International Conference on Intelligent Robots and Systems, 2024. [[pdf]][2024IROS_pdf]
 
@@ -149,3 +149,5 @@ T.1| <font color="#213363"><b>Byungchul Kim</b></font>, “A user-friendly assis
 [2025ICRA_WS_poster]: https://bc-kim.github.io/assets/Publications/2025ICRA_WS_Poster.pdf
 
 [2024IROS_pdf]: https://bc-kim.github.io/assets/Publications/2024IROS.pdf
+[MIT_Media_korean]: https://www.technologyreview.kr/%EC%9D%B4-%EC%A0%90%ED%94%84-%EB%A1%9C%EB%B4%87%EC%9D%80-ai%EA%B0%80-%EC%84%A4%EA%B3%84%ED%96%88%EC%8A%B5%EB%8B%88%EB%8B%A4-mit%EC%9D%98-%EA%B9%80%EB%B3%91%EC%B2%A0/
+[csail_news]:https://www.csail.mit.edu/news/using-generative-ai-help-robots-jump-higher-and-land-better
