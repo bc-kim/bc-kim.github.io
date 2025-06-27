@@ -5,7 +5,7 @@ layout : single
 classes: wide
 
 author_profile: true
-excerpt: "Postdoctoral Research Fellow at MIT"
+excerpt: "Postdoctoral Research Associate at MIT"
 header:
   overlay_image: /assets/images/Main.png
   actions:
