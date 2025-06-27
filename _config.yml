@@ -115,7 +115,7 @@ author:
       icon: "far fa-file-pdf"
       url: "https://bc-kim.github.io/assets/CV/ByungchulKim-CV.pdf"
     - label: "Google Scholar"
-      icon: "ai ai-google-scholar"
+      icon: "fa-solid fa-newspaper"
       url: "https://scholar.google.com/citations?user=KPQ53S0AAAAJ&hl=en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
