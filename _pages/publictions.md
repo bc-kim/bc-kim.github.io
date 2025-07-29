@@ -5,6 +5,7 @@ classes: wide
 ---
 International Journals
 ---
+J.8| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Exo-Glove Pinch: Soft Hand-wearable Robot Designed through the Analysis of the Constrained Tendon Routing," **IEEE Robotics and Automation Letters (I.F 5.2, JCI Top 20%)**, Aug. 2025. [[pdf]][CTR_pdf][[site]][CTR_website][[Appendix]][CTR_Appendix]
 
 J.7| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Dual-Tendon Routing: Tendon Routing for Under-actuated Tendon-Driven Soft Hand-wearable Robot," **IEEE Robotics and Automation Letters (I.F 5.2, JCI Top 20%)**, Feb. 2025. [[pdf]][DTR_pdf][[video]][DTR_video][[site]][DTR_website]
 
@@ -37,11 +38,9 @@ C.1|	<font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, Brian Byung
 Papers Under Review / in Preparation
 ---
 
-R.4| Yaniv Aluma, Zethra Baron, [...]  <font color="#213363"><b>Byungchul Kim</b></font>, [...] and Robert J. Wood (among 48 authors), "Cooperative lifting during a sperm whale birth and shifts in coda vocal styles during key events," under-review, Science Advances.
+R.3| Yaniv Aluma, Zethra Baron, [...]  <font color="#213363"><b>Byungchul Kim</b></font>, [...] and Robert J. Wood (among 48 authors), "Cooperative lifting during a sperm whale birth and shifts in coda vocal styles during key events," under-review, Science Advances.
 
-R.3| Jared Boyer, Joseph DelPreto, T. Konstantin Rusch, Zahra Babaiee, <font color="#213363"><b>Byungchul Kim</b></font>, Radu Grosu, Daniela Rus, "Teaching Robots Household Tasks Using State-Space Models and Wearable Sensors," under-review, 2025 Conference on Robot Learning (CoRL).
-
-R.2| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Exo-Glove Pinch: Soft Hand-wearable Robot Designed through the Analysis of the Constrained Tendon Routing," under-review, IEEE Robotics and Automation Letters.
+R.2| Jared Boyer, Joseph DelPreto, T. Konstantin Rusch, Zahra Babaiee, <font color="#213363"><b>Byungchul Kim</b></font>, Radu Grosu, Daniela Rus, "Teaching Robots Household Tasks Using State-Space Models and Wearable Sensors," under-review, 2025 Conference on Robot Learning (CoRL).
 
 R.1| Zhou Xian, Yiling Qiao, [...]  <font color="#213363"><b>Byungchul Kim</b></font>, [...] and Chuang Gan (among 51 authors), "Genesis: A Generative and Universal Physics Engine for Robotics and Beyond," in preparation. [[video]][Genesis_video][[site]][Genesis_link]
 
@@ -139,6 +138,11 @@ T.1| <font color="#213363"><b>Byungchul Kim</b></font>, “A user-friendly assis
 [DTR_pdf]: https://bc-kim.github.io/assets/Publications/RAL_DTR_Final.pdf
 [DTR_video]: https://youtu.be/8iz3lKWT_M8
 [DTR_website]: https://sites.google.com/view/dt-routing/overview
+
+[CTR_pdf]: https://bc-kim.github.io/assets/Publications/RAL_CTR.pdf
+[CTR_website]: https://sites.google.com/view/constrained-tendon-routings
+[CTR_Appendix]: https://bc-kim.github.io/assets/Publications/Appendix_for_Exo-Glove%20Pinch.pdf
+
 
 [SoRo_polyIII_pdf]: https://bc-kim.github.io/assets/Publications/soro_exopolyIII.pdf
 [SoRo_polyIII_video]: https://youtu.be/g7Nchsnu2wY
