@@ -146,11 +146,6 @@ T.1| <font color="#213363"><b>Byungchul Kim</b></font>, “A user-friendly assis
 [DTR_video]: https://youtu.be/8iz3lKWT_M8
 [DTR_website]: https://sites.google.com/view/dt-routing/overview
 
-[CTR_pdf]: https://bc-kim.github.io/assets/Publications/RAL_CTR.pdf
-[CTR_website]: https://sites.google.com/view/constrained-tendon-routings
-[CTR_Appendix]: https://bc-kim.github.io/assets/Publications/Appendix_for_Exo-Glove%20Pinch.pdf
-
-
 [SoRo_polyIII_pdf]: https://bc-kim.github.io/assets/Publications/soro_exopolyIII.pdf
 [SoRo_polyIII_video]: https://youtu.be/g7Nchsnu2wY
 [SoRo_polyIII_sm]: https://bc-kim.github.io/assets/Publications/soro_exopolyIII_sm.pdf
