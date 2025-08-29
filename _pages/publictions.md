@@ -6,11 +6,7 @@ classes: wide
 International Journals
 ---
 
-<<<<<<< HEAD
 J.8| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Exo-Glove Pinch: Soft Hand-wearable Robot Designed through the Analysis of the Constrained Tendon Routing,"  **IEEE Robotics and Automation Letters (I.F 5.2, JCI Top 20%)**, Oct. 2025. [[pdf]][CTR_pdf][[site]][CTR_website] [[Appendix]][CTR_Appendix]
-=======
-J.8| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Exo-Glove Pinch: Soft Hand-wearable Robot Designed through the Analysis of the Constrained Tendon Routing," **IEEE Robotics and Automation Letters (I.F 5.2, JCI Top 20%)**, Aug. 2025. [[pdf]][CTR_pdf][[site]][CTR_website][[Appendix]][CTR_Appendix]
->>>>>>> 0d1fafc791c179beebf037370f0b3e7f36807bd6
 
 J.7| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Dual-Tendon Routing: Tendon Routing for Under-actuated Tendon-Driven Soft Hand-wearable Robot," **IEEE Robotics and Automation Letters (I.F 5.2, JCI Top 20%)**, Feb. 2025. [[pdf]][DTR_pdf][[video]][DTR_video][[site]][DTR_website]
 
