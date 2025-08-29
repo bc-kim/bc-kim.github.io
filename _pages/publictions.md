@@ -6,6 +6,8 @@ classes: wide
 International Journals
 ---
 
+J.8| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Exo-Glove Pinch: Soft Hand-wearable Robot Designed through the Analysis of the Constrained Tendon Routing,"  **IEEE Robotics and Automation Letters (I.F 5.2, JCI Top 20%)**, Oct. 2025. [[pdf]][CTR_pdf][[site]][CTR_website] [[Appendix]][CTR_Appendix]
+
 J.7| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Dual-Tendon Routing: Tendon Routing for Under-actuated Tendon-Driven Soft Hand-wearable Robot," **IEEE Robotics and Automation Letters (I.F 5.2, JCI Top 20%)**, Feb. 2025. [[pdf]][DTR_pdf][[video]][DTR_video][[site]][DTR_website]
 
 J.6| Kyu Bum Kim, Hyungmin Choi, <font color="#213363"><b>Byungchul Kim</b></font>, Brian Byunghyun Kang, Sangheui Cheon, and Kyu-Jin Cho, "Exo-Glove Poly III: Grasp Assistance by Modulating Thumb and Finger Motion Sequence with a Single Actuator," in **Soft Robotics (I.F. 7.9, JCI Top 20%)**, 2025. [[pdf]][SoRo_polyIII_pdf][[video]][SoRo_polyIII_video][[supplementary]][SoRo_polyIII_sm]
@@ -37,11 +39,9 @@ C.1|	<font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, Brian Byung
 Papers Under Review / in Preparation
 ---
 
-R.4| Yaniv Aluma, Zethra Baron, [...]  <font color="#213363"><b>Byungchul Kim</b></font>, [...] and Robert J. Wood (among 48 authors), "Cooperative lifting during a sperm whale birth and shifts in coda vocal styles during key events," under-review, Science Advances.
+R.3| Yaniv Aluma, Zethra Baron, [...]  <font color="#213363"><b>Byungchul Kim</b></font>, [...] and Robert J. Wood (among 48 authors), "Cooperative lifting during a sperm whale birth and shifts in coda vocal styles during key events," under-review, Science Advances.
 
-R.3| Jared Boyer, Joseph DelPreto, T. Konstantin Rusch, Zahra Babaiee, <font color="#213363"><b>Byungchul Kim</b></font>, Radu Grosu, Daniela Rus, "Teaching Robots Household Tasks Using State-Space Models and Wearable Sensors," under-review, 2025 Conference on Robot Learning (CoRL).
-
-R.2| <font color="#213363"><b>Byungchul Kim</b></font>, Useok Jeong, and Kyu-Jin Cho, "Exo-Glove Pinch: Soft Hand-wearable Robot Designed through the Analysis of the Constrained Tendon Routing," under-review, IEEE Robotics and Automation Letters.
+R.2| Jared Boyer, Joseph DelPreto, T. Konstantin Rusch, Zahra Babaiee, <font color="#213363"><b>Byungchul Kim</b></font>, Radu Grosu, Daniela Rus, "Teaching Robots Household Tasks Using State-Space Models and Wearable Sensors," under-review, 2025 Conference on Robot Learning (CoRL).
 
 R.1| Zhou Xian, Yiling Qiao, [...]  <font color="#213363"><b>Byungchul Kim</b></font>, [...] and Chuang Gan (among 51 authors), "Genesis: A Generative and Universal Physics Engine for Robotics and Beyond," in preparation. [[video]][Genesis_video][[site]][Genesis_link]
 
@@ -100,6 +100,12 @@ Theses and Dissertations
 T.2| <font color="#213363"><b>Byungchul Kim</b></font>, “Tendon-Driven Hand Wearable Robot using Slider-Tendon Linear Actuator”, Doctoral Dissertation, Seoul National University, Seoul, Korea. [[pdf]][thesis_pdf]
 
 T.1| <font color="#213363"><b>Byungchul Kim</b></font>, “A user-friendly assistive glove for SCI people performing natural writing posture”, Master’s thesis, Seoul National University, Seoul, Korea.
+
+[CTR_pdf]:https://bc-kim.github.io/assets/Publications/CTR.pdf
+
+[CTR_Appendix]: https://bc-kim.github.io/assets/Publications/Appendix_for_Exo-Glove%20Pinch.pdf
+
+[CTR_website]: https://sites.google.com/view/constrained-tendon-routings
 
 [Tmech_pdf]:https://bc-kim.github.io/assets/Publications/Slider-Tendon_Linear_Actuator_With_Under-Actuation_and_Fast-Connection_for_Soft_Wearable_Robots.pdf
 [Tmech_link]: https://ieeexplore.ieee.org/document/9314058 
