@@ -102,9 +102,7 @@ T.2| <font color="#213363"><b>Byungchul Kim</b></font>, “Tendon-Driven Hand We
 T.1| <font color="#213363"><b>Byungchul Kim</b></font>, “A user-friendly assistive glove for SCI people performing natural writing posture”, Master’s thesis, Seoul National University, Seoul, Korea.
 
 [CTR_pdf]:https://bc-kim.github.io/assets/Publications/CTR.pdf
-
 [CTR_Appendix]: https://bc-kim.github.io/assets/Publications/Appendix_for_Exo-Glove%20Pinch.pdf
-
 [CTR_website]: https://sites.google.com/view/constrained-tendon-routings
 
 [Tmech_pdf]:https://bc-kim.github.io/assets/Publications/Slider-Tendon_Linear_Actuator_With_Under-Actuation_and_Fast-Connection_for_Soft_Wearable_Robots.pdf
@@ -119,7 +117,6 @@ T.1| <font color="#213363"><b>Byungchul Kim</b></font>, “A user-friendly assis
 [penholder_patent_link]: https://www.google.co.kr/patents/US9522562?dq=US+9,522,562+B2&hl=ko&sa=X&ved=0ahUKEwinpdrHyuzVAhVHXrwKHZx4B9cQ6AEIJDAA
 [pvt_patent_link]: https://patents.google.com/patent/KR101600270B1/ko
 
-[ExoShell_Supp]: https://sites.google.com/view/exo-gloveshell/
 [SensorMIT]: https://www.youtube.com/watch?v=o4CEsLRgKqg
 
 [RAL_link]: https://ieeexplore.ieee.org/abstract/document/10250947
@@ -131,9 +128,10 @@ T.1| <font color="#213363"><b>Byungchul Kim</b></font>, “A user-friendly assis
 
 [thesis_pdf]: https://bc-kim.github.io/assets/Publications/Thesis_Paper.pdf
 
-[SoRoPDF]: https://bc-kim.github.io/assets/Publications/soro_main.pdf
+[SoRoPDF]: https://bc-kim.github.io/assets/Publications/Exo_glove_shell.pdf
 [SoRoSM]: https://bc-kim.github.io/assets/Publications/soro_sm.pdf
 [SoRoVideo]: https://youtu.be/yM8G0V4FGkk
+[ExoShell_Supp]: https://sites.google.com/view/exo-gloveshell/
 
 [ICRA2025site]:https://diffusebot.github.io/
 [ICRA2025_pdf]: https://bc-kim.github.io/assets/Publications/ICRA__Generative_AI_Driven_Jumping_Robot_Design_Using_Diffusion_Models.pdf
