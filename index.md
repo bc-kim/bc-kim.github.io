@@ -5,7 +5,7 @@ layout : single
 classes: wide
 
 author_profile: true
-excerpt: "Postdoctoral Research Associate at MIT"
+excerpt: "Incoming professor at Sungkyunkwan University. Postdoctoral researcher at MIT CSAIL"
 header:
   overlay_image: /assets/images/Main.png
   actions:
