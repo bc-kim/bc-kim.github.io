@@ -15,8 +15,7 @@ header:
 **About me**
 ---
 
-**Hello! Thanks for visiting my website. From March 2026, I will update publications and research pages in my new lab website: [https://bear-research-lab.github.io/](https://bear-research-lab.github.io/). Please visit the new website for the latest updates. Below is my old profile.
-**
+**Hello! Thanks for visiting my website. From March 2026, I will update publications and research pages in my new lab website: [https://bear-research-lab.github.io/](https://bear-research-lab.github.io/). Please visit the new website for the latest updates. Below is my old profile.**
 
 ---
 I am an incoming professor in the [Global Biomedical Engineering Department][SKKU_GBME] at Sungkyunkwan University (SKKU) starting in March 2026.
