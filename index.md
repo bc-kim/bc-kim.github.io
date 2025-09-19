@@ -14,11 +14,12 @@ header:
 ---
 **About me**
 ---
+
 **Hello! Thanks for visiting my website. From March 2026, I will update publications and research pages in my new lab website: [https://bear-research-lab.github.io/](https://bear-research-lab.github.io/). Please visit the new website for the latest updates. Below is my old profile.
 **
 
 ---
-Hello! I am an incoming professor in the [Global Biomedical Engineering Department][SKKU_GBME] at Sungkyunkwan University (SKKU) starting in March 2026.
+I am an incoming professor in the [Global Biomedical Engineering Department][SKKU_GBME] at Sungkyunkwan University (SKKU) starting in March 2026.
 
 Since January 2023, I have been a Postdoctoral Researcher at the [MIT CSAIL][Lab_MIT_Link] working with Professor Daniela Rus. My work at CSAIL is centered on the development of tendon-driven soft robots utilizing computational co-design framework. Before MIT, I was a Postdoctoral Researcher at the [Soft Robotic Research Center (SRRC)][Lab_link] in Seoul National University (SNU), working with Professor Kyu-jin Cho (Department of Mechanical engineering, SNU). 
 
