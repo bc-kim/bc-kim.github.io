@@ -5,7 +5,7 @@ layout : single
 classes: wide
 
 author_profile: true
-excerpt: "Post-doc at MIT CSAIL"
+excerpt: "Associate Professor at Sungkyunkwan University"
 header:
   overlay_image: /assets/images/Main.png
   actions:
@@ -28,7 +28,7 @@ As a robot hardware designer, my primary focus revolves around answering the que
 
 I recognize that the successful development of practical assistive robots necessitates the convergence of multidisciplinary knowledge. Therefore, I am eagerly looking forward to collaborating with researchers from diverse fields to bring about these advancements.
 
-You can check my detailed information on my [about][about_link] page; you can also find my bio [here][bio]. Further, please look for my [research][Research_link] page and [publication][publication_link] page for details of my research. For any inquiries, you can reach me via email: [bckim@mit.edu][email].
+You can check my detailed information on my [about][about_link] page; you can also find my bio [here][bio]. Further, please look for my [research][Research_link] page and [publication][publication_link] page for details of my research. 
 
 CV can be downloaded from [here][cv_link]. 
 

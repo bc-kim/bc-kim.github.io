@@ -104,13 +104,13 @@ analytics:
 author:
   name             : "Byungchul Kim"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Post-doc at MIT, CSAIL."
-  location         : "Cambridge, MA"
-  email            : "bckim@mit.edu"
+  bio              : "Associate Professor at Sungkyunkwan University"
+  location         : "Suwon-si, South Korea"
+  email            : "bckim@skku.edu"
   links:
-    - label: "CSAIL"
+    - label: "Lab website"
       icon: "fas fa-fw fa-link"
-      url: "https://www.csail.mit.edu/person/byungchul-kim"
+      url: "https://bear-research-lab.github.io/"
     - label: " Download CV"
       icon: "far fa-file-pdf"
       url: "https://bc-kim.github.io/assets/CV/ByungchulKim-CV.pdf"
@@ -125,7 +125,7 @@ author:
       url: "https://www.linkedin.com/in/byungchul-kim/"
     - label: " YouTube"
       icon: "fab fa-youtube"
-      url: "https://www.youtube.com/@byungchulkim5073"
+      url: "https://www.youtube.com/@bear-g4g1z"
 
 
 # Site Footer
