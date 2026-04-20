@@ -5,7 +5,7 @@ layout : single
 classes: wide
 
 author_profile: true
-excerpt: "Associate Professor at Sungkyunkwan University"
+excerpt: "Assistant Professor at Sungkyunkwan University"
 header:
   overlay_image: /assets/images/Main.png
   actions:
