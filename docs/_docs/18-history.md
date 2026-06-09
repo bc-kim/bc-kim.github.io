@@ -916,8 +916,6 @@ toc: false
 
 ### Bug Fixes
 
-- Remove `position: sticky` JavaScript polyfill and fallback to default positioning for browsers that don't support it. [#752](https://github.com/mmistakes/minimal-mistakes/issues/752)
-
 ### Maintenance
 
 - Fix invalid Google Universal Analytics example in documentation. [#783](https://github.com/mmistakes/minimal-mistakes/pull/783)

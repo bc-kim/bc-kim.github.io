@@ -905,7 +905,6 @@
 
 ### Bug Fixes
 
-* Remove `position: sticky` JavaScript polyfill and fallback to default positioning for browsers that don't support it. [#752](https://github.com/mmistakes/minimal-mistakes/issues/752)
 
 ### Maintenance
 
