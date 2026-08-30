@@ -39,6 +39,6 @@ CV can be downloaded from [here][cv_link].
 [Lab_link]: https://www.srrc.snu.ac.kr/
 [about_link]: /about/
 [cv_link]: https://bc-kim.github.io/assets/CV/ByungchulKim-CV.pdf
-[email]: mailto:bckim@mit.edu
+[email]: mailto:bc.kim@skku.edu
 [bio]: https://bc-kim.github.io/about/#bio
 [SKKU_GBME]: https://gbme.skku.edu/gbme_en/index.do

@@ -164,7 +164,7 @@ Invited Talks
 >Contact & CV
 ---
 
-For any inquires, you can reach me via email: [bckim@mit.edu][email].
+For any inquires, you can reach me via email: [bc.kim@skku.edu][email].
 
 CV can be downloaded from [here][cv_link]. 
 
@@ -176,7 +176,7 @@ Update: 2024/01/13
 [Research_link]: /research/
 [SRRC_link]: https://www.srrc.snu.ac.kr
 [Lab_link]: https://biorobotics.snu.ac.kr/lab-members
-[email]: mailto:bckim@mit.edu
+[email]: mailto:bc.kim@skku.edu
 [Biorob_pdf]: https://bc-kim.github.io/assets/Publications/2022Biorob_Programbook.pdf
 [Biorob_link]: https://sites.google.com/view/biorob-2022-hand-wearable/
 [2019RobosoftLink]: https://youtu.be/K7L5Aa39xNg

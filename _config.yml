@@ -106,7 +106,7 @@ author:
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "Assistant Professor at Sungkyunkwan University"
   location         : "Suwon-si, South Korea"
-  email            : "bckim@skku.edu"
+  email            : "bc.kim@skku.edu"
   links:
     - label: "Lab website"
       icon: "fas fa-fw fa-link"
